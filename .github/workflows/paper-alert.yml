@@ -1,37 +1,48 @@
-name: Daily Paper Alert
+name: Paper Alert
 
 on:
   schedule:
-    # 매일 00:00 UTC = 오전 9시 KST (UTC+9)
+    # 매일 오전 9시 KST(UTC+9) = 00:00 UTC
     - cron: "0 0 * * *"
-  workflow_dispatch: {}  # 수동 실행 버튼도 사용 가능
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paper-alert
+  cancel-in-progress: false
 
 jobs:
-  send-paper-alert:
+  run-paper-alert:
     runs-on: ubuntu-latest
     steps:
-      - name: 저장소 체크아웃
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Python 설치
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: 의존성 설치
+      - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: 논문 검색 및 이메일 발송
+      - name: Run paper alert script
         env:
           MAIL_SENDER: ${{ secrets.MAIL_SENDER }}
           MAIL_APP_PASSWORD: ${{ secrets.MAIL_APP_PASSWORD }}
           MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}
         run: python paper_alert.py
 
-      - name: 발송 기록(sent_dois.json) 커밋
+      - name: Commit and push updated send history
         run: |
-          git config user.name "paper-alert-bot"
-          git config user.email "actions@github.com"
-          git add sent_dois.json
-          git diff --staged --quiet || git commit -m "update sent DOIs"
-          git push
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sent_history.json
+          if git diff --cached --quiet; then
+            echo "발송 이력에 변경 사항이 없습니다. 커밋을 건너뜁니다."
+          else
+            git commit -m "chore: update sent_history.json [skip ci]"
+            git push
+          fi

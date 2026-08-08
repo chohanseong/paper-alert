@@ -1,1 +1,42 @@
-{}
+{
+  "10.1002/adma.74462": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-08-08T09:15:04.332966+00:00",
+    "title": "In‐Material Self‐Adaptive Dynamic Encoding in FeO x Optomemory Device for Real‐Time Analog Signal Processing"
+  },
+  "10.1002/adma.74481": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-08-08T09:15:04.332966+00:00",
+    "title": "Metal Oxide Nano‐Interface Boosting the Deep Ultraviolet Adjustable Noise‐Filtering In‐Sensor Computing"
+  },
+  "10.1002/adma.74518": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-08-08T09:15:04.332966+00:00",
+    "title": "A Fourier Optoelectronic Synapse with Single‐Wavelength Modulation"
+  },
+  "10.1002/adma.74529": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-08-08T09:15:04.332966+00:00",
+    "title": "Noise‐Tunable Memristor Enabling Programmable Probabilistic Neurons for Frequency‐Selective Time‐Series Signal Encoding"
+  },
+  "10.1002/adma.74537": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-08-08T09:15:04.332966+00:00",
+    "title": "Direct Growth of 2D Bilayers on Au(111) for Low‐Coercive Sliding Ferroelectricity"
+  },
+  "10.1038/s41467-026-74907-y": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-08T09:15:04.332966+00:00",
+    "title": "Decoding non-faradaic signal transduction in organic electrochemical transistor based biosensors"
+  },
+  "10.1038/s41467-026-75636-y": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-08T09:15:04.332966+00:00",
+    "title": "Author Correction: Stretchable all-gel organic electrochemical transistors"
+  },
+  "10.1038/s41467-026-75979-6": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-08T09:15:04.332966+00:00",
+    "title": "Artificial neural manifolds"
+  }
+}

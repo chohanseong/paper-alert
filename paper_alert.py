@@ -55,6 +55,49 @@ JOURNALS = [
     "Advanced Science",
     "Science Advances",
 ]
+# 1-1) 저널 티어 분류 (이메일 뱃지 표시 + 정렬 점수 계산에 사용).
+#      저널을 다른 티어로 옮기거나 새 저널을 추가하려면 각 티어의
+#      "journals" 리스트만 수정하면 됩니다. 여기 없는 저널은
+#      아래 DEFAULT_TIER 가중치로 처리됩니다.
+JOURNAL_TIERS = {
+    "FLAGSHIP": {
+        "emoji": "🏆",
+        "label": "Flagship",
+        "weight": 100,
+        "journals": [
+            "Nature Materials",
+            "Nature Electronics",
+            "Nature Nanotechnology",
+            "Advanced Materials",
+        ],
+    },
+    "TRENDING": {
+        "emoji": "🔥",
+        "label": "Trending",
+        "weight": 60,
+        "journals": [
+            "Nature Communications",
+            "Advanced Functional Materials",
+            "ACS Nano",
+        ],
+    },
+    "FEATURED": {
+        "emoji": "✨",
+        "label": "Featured",
+        "weight": 30,
+        "journals": [
+            "Advanced Science",
+            "Science Advances",
+        ],
+    },
+}
+
+# JOURNAL_TIERS 어디에도 속하지 않은 저널에 적용할 기본값 (FEATURED와 동일)
+DEFAULT_TIER = {"emoji": "✨", "label": "Featured", "weight": 30}
+
+# 매칭된 키워드 1개당 추가되는 점수 (점수 = 티어 가중치 + 매칭 키워드 수 × 이 값)
+KEYWORD_MATCH_SCORE = 10
+
 # 2) 검색 키워드 목록 (제목 또는 초록에 하나라도 포함되면 매칭)
 #    대소문자 구분 없이 검색합니다.
 KEYWORDS = [
@@ -142,6 +185,25 @@ def matches_keywords(title, abstract):
     text = f"{title or ''} {abstract or ''}".lower()
     matched = [kw for kw in KEYWORDS if kw.lower() in text]
     return matched
+
+
+_JOURNAL_TIER_LOOKUP = {
+    journal: tier
+    for tier in JOURNAL_TIERS.values()
+    for journal in tier["journals"]
+}
+
+
+def get_journal_tier(journal):
+    """저널명에 해당하는 티어 정보(emoji/label/weight)를 반환한다.
+    JOURNAL_TIERS에 등록되지 않은 저널은 DEFAULT_TIER로 처리한다."""
+    return _JOURNAL_TIER_LOOKUP.get(journal, DEFAULT_TIER)
+
+
+def score_paper(rec):
+    """정렬용 점수 = 저널 티어 가중치 + 매칭된 키워드 수 × KEYWORD_MATCH_SCORE."""
+    tier = get_journal_tier(rec["journal"])
+    return tier["weight"] + len(rec.get("matched_keywords", [])) * KEYWORD_MATCH_SCORE
 
 
 def strip_markdown(text):
@@ -408,7 +470,8 @@ def collect_new_papers():
             f"신규 매칭 {matched}건"
         )
 
-    new_papers.sort(key=lambda r: r["journal"])
+    # 점수(티어 가중치 + 매칭 키워드 수 × 10) 높은 순으로 정렬
+    new_papers.sort(key=score_paper, reverse=True)
     return new_papers, history
 
 
@@ -429,7 +492,8 @@ def build_email_body(new_papers):
 
     lines = [test_notice + f"좋은 아침이에요!! 오늘의 신규 논문 알림 ({len(new_papers)}건)이 있습니다\n"]
     for i, p in enumerate(new_papers, 1):
-        lines.append(f"{i}. [{p['journal']}] {p['title']}")
+        tier = get_journal_tier(p["journal"])
+        lines.append(f"{i}. {tier['emoji']} {tier['label']} | [{p['journal']}] {p['title']}")
         if p.get("summary"):
             lines.append(f"   요약: {p['summary']}")
         lines.append(f"   매칭 키워드: {', '.join(p['matched_keywords'])}")

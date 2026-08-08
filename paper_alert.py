@@ -144,6 +144,20 @@ def matches_keywords(title, abstract):
     return matched
 
 
+def strip_markdown(text):
+    """AI 요약 응답에 마크다운 문법이 섞여 나오는 경우를 대비한 안전장치.
+    프롬프트로 금지해도 100% 보장되지 않으므로 정규식으로 한 번 더 제거한다."""
+    if not text:
+        return text
+    text = re.sub(r"(?m)^#{1,6}\s*", "", text)  # # 헤더
+    text = re.sub(r"\*\*(.+?)\*\*", r"\1", text)  # **볼드**
+    text = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"\1", text)  # *이탤릭*
+    text = re.sub(r"__(.+?)__", r"\1", text)  # __볼드__
+    text = re.sub(r"(?m)^[\-\*]\s+", "", text)  # - 목록, * 목록
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
 _anthropic_client = None
 _anthropic_unavailable_logged = False
 
@@ -189,8 +203,12 @@ def summarize_abstract(abstract):
                 {
                     "role": "user",
                     "content": (
-                        "다음은 논문 초록이다. 핵심 내용을 한국어로 1~2문장으로 "
-                        f"간결하게 요약해줘:\n\n{abstract}"
+                        "다음은 논문 초록이다. 아래 규칙을 반드시 지켜서 핵심 내용만 "
+                        "한국어 1~2문장으로 요약해줘. 마크다운 문법(#, *, - 등)을 쓰지 "
+                        "말고, 여러 버전을 제시하지 말고, 요약 문장만 출력해줘. "
+                        "'본 연구는', '이 논문은', '이 연구에서는' 같은 상투적 서두 "
+                        "없이 바로 핵심 내용(무엇을 했고 무엇을 발견했는지)으로 "
+                        f"시작해줘.\n\n초록: {abstract}"
                     ),
                 }
             ],
@@ -198,6 +216,7 @@ def summarize_abstract(abstract):
         summary = "".join(
             block.text for block in response.content if block.type == "text"
         ).strip()
+        summary = strip_markdown(summary)
         return summary or None
     except Exception as e:
         log(f"초록 요약 실패 (Anthropic API): {e}")

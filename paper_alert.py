@@ -30,7 +30,9 @@ import sys
 import time
 import urllib.parse
 from datetime import datetime, timedelta, timezone
+from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from html import escape as html_escape
 
 import requests
 
@@ -63,16 +65,41 @@ JOURNAL_TIERS = {
 # 실제 검색에 사용하는 저널 목록은 위 딕셔너리의 키에서 자동으로 만들어집니다.
 JOURNALS = list(JOURNAL_TIERS.keys())
 
-# 티어별 이모지/표시 이름/정렬 가중치 정의
+# 티어별 이모지/표시 이름/정렬 가중치/카드 강조색(HTML 미리보기용) 정의.
+# color는 그라데이션 미지원 클라이언트(Outlook 등)를 위한 단색 폴백입니다.
 TIER_INFO = {
-    "FLAGSHIP": {"emoji": "🏆", "label": "Flagship", "weight": 100},
-    "TRENDING": {"emoji": "🔥", "label": "Trending", "weight": 60},
-    "FEATURED": {"emoji": "✨", "label": "Featured", "weight": 30},
+    "FLAGSHIP": {
+        "emoji": "🏆",
+        "label": "Flagship",
+        "weight": 100,
+        "color": "#7c3aed",
+        "gradient": "linear-gradient(135deg, #4f46e5, #9333ea, #db2777)",
+    },
+    "TRENDING": {
+        "emoji": "🔥",
+        "label": "Trending",
+        "weight": 60,
+        "color": "#f97316",
+        "gradient": "linear-gradient(135deg, #f97316, #ef4444, #ec4899)",
+    },
+    "FEATURED": {
+        "emoji": "✨",
+        "label": "Featured",
+        "weight": 30,
+        "color": "#ec4899",
+        "gradient": "linear-gradient(135deg, #ec4899, #f472b6, #fb923c)",
+    },
 }
 
 # JOURNAL_TIERS에 등록되지 않은 저널(또는 TIER_INFO에 없는 티어 키)에
 # 적용할 기본값 (FEATURED와 동일)
-DEFAULT_TIER = {"emoji": "✨", "label": "Featured", "weight": 30}
+DEFAULT_TIER = {
+    "emoji": "✨",
+    "label": "Featured",
+    "weight": 30,
+    "color": "#ec4899",
+    "gradient": "linear-gradient(135deg, #ec4899, #f472b6, #fb923c)",
+}
 
 # 매칭된 키워드 1개당 추가되는 점수 (점수 = 티어 가중치 + 매칭 키워드 수 × 이 값)
 KEYWORD_MATCH_SCORE = 10
@@ -476,7 +503,509 @@ def build_email_body(new_papers):
     return "\n".join(lines)
 
 
-def send_email(subject, body):
+# Instagram 특유의 보라-빨강-오렌지 그라데이션 (헤더 배너, 카드 버튼 공통)
+HEADER_GRADIENT = "linear-gradient(135deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%)"
+
+
+def _render_paper_card_html(p):
+    """논문 한 건을 Instagram 피드 느낌의 카드 HTML로 렌더링한다."""
+    tier = get_journal_tier(p["journal"])
+    title = html_escape(p["title"])
+    journal = html_escape(p["journal"])
+    url = html_escape(p["url"])
+
+    keyword_tags = "".join(
+        f'<span style="display:inline-block;background-color:#f3f4f6;color:#374151;'
+        f'font-size:12px;font-weight:600;padding:5px 12px;border-radius:999px;'
+        f'margin:0 6px 6px 0;">#{html_escape(kw)}</span>'
+        for kw in p["matched_keywords"]
+    )
+
+    summary_html = ""
+    if p.get("summary"):
+        summary_html = (
+            '<p style="margin:10px 0 0 0;font-size:14px;line-height:1.6;color:#4b5563;">'
+            f'💡 {html_escape(p["summary"])}</p>'
+        )
+
+    return f"""
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="max-width:600px;margin:0 auto 20px auto;background-color:#ffffff;
+              border-radius:16px;border:1px solid #e5e7eb;overflow:hidden;">
+  <tr>
+    <td style="padding:20px 22px;">
+      <span style="display:inline-block;background:{tier['gradient']};background-color:{tier['color']};
+                   color:#ffffff;font-size:12px;font-weight:700;padding:6px 14px;border-radius:999px;">
+        {tier['emoji']} {tier['label']}
+      </span>
+      <p style="margin:14px 0 4px 0;font-size:12px;font-weight:700;color:#9333ea;
+                text-transform:uppercase;letter-spacing:0.4px;">{journal}</p>
+      <p style="margin:0;font-size:17px;font-weight:700;color:#111827;line-height:1.45;">{title}</p>
+      {summary_html}
+      <div style="margin-top:14px;">{keyword_tags}</div>
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-top:16px;">
+        <tr>
+          <td style="border-radius:999px;background:{HEADER_GRADIENT};background-color:#c13584;">
+            <a href="{url}" style="display:inline-block;padding:10px 22px;font-size:13px;
+                                    font-weight:700;color:#ffffff;text-decoration:none;
+                                    border-radius:999px;">
+              논문 보러가기 →
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+"""
+
+
+def build_html_email_preview(new_papers):
+    """Instagram 피드 스타일의 카드형 HTML 이메일 본문을 생성한다.
+
+    디자인 비교용으로 코드에 남겨둔 함수이며, 실제 발송 경로에는 연결되어
+    있지 않다 (실제 발송은 Notion 스타일인 build_html_notion_style 사용).
+    """
+    today_str = datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=9))).strftime(
+        "%Y-%m-%d"
+    )
+
+    if new_papers:
+        cards_section = "".join(_render_paper_card_html(p) for p in new_papers)
+    else:
+        cards_section = (
+            '<p style="text-align:center;color:#6b7280;font-size:14px;padding:24px 0;">'
+            "오늘은 조건에 맞는 새 논문이 없습니다.</p>"
+        )
+
+    test_banner = ""
+    if SKIP_DEDUP:
+        test_banner = (
+            '<p style="text-align:center;background-color:#fef3c7;color:#92400e;'
+            'font-size:13px;font-weight:600;padding:10px;border-radius:10px;'
+            'max-width:600px;margin:0 auto 16px auto;">'
+            "⚠️ 테스트 모드로 생성됨 (SKIP_DEDUP=true, 중복 필터 비활성화 / 발송 이력 미갱신)</p>"
+        )
+
+    journals_str = html_escape(", ".join(JOURNALS))
+    keywords_str = html_escape(", ".join(KEYWORDS))
+
+    return f"""<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>신규 논문 알림</title>
+</head>
+<body style="margin:0;padding:0;background-color:#f9fafb;
+             font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+         style="background-color:#f9fafb;padding:24px 12px;">
+    <tr>
+      <td align="center">
+        {test_banner}
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+               style="max-width:600px;">
+          <tr>
+            <td style="background:{HEADER_GRADIENT};background-color:#c13584;
+                       border-radius:20px;padding:32px 24px;text-align:center;">
+              <p style="margin:0;font-size:28px;">📚✨</p>
+              <p style="margin:8px 0 0 0;font-size:21px;font-weight:800;color:#ffffff;">
+                좋은 아침이에요!!
+              </p>
+              <p style="margin:6px 0 0 0;font-size:14px;color:#ffffff;opacity:0.9;">
+                오늘의 신규 논문 알림 · {today_str}
+              </p>
+              <p style="margin:16px 0 0 0;display:inline-block;background-color:rgba(255,255,255,0.25);
+                        color:#ffffff;font-size:14px;font-weight:700;padding:8px 20px;
+                        border-radius:999px;">
+                🎉 {len(new_papers)}건 매칭
+              </p>
+            </td>
+          </tr>
+        </table>
+        <div style="height:24px;line-height:24px;font-size:0;">&nbsp;</div>
+        {cards_section}
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+               style="max-width:600px;margin-top:8px;">
+          <tr>
+            <td style="text-align:center;padding:16px 12px;">
+              <p style="margin:0 0 6px 0;font-size:11px;color:#9ca3af;">검색 저널: {journals_str}</p>
+              <p style="margin:0;font-size:11px;color:#9ca3af;">검색 키워드: {keywords_str}</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>"""
+
+
+# ============================================================
+# 디자인 비교용 대안 스타일 (Notion / Newsletter / Academic)
+# 이 중 Notion 스타일(build_html_notion_style)이 최종 확정되어 실제
+# 발송 경로(main() → send_email())에 연결되어 있다. Newsletter/Academic과
+# 위쪽의 build_html_email_preview()(Instagram 스타일)는 비교용으로 코드에만
+# 남겨둔 것으로, 실제 발송에는 사용되지 않는다.
+# ============================================================
+
+def _render_card_notion(p):
+    """Notion 문서 스타일 카드: 카드 테두리 없이 얇은 구분선, 회색 톤 위주."""
+    tier = get_journal_tier(p["journal"])
+    title = html_escape(p["title"])
+    journal = html_escape(p["journal"])
+    url = html_escape(p["url"])
+
+    keyword_tags = "".join(
+        f'<span style="display:inline-block;background-color:#eef2ff;color:#4338ca;'
+        f'font-size:12px;font-weight:500;padding:3px 10px;border-radius:4px;'
+        f'margin:0 6px 6px 0;">{html_escape(kw)}</span>'
+        for kw in p["matched_keywords"]
+    )
+
+    summary_html = ""
+    if p.get("summary"):
+        summary_html = (
+            '<p style="margin:8px 0 0 0;font-size:14px;line-height:1.65;color:#6b6b6b;">'
+            f'💡 {html_escape(p["summary"])}</p>'
+        )
+
+    return f"""
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="max-width:600px;margin:0 auto;border-bottom:1px solid #e9e9e7;">
+  <tr>
+    <td style="padding:18px 4px;">
+      <span style="display:inline-block;background-color:#f1f1ef;color:#6b6b6b;
+                   font-size:11px;font-weight:600;padding:3px 10px;border-radius:4px;">
+        {tier['emoji']} {tier['label']}
+      </span>
+      <p style="margin:10px 0 2px 0;font-size:12px;color:#9b9a97;">📄 {journal}</p>
+      <p style="margin:0;font-size:16px;font-weight:600;color:#37352f;line-height:1.4;">{title}</p>
+      {summary_html}
+      <div style="margin-top:10px;">{keyword_tags}</div>
+      <p style="margin:10px 0 0 0;">
+        <a href="{url}" style="font-size:13px;color:#2383e2;text-decoration:none;">🔗 원문 보기 →</a>
+      </p>
+    </td>
+  </tr>
+</table>
+"""
+
+
+def build_html_notion_style(new_papers):
+    """Notion 문서 스타일 HTML 이메일 본문. 화이트/오프화이트 배경,
+    카드 대신 구분선, 정보 밀도 높은 '문서 읽는' 느낌.
+
+    최종 확정된 디자인으로, main()의 실제 발송 경로에서 사용된다."""
+    today_str = datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=9))).strftime(
+        "%Y-%m-%d"
+    )
+
+    if new_papers:
+        rows_section = "".join(_render_card_notion(p) for p in new_papers)
+    else:
+        rows_section = (
+            '<p style="text-align:center;color:#9b9a97;font-size:14px;padding:24px 0;">'
+            "오늘은 조건에 맞는 새 논문이 없습니다.</p>"
+        )
+
+    test_banner = ""
+    if SKIP_DEDUP:
+        test_banner = (
+            '<p style="text-align:center;background-color:#f1f1ef;color:#6b6b6b;'
+            'font-size:12px;padding:8px;border-radius:4px;'
+            'max-width:600px;margin:0 auto 12px auto;">'
+            "⚠️ 테스트 모드로 생성됨 (SKIP_DEDUP=true)</p>"
+        )
+
+    journals_str = html_escape(", ".join(JOURNALS))
+    keywords_str = html_escape(", ".join(KEYWORDS))
+
+    return f"""<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>신규 논문 알림 (Notion 스타일)</title>
+</head>
+<body style="margin:0;padding:0;background-color:#ffffff;
+             font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+         style="background-color:#ffffff;padding:24px 12px;">
+    <tr>
+      <td align="center">
+        {test_banner}
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+               style="max-width:600px;">
+          <tr>
+            <td style="padding:8px 4px 20px 4px;border-bottom:1px solid #e9e9e7;">
+              <p style="margin:0;font-size:13px;color:#9b9a97;">{today_str}</p>
+              <p style="margin:6px 0 0 0;font-size:24px;font-weight:700;color:#37352f;">
+                📚 오늘의 논문 노트
+              </p>
+              <p style="margin:6px 0 0 0;font-size:13px;color:#9b9a97;">
+                신규 매칭 {len(new_papers)}건
+              </p>
+            </td>
+          </tr>
+        </table>
+        {rows_section}
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+               style="max-width:600px;margin-top:8px;">
+          <tr>
+            <td style="text-align:center;padding:16px 4px;">
+              <p style="margin:0 0 6px 0;font-size:11px;color:#b3b2af;">검색 저널: {journals_str}</p>
+              <p style="margin:0;font-size:11px;color:#b3b2af;">검색 키워드: {keywords_str}</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>"""
+
+
+def _render_card_newsletter(p):
+    """Newsletter/Substack 스타일 행: 세리프 폰트, 구분선만 사용하는 리스트형."""
+    tier = get_journal_tier(p["journal"])
+    title = html_escape(p["title"])
+    journal = html_escape(p["journal"])
+    url = html_escape(p["url"])
+    keywords_str = " · ".join(html_escape(kw) for kw in p["matched_keywords"])
+    serif = "Georgia, 'Times New Roman', serif"
+
+    summary_html = ""
+    if p.get("summary"):
+        summary_html = (
+            f'<p style="margin:10px 0 0 0;font-size:15px;line-height:1.7;color:#333333;'
+            f'font-family:{serif};">{html_escape(p["summary"])}</p>'
+        )
+
+    return f"""
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="max-width:600px;margin:0 auto;">
+  <tr>
+    <td style="padding:22px 0;border-bottom:1px solid #dddddd;">
+      <p style="margin:0;font-size:12px;font-weight:700;letter-spacing:0.5px;color:#c65d3b;
+                text-transform:uppercase;font-family:{serif};">
+        {tier['emoji']} {tier['label']} · {journal}
+      </p>
+      <p style="margin:8px 0 0 0;font-size:19px;font-weight:700;color:#1a1a1a;line-height:1.4;
+                font-family:{serif};">{title}</p>
+      {summary_html}
+      <p style="margin:10px 0 0 0;font-size:13px;color:#777777;font-family:{serif};">
+        키워드: {keywords_str}
+      </p>
+      <p style="margin:10px 0 0 0;">
+        <a href="{url}" style="font-size:14px;color:#c65d3b;text-decoration:underline;
+                                font-family:{serif};">원문 보기 →</a>
+      </p>
+    </td>
+  </tr>
+</table>
+"""
+
+
+def build_html_newsletter_style(new_papers):
+    """Newsletter/Substack 스타일 HTML 이메일 미리보기. 세리프 폰트,
+    신문 헤더 느낌의 마스트헤드, 카드 없는 리스트형 레이아웃."""
+    today_str = datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=9))).strftime(
+        "%Y-%m-%d"
+    )
+    serif = "Georgia, 'Times New Roman', serif"
+
+    if new_papers:
+        rows_section = "".join(_render_card_newsletter(p) for p in new_papers)
+    else:
+        rows_section = (
+            f'<p style="text-align:center;color:#777777;font-size:14px;padding:24px 0;'
+            f'font-family:{serif};">오늘은 조건에 맞는 새 논문이 없습니다.</p>'
+        )
+
+    test_banner = ""
+    if SKIP_DEDUP:
+        test_banner = (
+            f'<p style="text-align:center;color:#c65d3b;font-size:12px;'
+            f'font-style:italic;font-family:{serif};max-width:600px;margin:0 auto 8px auto;">'
+            "⚠️ 테스트 모드로 생성됨 (SKIP_DEDUP=true)</p>"
+        )
+
+    journals_str = html_escape(", ".join(JOURNALS))
+    keywords_str = html_escape(", ".join(KEYWORDS))
+
+    return f"""<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>신규 논문 알림 (Newsletter 스타일)</title>
+</head>
+<body style="margin:0;padding:0;background-color:#ffffff;font-family:{serif};">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+         style="background-color:#ffffff;padding:24px 12px;">
+    <tr>
+      <td align="center">
+        {test_banner}
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+               style="max-width:600px;">
+          <tr>
+            <td style="text-align:center;padding:12px 0 24px 0;border-bottom:3px solid #1a1a1a;">
+              <p style="margin:0;font-size:12px;letter-spacing:2px;color:#777777;
+                        text-transform:uppercase;font-family:{serif};">{today_str}</p>
+              <p style="margin:10px 0 0 0;font-size:32px;font-weight:700;color:#1a1a1a;
+                        font-family:{serif};">☕ 오늘의 논문 브리핑</p>
+              <p style="margin:8px 0 0 0;font-size:14px;color:#555555;font-family:{serif};">
+                오늘 신규 매칭된 논문 {len(new_papers)}건을 전해드립니다.
+              </p>
+            </td>
+          </tr>
+        </table>
+        <div style="max-width:600px;margin:0 auto;height:8px;border-bottom:1px solid #1a1a1a;
+                    font-size:0;line-height:8px;">&nbsp;</div>
+        <div style="height:16px;line-height:16px;font-size:0;">&nbsp;</div>
+        {rows_section}
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+               style="max-width:600px;margin-top:8px;">
+          <tr>
+            <td style="text-align:center;padding:16px 4px;">
+              <p style="margin:0 0 6px 0;font-size:11px;color:#999999;font-family:{serif};">
+                검색 저널: {journals_str}
+              </p>
+              <p style="margin:0;font-size:11px;color:#999999;font-family:{serif};">
+                검색 키워드: {keywords_str}
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>"""
+
+
+# 티어 라벨 → 별 개수 매핑 (Minimal Academic 스타일 전용)
+ACADEMIC_STAR_MAP = {"Flagship": 3, "Trending": 2, "Featured": 1}
+
+
+def _render_card_academic(p):
+    """Minimal Academic 스타일 행: 인용 형식 느낌, 색상 대신 별점으로 티어 표시."""
+    tier = get_journal_tier(p["journal"])
+    stars = "★" * ACADEMIC_STAR_MAP.get(tier["label"], 1)
+    title = html_escape(p["title"])
+    journal = html_escape(p["journal"])
+    url = html_escape(p["url"])
+    keywords_str = ", ".join(html_escape(kw) for kw in p["matched_keywords"])
+
+    summary_html = ""
+    if p.get("summary"):
+        summary_html = (
+            '<p style="margin:10px 0 0 0;font-size:14px;line-height:1.7;color:#333333;">'
+            f'{html_escape(p["summary"])}</p>'
+        )
+
+    return f"""
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="max-width:600px;margin:0 auto;">
+  <tr>
+    <td style="padding:28px 0;border-bottom:1px solid #dddddd;">
+      <p style="margin:0 0 8px 0;font-size:13px;color:#555555;letter-spacing:1px;">
+        {stars} {tier['label']}
+      </p>
+      <p style="margin:0;font-size:16px;color:#000000;line-height:1.5;">
+        <strong>{title}.</strong> <em>{journal}</em>.
+      </p>
+      {summary_html}
+      <p style="margin:10px 0 0 0;font-size:13px;color:#555555;">키워드: {keywords_str}</p>
+      <p style="margin:8px 0 0 0;">
+        <a href="{url}" style="font-size:13px;color:#000000;text-decoration:underline;">
+          → 논문 링크
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+"""
+
+
+def build_html_academic_style(new_papers):
+    """Minimal Academic 스타일 HTML 이메일 미리보기. 흰 배경 + 검은 텍스트,
+    저널명 이탤릭·제목 볼드의 인용 형식, 티어는 별점, 여백을 넉넉하게."""
+    today_str = datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=9))).strftime(
+        "%Y-%m-%d"
+    )
+
+    if new_papers:
+        rows_section = "".join(_render_card_academic(p) for p in new_papers)
+    else:
+        rows_section = (
+            '<p style="text-align:center;color:#555555;font-size:14px;padding:24px 0;">'
+            "오늘은 조건에 맞는 새 논문이 없습니다.</p>"
+        )
+
+    test_banner = ""
+    if SKIP_DEDUP:
+        test_banner = (
+            '<p style="text-align:center;color:#555555;font-size:12px;font-style:italic;'
+            'max-width:600px;margin:0 auto 8px auto;">'
+            "⚠️ 테스트 모드로 생성됨 (SKIP_DEDUP=true)</p>"
+        )
+
+    journals_str = html_escape(", ".join(JOURNALS))
+    keywords_str = html_escape(", ".join(KEYWORDS))
+
+    return f"""<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>신규 논문 알림 (Academic 스타일)</title>
+</head>
+<body style="margin:0;padding:0;background-color:#ffffff;
+             font-family:Georgia,'Times New Roman',serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+         style="background-color:#ffffff;padding:24px 12px;">
+    <tr>
+      <td align="center">
+        {test_banner}
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+               style="max-width:600px;">
+          <tr>
+            <td style="padding:24px 0 32px 0;text-align:center;">
+              <p style="margin:0;font-size:12px;color:#777777;letter-spacing:2px;
+                        text-transform:uppercase;">{today_str}</p>
+              <p style="margin:12px 0 0 0;font-size:22px;font-weight:700;color:#000000;">
+                Daily Literature Digest
+              </p>
+              <p style="margin:8px 0 0 0;font-size:13px;color:#555555;">
+                {len(new_papers)}건의 신규 매칭 논문
+              </p>
+            </td>
+          </tr>
+        </table>
+        {rows_section}
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+               style="max-width:600px;margin-top:16px;">
+          <tr>
+            <td style="text-align:center;padding:20px 4px;">
+              <p style="margin:0 0 6px 0;font-size:11px;color:#888888;">검색 저널: {journals_str}</p>
+              <p style="margin:0;font-size:11px;color:#888888;">검색 키워드: {keywords_str}</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>"""
+
+
+def send_email(subject, plain_body, html_body):
+    """이메일을 발송한다. HTML을 지원하지 않는 클라이언트를 위해
+    plain_body를 fallback으로, html_body(Notion 스타일)를 기본 렌더링
+    본문으로 함께 담은 multipart/alternative 메일을 보낸다."""
     sender = os.environ.get("MAIL_SENDER")
     app_password = os.environ.get("MAIL_APP_PASSWORD")
     receiver = os.environ.get("MAIL_RECEIVER")
@@ -487,10 +1016,14 @@ def send_email(subject, body):
 
     receivers = [r.strip() for r in receiver.split(",") if r.strip()]
 
-    msg = MIMEText(body, "plain", "utf-8")
+    msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"] = sender
     msg["To"] = ", ".join(receivers)
+    # multipart/alternative 관례상 나중에 attach한 파트가 더 선호되는
+    # 버전으로 취급되므로 plain을 먼저, html을 나중에 붙인다.
+    msg.attach(MIMEText(plain_body, "plain", "utf-8"))
+    msg.attach(MIMEText(html_body, "html", "utf-8"))
 
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
         server.login(sender, app_password)
@@ -522,8 +1055,12 @@ def main():
     else:
         subject = f"{test_prefix}[논문 알림] {today_str} 신규 논문 없음"
 
-    body = build_email_body(new_papers)
-    send_email(subject, body)
+    # 실제 발송: Notion 스타일 HTML을 기본으로, plain text는 fallback으로 함께 담는다.
+    # (build_html_email_preview/newsletter/academic, build_email_body는 비교용으로
+    #  코드에 남겨두되 발송 경로에는 연결하지 않는다.)
+    plain_body = build_email_body(new_papers)
+    html_body = build_html_notion_style(new_papers)
+    send_email(subject, plain_body, html_body)
 
     if SKIP_DEDUP:
         log("테스트 모드이므로 발송 이력 파일은 갱신하지 않습니다.")

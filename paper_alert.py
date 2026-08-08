@@ -67,12 +67,16 @@ HISTORY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sent_hi
 CROSSREF_API = "https://api.crossref.org/works"
 SEMANTIC_SCHOLAR_API = "https://api.semanticscholar.org/graph/v1/paper/search/bulk"
 
-# Crossref API 예절: User-Agent에 연락처를 남기면 더 안정적으로 응답받을 수 있음
+# Crossref "polite pool" 적용을 위한 연락처 이메일.
+# User-Agent 헤더와 mailto 쿼리 파라미터 둘 다에 넣어야 확실하게 적용됩니다.
+# (polite pool은 더 높은 rate limit과 더 안정적인 응답을 받을 수 있게 해줍니다)
+CONTACT_EMAIL = os.environ.get("MAIL_SENDER") or os.environ.get("MAIL_RECEIVER") or "example@example.com"
 CROSSREF_HEADERS = {
-    "User-Agent": "paper-alert-script/1.0 (mailto:{})".format(
-        os.environ.get("MAIL_SENDER", "example@example.com")
-    )
+    "User-Agent": f"paper-alert-script/1.0 (mailto:{CONTACT_EMAIL})"
 }
+
+MAX_RETRIES = 3
+RETRY_BACKOFF_SECONDS = 5  # 재시도 간격: 5s, 10s, 15s ...
 
 
 def log(msg):
@@ -115,33 +119,73 @@ def matches_keywords(title, abstract):
     return matched
 
 
+def request_with_retry(url, *, headers=None, label=""):
+    """429(Too Many Requests)나 일시적 네트워크 오류 시 대기 후 재시도하는 공통 GET 요청.
+
+    최대 MAX_RETRIES회 시도하며, 실패하면 None을 반환한다 (호출부에서 빈 결과로 처리).
+    """
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            resp = requests.get(url, headers=headers, timeout=30)
+        except requests.RequestException as e:
+            if attempt == MAX_RETRIES:
+                log(f"{label} 요청 실패 (재시도 {MAX_RETRIES}회 모두 실패): {e}")
+                return None
+            wait = RETRY_BACKOFF_SECONDS * attempt
+            log(f"{label} 네트워크 오류 ({e}) - {wait}초 대기 후 재시도 ({attempt}/{MAX_RETRIES})")
+            time.sleep(wait)
+            continue
+
+        if resp.status_code == 429:
+            if attempt == MAX_RETRIES:
+                log(f"{label} 429 Too Many Requests - 재시도 {MAX_RETRIES}회 모두 실패, 이번 조회는 건너뜁니다")
+                return None
+            wait = RETRY_BACKOFF_SECONDS * attempt
+            log(f"{label} 429 Too Many Requests - {wait}초 대기 후 재시도 ({attempt}/{MAX_RETRIES})")
+            time.sleep(wait)
+            continue
+
+        try:
+            resp.raise_for_status()
+        except requests.RequestException as e:
+            log(f"{label} HTTP 오류: {e}")
+            return None
+
+        return resp
+
+    return None
+
+
 def fetch_from_crossref(journal, since_date):
     """Crossref API에서 특정 저널의 최근 논문을 가져온다."""
     results = []
     params = {
         # Crossref의 container-title 필터는 값에 따옴표를 넣으면 안 되고,
         # 있는 그대로의 문자열과 정확히(대소문자 무시) 일치해야 매칭됩니다.
+        # (query.container-title 같은 관련도 기반 검색은 sort=published와 함께
+        #  쓰면 관련도 순위가 무시되어 엉뚱한 저널이 섞여 들어오므로 사용하지 않음)
         "filter": f"container-title:{journal},from-pub-date:{since_date},type:journal-article",
         "rows": 100,
         "sort": "published",
         "order": "desc",
         "select": "DOI,title,abstract,container-title,published,URL,author",
+        "mailto": CONTACT_EMAIL,  # polite pool 적용 (User-Agent와 이중 적용)
     }
     url = f"{CROSSREF_API}?{urllib.parse.urlencode(params)}"
-    try:
-        resp = requests.get(url, headers=CROSSREF_HEADERS, timeout=30)
-        resp.raise_for_status()
-        items = resp.json().get("message", {}).get("items", [])
-    except requests.RequestException as e:
-        log(f"Crossref 조회 실패 ({journal}): {e}")
+    resp = request_with_retry(url, headers=CROSSREF_HEADERS, label=f"[{journal}] Crossref")
+    if resp is None:
         return results
+    items = resp.json().get("message", {}).get("items", [])
 
+    with_abstract = 0
     for item in items:
         doi = normalize_doi(item.get("DOI"))
         if not doi:
             continue
         title = strip_tags(" ".join(item.get("title", []) or []))
         abstract = strip_tags(item.get("abstract", "") or "")
+        if abstract:
+            with_abstract += 1
 
         results.append(
             {
@@ -155,6 +199,10 @@ def fetch_from_crossref(journal, since_date):
                 "source": "Crossref",
             }
         )
+    log(
+        f"[{journal}] Crossref: {len(results)}건 조회 "
+        f"(초록 있음 {with_abstract}건 / 없음 {len(results) - with_abstract}건)"
+    )
     return results
 
 
@@ -171,23 +219,10 @@ def fetch_from_semantic_scholar(journal, since_date):
         "publicationDateOrYear": f"{since_date}:{today}",
     }
     url = f"{SEMANTIC_SCHOLAR_API}?{urllib.parse.urlencode(params)}"
-
-    for attempt in range(3):
-        try:
-            resp = requests.get(url, timeout=30)
-            if resp.status_code == 429:
-                wait = 5 * (attempt + 1)
-                log(f"Semantic Scholar rate limit, {wait}s 대기 후 재시도...")
-                time.sleep(wait)
-                continue
-            resp.raise_for_status()
-            data = resp.json()
-            break
-        except requests.RequestException as e:
-            log(f"Semantic Scholar 조회 실패 ({journal}): {e}")
-            return results
-    else:
+    resp = request_with_retry(url, label=f"[{journal}] Semantic Scholar")
+    if resp is None:
         return results
+    data = resp.json()
 
     for item in data.get("data", []) or []:
         doi = normalize_doi((item.get("externalIds") or {}).get("DOI"))
@@ -205,6 +240,7 @@ def fetch_from_semantic_scholar(journal, since_date):
                 "source": "Semantic Scholar",
             }
         )
+    log(f"[{journal}] Semantic Scholar: {len(results)}건 조회")
     return results
 
 
@@ -215,10 +251,13 @@ def collect_new_papers():
     history = load_history()
 
     merged = {}  # doi -> record
+    journal_dois = {j: set() for j in JOURNALS}  # 저널별 디버그 집계용
+
     for journal in JOURNALS:
         log(f"[{journal}] Crossref 검색 중...")
         for rec in fetch_from_crossref(journal, since_date):
             merged.setdefault(rec["doi"], rec)
+            journal_dois[journal].add(rec["doi"])
         time.sleep(1)  # Crossref API 예절상 약간의 간격
 
         log(f"[{journal}] Semantic Scholar 검색 중...")
@@ -229,17 +268,34 @@ def collect_new_papers():
                     merged[rec["doi"]]["abstract"] = rec["abstract"]
             else:
                 merged[rec["doi"]] = rec
+            journal_dois[journal].add(rec["doi"])
         time.sleep(1)  # Semantic Scholar 무료 사용량 보호
 
     new_papers = []
-    for doi, rec in merged.items():
-        if doi in history:
-            continue
-        matched_kw = matches_keywords(rec["title"], rec["abstract"])
-        if not matched_kw:
-            continue
-        rec["matched_keywords"] = matched_kw
-        new_papers.append(rec)
+    for journal in JOURNALS:
+        dois = journal_dois[journal]
+        already_sent = 0
+        no_keyword_match = 0
+        matched = 0
+        for doi in dois:
+            rec = merged[doi]
+            if doi in history:
+                already_sent += 1
+                continue
+            matched_kw = matches_keywords(rec["title"], rec["abstract"])
+            if not matched_kw:
+                no_keyword_match += 1
+                continue
+            rec["matched_keywords"] = matched_kw
+            new_papers.append(rec)
+            matched += 1
+        # 디버그 로그: 왜 신규 매칭이 0건인지(또는 몇 건인지) 저널별로 추적 가능하게 함
+        log(
+            f"[{journal}] 요약: Crossref+Semantic Scholar 고유 논문 {len(dois)}건 중 "
+            f"발송 이력 있음(중복 제외) {already_sent}건, "
+            f"키워드 불일치(제목/초록에 매칭 없음) {no_keyword_match}건, "
+            f"신규 매칭 {matched}건"
+        )
 
     new_papers.sort(key=lambda r: r["journal"])
     return new_papers, history

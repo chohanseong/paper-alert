@@ -43,56 +43,35 @@ except ImportError:
 # ▼▼▼ 사용자 설정 (여기만 수정하면 됩니다) ▼▼▼
 # ============================================================
 
-# 1) 검색할 학술지 목록 (Crossref / Semantic Scholar에 등록된 정식 명칭 권장)
-JOURNALS = [
-    "Nature Electronics",
-    "Nature Materials",
-    "Nature Nanotechnology",
-    "Advanced Materials",
-    "Advanced Functional Materials",
-    "ACS Nano",
-    "Nature Communications",
-    "Advanced Science",
-    "Science Advances",
-]
-# 1-1) 저널 티어 분류 (이메일 뱃지 표시 + 정렬 점수 계산에 사용).
-#      저널을 다른 티어로 옮기거나 새 저널을 추가하려면 각 티어의
-#      "journals" 리스트만 수정하면 됩니다. 여기 없는 저널은
-#      아래 DEFAULT_TIER 가중치로 처리됩니다.
+# 1) 검색할 학술지 → 티어 매핑 (단일 관리 지점).
+#    저널을 추가/삭제/이동하려면 이 딕셔너리 한 곳만 수정하면 됩니다 —
+#    검색 대상 목록(JOURNALS)과 이메일 뱃지·정렬 점수가 여기서 함께 결정됩니다.
+#    티어는 아래 TIER_INFO에 정의된 "FLAGSHIP" / "TRENDING" / "FEATURED"
+#    중 하나를 사용하세요.
 JOURNAL_TIERS = {
-    "FLAGSHIP": {
-        "emoji": "🏆",
-        "label": "Flagship",
-        "weight": 100,
-        "journals": [
-            "Nature Materials",
-            "Nature Electronics",
-            "Nature Nanotechnology",
-            "Advanced Materials",
-        ],
-    },
-    "TRENDING": {
-        "emoji": "🔥",
-        "label": "Trending",
-        "weight": 60,
-        "journals": [
-            "Nature Communications",
-            "Advanced Functional Materials",
-            "ACS Nano",
-        ],
-    },
-    "FEATURED": {
-        "emoji": "✨",
-        "label": "Featured",
-        "weight": 30,
-        "journals": [
-            "Advanced Science",
-            "Science Advances",
-        ],
-    },
+    "Nature Materials": "FLAGSHIP",
+    "Nature Electronics": "FLAGSHIP",
+    "Nature Nanotechnology": "FLAGSHIP",
+    "Advanced Materials": "FLAGSHIP",
+    "Nature Communications": "TRENDING",
+    "Advanced Functional Materials": "TRENDING",
+    "ACS Nano": "TRENDING",
+    "Advanced Science": "FEATURED",
+    "Science Advances": "FEATURED",
 }
 
-# JOURNAL_TIERS 어디에도 속하지 않은 저널에 적용할 기본값 (FEATURED와 동일)
+# 실제 검색에 사용하는 저널 목록은 위 딕셔너리의 키에서 자동으로 만들어집니다.
+JOURNALS = list(JOURNAL_TIERS.keys())
+
+# 티어별 이모지/표시 이름/정렬 가중치 정의
+TIER_INFO = {
+    "FLAGSHIP": {"emoji": "🏆", "label": "Flagship", "weight": 100},
+    "TRENDING": {"emoji": "🔥", "label": "Trending", "weight": 60},
+    "FEATURED": {"emoji": "✨", "label": "Featured", "weight": 30},
+}
+
+# JOURNAL_TIERS에 등록되지 않은 저널(또는 TIER_INFO에 없는 티어 키)에
+# 적용할 기본값 (FEATURED와 동일)
 DEFAULT_TIER = {"emoji": "✨", "label": "Featured", "weight": 30}
 
 # 매칭된 키워드 1개당 추가되는 점수 (점수 = 티어 가중치 + 매칭 키워드 수 × 이 값)
@@ -187,17 +166,12 @@ def matches_keywords(title, abstract):
     return matched
 
 
-_JOURNAL_TIER_LOOKUP = {
-    journal: tier
-    for tier in JOURNAL_TIERS.values()
-    for journal in tier["journals"]
-}
-
-
 def get_journal_tier(journal):
     """저널명에 해당하는 티어 정보(emoji/label/weight)를 반환한다.
-    JOURNAL_TIERS에 등록되지 않은 저널은 DEFAULT_TIER로 처리한다."""
-    return _JOURNAL_TIER_LOOKUP.get(journal, DEFAULT_TIER)
+    JOURNAL_TIERS에 등록되지 않은 저널, 또는 TIER_INFO에 없는 티어 키가
+    매핑되어 있는 경우 모두 DEFAULT_TIER로 처리한다."""
+    tier_key = JOURNAL_TIERS.get(journal)
+    return TIER_INFO.get(tier_key, DEFAULT_TIER)
 
 
 def score_paper(rec):

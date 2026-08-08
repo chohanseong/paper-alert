@@ -315,12 +315,11 @@ def build_email_body(new_papers):
             f"검색 키워드: {', '.join(KEYWORDS)}"
         )
 
-    lines = [f"오늘의 신규 논문 알림 ({len(new_papers)}건)\n"]
+    lines = [f"좋은 아침이에요!! 오늘의 신규 논문 알림 ({len(new_papers)}건)이 있습니다\n"]
     for i, p in enumerate(new_papers, 1):
         lines.append(f"{i}. [{p['journal']}] {p['title']}")
         lines.append(f"   매칭 키워드: {', '.join(p['matched_keywords'])}")
         lines.append(f"   링크: {p['url']}")
-        lines.append(f"   (출처: {p['source']})")
         lines.append("")
     return "\n".join(lines)
 

@@ -72,6 +72,12 @@ HISTORY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sent_hi
 # ▲▲▲ 사용자 설정 끝 ▲▲▲
 # ============================================================
 
+# 테스트 모드: GitHub Actions 수동 실행(workflow_dispatch)에서 skip_dedup
+# 입력값을 체크했을 때만 SKIP_DEDUP=true로 전달됨. true면 발송 이력을 무시하고
+# 조건에 맞는 논문을 전부 매칭하되, 발송 이력 파일 자체는 갱신하지 않는다
+# (그래야 다음 정식 스케줄 실행 때 그 논문들이 여전히 "신규"로 잡힘).
+SKIP_DEDUP = os.environ.get("SKIP_DEDUP", "").strip().lower() in ("true", "1", "yes")
+
 CROSSREF_API = "https://api.crossref.org/works"
 SEMANTIC_SCHOLAR_API = "https://api.semanticscholar.org/graph/v1/paper/search/bulk"
 
@@ -279,6 +285,9 @@ def collect_new_papers():
             journal_dois[journal].add(rec["doi"])
         time.sleep(1)  # Semantic Scholar 무료 사용량 보호
 
+    if SKIP_DEDUP:
+        log("SKIP_DEDUP=true - 발송 이력 중복 제외를 건너뜁니다 (테스트 모드, 이력 파일은 갱신되지 않음)")
+
     new_papers = []
     for journal in JOURNALS:
         dois = journal_dois[journal]
@@ -287,7 +296,7 @@ def collect_new_papers():
         matched = 0
         for doi in dois:
             rec = merged[doi]
-            if doi in history:
+            if not SKIP_DEDUP and doi in history:
                 already_sent += 1
                 continue
             matched_kw = matches_keywords(rec["title"], rec["abstract"])
@@ -310,14 +319,21 @@ def collect_new_papers():
 
 
 def build_email_body(new_papers):
+    test_notice = (
+        "⚠️ 테스트 모드로 발송됨 (SKIP_DEDUP=true, 중복 필터 비활성화 / 발송 이력 미갱신)\n\n"
+        if SKIP_DEDUP
+        else ""
+    )
+
     if not new_papers:
         return (
-            "오늘은 조건에 맞는 새 논문이 없습니다.\n\n"
+            test_notice
+            + "오늘은 조건에 맞는 새 논문이 없습니다.\n\n"
             f"검색 저널: {', '.join(JOURNALS)}\n"
             f"검색 키워드: {', '.join(KEYWORDS)}"
         )
 
-    lines = [f"좋은 아침이에요!! 오늘의 신규 논문 알림 ({len(new_papers)}건)이 있습니다\n"]
+    lines = [test_notice + f"좋은 아침이에요!! 오늘의 신규 논문 알림 ({len(new_papers)}건)이 있습니다\n"]
     for i, p in enumerate(new_papers, 1):
         lines.append(f"{i}. [{p['journal']}] {p['title']}")
         lines.append(f"   매칭 키워드: {', '.join(p['matched_keywords'])}")
@@ -353,6 +369,8 @@ def main():
     log("논문 검색 시작")
     log(f"저널: {JOURNALS}")
     log(f"키워드: {KEYWORDS}")
+    if SKIP_DEDUP:
+        log("테스트 모드 (SKIP_DEDUP=true): 중복 제외 없이 전체 재검색, 발송 이력은 갱신하지 않습니다.")
 
     new_papers, history = collect_new_papers()
     log(f"신규 매칭 논문 수: {len(new_papers)}")
@@ -364,13 +382,18 @@ def main():
     today_str = datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=9))).strftime(
         "%Y-%m-%d"
     )
+    test_prefix = "[테스트 모드] " if SKIP_DEDUP else ""
     if new_papers:
-        subject = f"[논문 알림] {today_str} 신규 논문 {len(new_papers)}건"
+        subject = f"{test_prefix}[논문 알림] {today_str} 신규 논문 {len(new_papers)}건"
     else:
-        subject = f"[논문 알림] {today_str} 신규 논문 없음"
+        subject = f"{test_prefix}[논문 알림] {today_str} 신규 논문 없음"
 
     body = build_email_body(new_papers)
     send_email(subject, body)
+
+    if SKIP_DEDUP:
+        log("테스트 모드이므로 발송 이력 파일은 갱신하지 않습니다.")
+        return
 
     # 발송한 논문은 이력에 기록하여 중복 발송 방지
     now_iso = datetime.now(timezone.utc).isoformat()

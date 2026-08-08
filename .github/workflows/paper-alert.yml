@@ -4,7 +4,13 @@ on:
   schedule:
     # 매일 오전 9시 KST(UTC+9) = 00:00 UTC
     - cron: "0 0 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      skip_dedup:
+        description: "체크하면 이미 발송한 논문도 중복 제외 없이 다시 검색/발송 (테스트용, 발송 이력 파일은 갱신하지 않음)"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -33,6 +39,10 @@ jobs:
           MAIL_SENDER: ${{ secrets.MAIL_SENDER }}
           MAIL_APP_PASSWORD: ${{ secrets.MAIL_APP_PASSWORD }}
           MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}
+          # schedule(cron) 실행에는 workflow_dispatch의 inputs 자체가 존재하지 않으므로
+          # github.event.inputs.skip_dedup은 빈 값으로 평가되어 항상 SKIP_DEDUP=false와
+          # 동일하게 동작한다 (파이썬 쪽에서 "true"만 참으로 취급).
+          SKIP_DEDUP: ${{ github.event.inputs.skip_dedup }}
         run: python paper_alert.py
 
       - name: Commit and push updated send history

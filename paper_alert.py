@@ -53,6 +53,8 @@ KEYWORDS = [
     "Transistor",
     "Synaptic",
     "Neuromorphic",
+    "Ferroelectric",
+    "MoS2"
     "Reservoir Computing",
 ]
 

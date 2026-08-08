@@ -37,10 +37,16 @@ import requests
 
 # 1) 검색할 학술지 목록 (Crossref / Semantic Scholar에 등록된 정식 명칭 권장)
 JOURNALS = [
-    "Nature Communications",
+    "Nature Electronics",
+    "Nature Materials",
+    "Nature Nanotechnology",
     "Advanced Materials",
+    "Advanced Functional Materials",
+    "ACS Nano",
+    "Nature Communications",
+    "Advanced Science",
+    "Science Advances",
 ]
-
 # 2) 검색 키워드 목록 (제목 또는 초록에 하나라도 포함되면 매칭)
 #    대소문자 구분 없이 검색합니다.
 KEYWORDS = [

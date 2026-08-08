@@ -1,4 +1,49 @@
 {
+  "10.1002/adfm.77134": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-08T10:25:04.455653+00:00",
+    "title": "Integrated Nonvolatile Memory and Energy‐Efficient Multifunctional Neuromorphic Simulation Based on ReS 2 /h‐BN/WTe 2 Heterostructure"
+  },
+  "10.1002/adfm.77408": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-08T10:25:04.455653+00:00",
+    "title": "Nanowire Nanocomposite Networks with Controlled Resistive Switching and Learning Abilities"
+  },
+  "10.1002/adfm.77505": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-08T10:25:04.455653+00:00",
+    "title": "Noise‐Limited Bit Precision in Ferroelectric Synaptic Transistors for High‐Resolution Neuromorphic Computing"
+  },
+  "10.1002/adfm.77506": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-08T10:25:04.455653+00:00",
+    "title": "2D Tin Halide Perovskite Semiconductors: Fundamentals, Applications, and Future Perspectives"
+  },
+  "10.1002/adfm.77510": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-08T10:25:04.455653+00:00",
+    "title": "n‐Type Semiconductor Hydrogels for Tunable Organic Electrochemical Transistors Operation and Evaporation‐Driven Synergistic Energy Harvesting and Thermal Management"
+  },
+  "10.1002/adfm.77524": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-08T10:25:04.455653+00:00",
+    "title": "Full‐Printed Organic Nano‐Floating‐Gate Transistors for Non‐Volatile Memories"
+  },
+  "10.1002/adfm.77544": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-08T10:25:04.455653+00:00",
+    "title": "On‐Chip Multifunction Optoelectronic Logic Gates Based on a Single Bipolar Photoresponse 1T‐VSe 2 Heterostructure"
+  },
+  "10.1002/adfm.77556": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-08T10:25:04.455653+00:00",
+    "title": "Wavelength‐Specific Photodetector With Laser‐Printed On‐Device Metafilters for Multiplexed In‐Sensor Computing"
+  },
+  "10.1002/adfm.77601": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-08T10:25:04.455653+00:00",
+    "title": "Polarity‐Addressed Reset Stabilizes Schottky SiNW‐FET Reservoir Computing for Continuous Event‐Stream Inference"
+  },
   "10.1002/adma.74462": {
     "journal": "Advanced Materials",
     "sent_at": "2026-08-08T09:15:04.332966+00:00",
@@ -24,6 +69,21 @@
     "sent_at": "2026-08-08T09:15:04.332966+00:00",
     "title": "Direct Growth of 2D Bilayers on Au(111) for Low‐Coercive Sliding Ferroelectricity"
   },
+  "10.1002/advs.76980": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-08-08T10:25:04.455653+00:00",
+    "title": "Scalable Crackle‐Lithography for Multifunctional Enclosed Plastic Nanofluidic Devices"
+  },
+  "10.1002/advs.77024": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-08-08T10:25:04.455653+00:00",
+    "title": "Optically Tunable Threshold Switching and Thermally Activated Transport in Planar Ag/MAPbI 3 Thin Single‐Crystal Devices"
+  },
+  "10.1021/acsnano.6c08364": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-08-08T10:25:04.455653+00:00",
+    "title": "Programmable Cascaded Optical Memristors Based on Phase-Change Materials for Photonic Neuromorphic Computing"
+  },
   "10.1038/s41467-026-74907-y": {
     "journal": "Nature Communications",
     "sent_at": "2026-08-08T09:15:04.332966+00:00",
@@ -38,5 +98,15 @@
     "journal": "Nature Communications",
     "sent_at": "2026-08-08T09:15:04.332966+00:00",
     "title": "Artificial neural manifolds"
+  },
+  "10.1126/sciadv.aec4563": {
+    "journal": "Science Advances",
+    "sent_at": "2026-08-08T10:25:04.455653+00:00",
+    "title": "Monolithically integrating polarization-doped InGaN p-FET and GaN n-FET for complementary logic circuitry"
+  },
+  "10.1126/sciadv.aef4951": {
+    "journal": "Science Advances",
+    "sent_at": "2026-08-08T10:25:04.455653+00:00",
+    "title": "A clinical and experimental investigation of liraglutide effects on the brain-kidney axis"
   }
 }

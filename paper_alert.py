@@ -17,6 +17,9 @@ Nature Communications, Advanced Materials 등 지정한 학술지에서
     MAIL_SENDER        보내는 Gmail 주소 (예: myaccount@gmail.com)
     MAIL_APP_PASSWORD  Gmail 앱 비밀번호 (일반 로그인 비밀번호 아님)
     MAIL_RECEIVER      받는 이메일 주소 (쉼표로 여러 명 지정 가능)
+
+환경변수 (선택, AI 초록 요약용):
+    ANTHROPIC_API_KEY  Anthropic API 키. 없으면 초록 요약 없이 기존처럼 동작합니다.
 """
 
 import json
@@ -30,6 +33,11 @@ from datetime import datetime, timedelta, timezone
 from email.mime.text import MIMEText
 
 import requests
+
+try:
+    import anthropic
+except ImportError:
+    anthropic = None
 
 # ============================================================
 # ▼▼▼ 사용자 설정 (여기만 수정하면 됩니다) ▼▼▼
@@ -67,6 +75,9 @@ SEARCH_LOOKBACK_DAYS = 4
 
 # 5) 발송 이력 저장 파일 경로 (GitHub Actions가 이 파일을 커밋/푸시합니다)
 HISTORY_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sent_history.json")
+
+# 6) AI 초록 요약에 사용할 모델 (가볍고 저렴한 모델 권장)
+ANTHROPIC_SUMMARY_MODEL = "claude-haiku-4-5"
 
 # ============================================================
 # ▲▲▲ 사용자 설정 끝 ▲▲▲
@@ -131,6 +142,66 @@ def matches_keywords(title, abstract):
     text = f"{title or ''} {abstract or ''}".lower()
     matched = [kw for kw in KEYWORDS if kw.lower() in text]
     return matched
+
+
+_anthropic_client = None
+_anthropic_unavailable_logged = False
+
+
+def _get_anthropic_client():
+    """Anthropic 클라이언트를 지연 생성한다. 패키지 미설치/키 누락 시 None을 반환."""
+    global _anthropic_client, _anthropic_unavailable_logged
+
+    if _anthropic_client is not None:
+        return _anthropic_client
+
+    if anthropic is None:
+        if not _anthropic_unavailable_logged:
+            log("anthropic 패키지가 설치되어 있지 않아 초록 요약을 건너뜁니다.")
+            _anthropic_unavailable_logged = True
+        return None
+
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        if not _anthropic_unavailable_logged:
+            log("ANTHROPIC_API_KEY가 설정되어 있지 않아 초록 요약을 건너뜁니다.")
+            _anthropic_unavailable_logged = True
+        return None
+
+    _anthropic_client = anthropic.Anthropic()
+    return _anthropic_client
+
+
+def summarize_abstract(abstract):
+    """초록을 한국어 1~2문장으로 요약한다. 초록이 없거나 API 호출이 실패하면
+    None을 반환하고(로그만 남기고) 호출부는 요약 없이 계속 진행한다."""
+    if not abstract:
+        return None
+
+    client = _get_anthropic_client()
+    if client is None:
+        return None
+
+    try:
+        response = client.messages.create(
+            model=ANTHROPIC_SUMMARY_MODEL,
+            max_tokens=300,
+            messages=[
+                {
+                    "role": "user",
+                    "content": (
+                        "다음은 논문 초록이다. 핵심 내용을 한국어로 1~2문장으로 "
+                        f"간결하게 요약해줘:\n\n{abstract}"
+                    ),
+                }
+            ],
+        )
+        summary = "".join(
+            block.text for block in response.content if block.type == "text"
+        ).strip()
+        return summary or None
+    except Exception as e:
+        log(f"초록 요약 실패 (Anthropic API): {e}")
+        return None
 
 
 def request_with_retry(url, *, headers=None, label=""):
@@ -304,6 +375,7 @@ def collect_new_papers():
                 no_keyword_match += 1
                 continue
             rec["matched_keywords"] = matched_kw
+            rec["summary"] = summarize_abstract(rec["abstract"])
             new_papers.append(rec)
             matched += 1
         # 디버그 로그: 왜 신규 매칭이 0건인지(또는 몇 건인지) 저널별로 추적 가능하게 함
@@ -336,6 +408,8 @@ def build_email_body(new_papers):
     lines = [test_notice + f"좋은 아침이에요!! 오늘의 신규 논문 알림 ({len(new_papers)}건)이 있습니다\n"]
     for i, p in enumerate(new_papers, 1):
         lines.append(f"{i}. [{p['journal']}] {p['title']}")
+        if p.get("summary"):
+            lines.append(f"   요약: {p['summary']}")
         lines.append(f"   매칭 키워드: {', '.join(p['matched_keywords'])}")
         lines.append(f"   링크: {p['url']}")
         lines.append("")

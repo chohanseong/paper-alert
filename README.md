@@ -134,24 +134,44 @@ Gmail은 보안상 일반 로그인 비밀번호로는 외부 프로그램(SMTP)
 > 조직(회사/학교) 계정 정책으로 막혀 있을 수 있습니다. 이 경우 개인 Gmail
 > 계정을 사용하는 것을 권장합니다.
 
+### Anthropic API 키 발급 (선택 — AI 초록 요약 기능)
+
+신규 논문의 초록을 한국어 1~2문장으로 요약해서 이메일에 함께 보여주는
+기능은 Anthropic API를 사용합니다. 이 키를 등록하지 않아도 나머지 기능
+(검색, 중복 제외, 이메일 발송)은 그대로 동작하며, 요약 줄만 빠집니다.
+
+1. https://console.anthropic.com 에 접속해 로그인(또는 가입)합니다.
+2. 왼쪽 메뉴에서 **API Keys**로 이동합니다.
+3. **Create Key** 버튼을 눌러 이름(예: `paper-alert`)을 입력하고 키를
+   생성합니다.
+4. 생성된 키(`sk-ant-...`로 시작)를 복사해 안전한 곳에 보관하세요.
+   (다시 전체 값을 볼 수 없으므로 꼭 저장해 두어야 합니다.)
+5. 이 값이 이후 등록할 `ANTHROPIC_API_KEY` Secret 값입니다.
+
+> Anthropic API는 사용량에 따라 과금됩니다. 이 스크립트는 매일 신규
+> 매칭된 논문 개수만큼만 짧은 요약 요청을 보내므로(가볍고 저렴한
+> `claude-haiku-4-5` 모델 사용) 비용이 크지 않지만, Anthropic Console의
+> Billing 메뉴에서 사용량을 확인하는 것을 권장합니다.
+
 ---
 
 ## 4. GitHub Secrets 등록
 
-GitHub Actions가 실행될 때 이메일 계정 정보를 코드에 직접 적지 않고 안전하게
-전달하기 위해 **Repository Secrets**를 사용합니다.
+GitHub Actions가 실행될 때 이메일 계정 정보와 API 키를 코드에 직접 적지
+않고 안전하게 전달하기 위해 **Repository Secrets**를 사용합니다.
 
 1. GitHub 저장소 페이지 상단의 **Settings** 탭으로 이동합니다.
 2. 왼쪽 메뉴에서 **Secrets and variables** → **Actions**를 클릭합니다.
-3. **New repository secret** 버튼을 눌러 아래 3개를 각각 등록합니다.
+3. **New repository secret** 버튼을 눌러 아래 항목들을 각각 등록합니다.
 
-   | Name | Value |
-   |---|---|
-   | `MAIL_SENDER` | 보내는 사람 Gmail 주소 (예: `myaccount@gmail.com`) |
-   | `MAIL_APP_PASSWORD` | 3단계에서 발급받은 16자리 앱 비밀번호 |
-   | `MAIL_RECEIVER` | 받는 사람 이메일 주소 (여러 명이면 쉼표로 구분, 예: `a@x.com,b@y.com`) |
+   | Name | Value | 필수 여부 |
+   |---|---|---|
+   | `MAIL_SENDER` | 보내는 사람 Gmail 주소 (예: `myaccount@gmail.com`) | 필수 |
+   | `MAIL_APP_PASSWORD` | 3단계에서 발급받은 16자리 앱 비밀번호 | 필수 |
+   | `MAIL_RECEIVER` | 받는 사람 이메일 주소 (여러 명이면 쉼표로 구분, 예: `a@x.com,b@y.com`) | 필수 |
+   | `ANTHROPIC_API_KEY` | 위에서 발급받은 Anthropic API 키 (`sk-ant-...`) | 선택 (AI 초록 요약용, 없으면 요약 없이 발송) |
 
-4. 등록이 끝나면 **Actions** 탭 하위에 3개의 Secret 이름만 보이고 값은
+4. 등록이 끝나면 **Actions** 탭 하위에 등록한 Secret 이름만 보이고 값은
    가려져서 표시되지 않습니다. 정상입니다.
 
 ### 워크플로우 쓰기 권한 설정 (필수)

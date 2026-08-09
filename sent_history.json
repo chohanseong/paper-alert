@@ -44,15 +44,30 @@
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
     "title": "Polarity‐Addressed Reset Stabilizes Schottky SiNW‐FET Reservoir Computing for Continuous Event‐Stream Inference"
   },
+  "10.1002/adma.73801": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-08-09T01:05:59.833279+00:00",
+    "title": "Machine‐Learning‐Guided Polarization‐Lattice Decoupling Enables Ultrahigh Energy Storage in Lead‐Free Dielectric Ceramics"
+  },
   "10.1002/adma.74462": {
     "journal": "Advanced Materials",
     "sent_at": "2026-08-08T09:15:04.332966+00:00",
     "title": "In‐Material Self‐Adaptive Dynamic Encoding in FeO x Optomemory Device for Real‐Time Analog Signal Processing"
   },
+  "10.1002/adma.74475": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-08-09T01:05:59.833279+00:00",
+    "title": "Breaking the Energy Storage Trade‐off in Antiferroelectrics via Bi 3+ ‐Driven Atomic‐Nanoscale Synergy"
+  },
   "10.1002/adma.74481": {
     "journal": "Advanced Materials",
     "sent_at": "2026-08-08T09:15:04.332966+00:00",
     "title": "Metal Oxide Nano‐Interface Boosting the Deep Ultraviolet Adjustable Noise‐Filtering In‐Sensor Computing"
+  },
+  "10.1002/adma.74496": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-08-09T01:05:59.833279+00:00",
+    "title": "Ferroelectric Dipole‐Driven Solid‐Electrolyte Interphase Passivation for High‐Voltage Lithium Metal Batteries"
   },
   "10.1002/adma.74518": {
     "journal": "Advanced Materials",
@@ -99,10 +114,45 @@
     "sent_at": "2026-08-08T09:15:04.332966+00:00",
     "title": "Artificial neural manifolds"
   },
+  "10.1038/s41467-026-76102-5": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-09T01:05:59.833279+00:00",
+    "title": "The inherent capacity of neurons to learn order relations and support abstract reasoning"
+  },
+  "10.1038/s41467-026-76364-z": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-09T01:05:59.833279+00:00",
+    "title": "Atomically thin heterojunction-based optoelectronic synaptic devices operable from −190 °C to 450 °C"
+  },
+  "10.1038/s41467-026-76369-8": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-09T01:05:59.833279+00:00",
+    "title": "Room-temperature ferroelectrically switchable quantum geometry in few-layer WTe2 for complementary in-memory computing"
+  },
+  "10.1038/s41467-026-76481-9": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-09T01:05:59.833279+00:00",
+    "title": "Decoupling ferroelectric polarization and charge transport for thermally robust polymer dielectric energy storage"
+  },
+  "10.1038/s41467-026-76538-9": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-09T01:05:59.833279+00:00",
+    "title": "Breathing ferroelectricity, flat-bands and multiple chiral phonons in van der Waals breathing kagome Nb3Cl8"
+  },
+  "10.1038/s41467-026-76587-0": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-09T01:05:59.833279+00:00",
+    "title": "Uncovering the signaling networks of disseminated glioblastoma cells in vivo with INSIGHT"
+  },
   "10.1126/sciadv.aec4563": {
     "journal": "Science Advances",
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
     "title": "Monolithically integrating polarization-doped InGaN p-FET and GaN n-FET for complementary logic circuitry"
+  },
+  "10.1126/sciadv.aed6236": {
+    "journal": "Science Advances",
+    "sent_at": "2026-08-09T01:05:59.833279+00:00",
+    "title": "Ferroelectric control of the Mott insulator–topological metal transition"
   },
   "10.1126/sciadv.aef4951": {
     "journal": "Science Advances",

@@ -29,6 +29,11 @@
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
     "title": "n‐Type Semiconductor Hydrogels for Tunable Organic Electrochemical Transistors Operation and Evaporation‐Driven Synergistic Energy Harvesting and Thermal Management"
   },
+  "10.1002/adfm.77521": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-13T01:16:09.411054+00:00",
+    "title": "The Switching Mechanisms of Antiferroelectrics Learned by Programming Hysteresis Double‐Loops"
+  },
   "10.1002/adfm.77524": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
@@ -53,6 +58,11 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-08-11T01:06:33.605879+00:00",
     "title": "A Multi‐Mode Optoelectronic Device with Bionic Visual Synaptic Functionality and Self‐Powered Capability"
+  },
+  "10.1002/adfm.77647": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-13T01:16:09.411054+00:00",
+    "title": "Fluorophenylhydrazine‐Modulated Pure‐Red Tin‐Based Perovskite LEDs With 99% Rec. 2020 Gamut Coverage for Active‐Matrix Displays"
   },
   "10.1002/adfm.77661": {
     "journal": "Advanced Functional Materials",
@@ -109,6 +119,11 @@
     "sent_at": "2026-08-12T01:15:02.066980+00:00",
     "title": "Nonvolatile Electrical Control of Spin‐Polarized Tunneling via Sublattice‐Asymmetric Interfacial Magnetoelectric Coupling"
   },
+  "10.1002/advs.76936": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-08-13T01:16:09.411054+00:00",
+    "title": "Gestational Hypoxia Disrupts Medial Ganglionic Eminence Progenitor Dynamics and Interneuron Development in Schizophrenia"
+  },
   "10.1002/advs.76980": {
     "journal": "Advanced Science",
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
@@ -138,6 +153,16 @@
     "journal": "ACS Nano",
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
     "title": "Programmable Cascaded Optical Memristors Based on Phase-Change Materials for Photonic Neuromorphic Computing"
+  },
+  "10.1021/acsnano.6c09035": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-08-13T01:16:09.411054+00:00",
+    "title": "Multiscale Synaptic Dynamics of T-Cell Antigen Recognition"
+  },
+  "10.1038/s41467-026-74906-z": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-13T01:16:09.411054+00:00",
+    "title": "Youth-associated protein TIMP2 regulates microglial state and function in healthy and aged mice"
   },
   "10.1038/s41467-026-74907-y": {
     "journal": "Nature Communications",
@@ -184,6 +209,16 @@
     "sent_at": "2026-08-09T01:05:59.833279+00:00",
     "title": "Uncovering the signaling networks of disseminated glioblastoma cells in vivo with INSIGHT"
   },
+  "10.1038/s41928-026-01680-7": {
+    "journal": "Nature Electronics",
+    "sent_at": "2026-08-13T01:16:09.411054+00:00",
+    "title": "Navigating the pitfalls of two-dimensional ferroelectricity"
+  },
+  "10.1126/sciadv.aec3842": {
+    "journal": "Science Advances",
+    "sent_at": "2026-08-13T01:16:09.411054+00:00",
+    "title": "Myasthenia thymus reprograms class-switched B cells into BAFF-dependent survivors"
+  },
   "10.1126/sciadv.aec4563": {
     "journal": "Science Advances",
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
@@ -193,6 +228,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-08-09T01:05:59.833279+00:00",
     "title": "Ferroelectric control of the Mott insulator–topological metal transition"
+  },
+  "10.1126/sciadv.aee9298": {
+    "journal": "Science Advances",
+    "sent_at": "2026-08-13T01:16:09.411054+00:00",
+    "title": "Synaptic zinc plasticity shapes adaptive and maladaptive cortical plasticity following cochlear injury"
   },
   "10.1126/sciadv.aef4951": {
     "journal": "Science Advances",

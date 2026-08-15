@@ -169,6 +169,11 @@
     "sent_at": "2026-08-14T01:15:27.558660+00:00",
     "title": "Neuromorphic Devices and Computing for Sensing, Memory, and Control"
   },
+  "10.1002/advs.77147": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-08-15T00:47:21.742041+00:00",
+    "title": "Electric‐Field‐Controlled Interconversion of Antiferromagnetic States in a Two‐Dimensional Antiferroelectric Halide Perovskite"
+  },
   "10.1002/advs.77200": {
     "journal": "Advanced Science",
     "sent_at": "2026-08-14T01:15:27.558660+00:00",
@@ -249,20 +254,40 @@
     "sent_at": "2026-08-09T01:05:59.833279+00:00",
     "title": "Uncovering the signaling networks of disseminated glioblastoma cells in vivo with INSIGHT"
   },
+  "10.1038/s41467-026-76687-x": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-15T00:47:21.742041+00:00",
+    "title": "Endothelial cell-microglia crosstalk mediates heart failure-associated synaptic loss and cognitive impairment in male mice"
+  },
   "10.1038/s41928-026-01680-7": {
     "journal": "Nature Electronics",
     "sent_at": "2026-08-13T01:16:09.411054+00:00",
     "title": "Navigating the pitfalls of two-dimensional ferroelectricity"
+  },
+  "10.1126/sciadv.adz4123": {
+    "journal": "Science Advances",
+    "sent_at": "2026-08-15T00:47:21.742041+00:00",
+    "title": "Highly attenuated dendritic propagation of isolated synaptic potentials in vivo"
   },
   "10.1126/sciadv.aec3842": {
     "journal": "Science Advances",
     "sent_at": "2026-08-13T01:16:09.411054+00:00",
     "title": "Myasthenia thymus reprograms class-switched B cells into BAFF-dependent survivors"
   },
+  "10.1126/sciadv.aec4153": {
+    "journal": "Science Advances",
+    "sent_at": "2026-08-15T00:47:21.742041+00:00",
+    "title": "An octopamine-glutamate cotransmitting neuron gates aggressive escalation through layered inhibition in Drosophila"
+  },
   "10.1126/sciadv.aec4563": {
     "journal": "Science Advances",
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
     "title": "Monolithically integrating polarization-doped InGaN p-FET and GaN n-FET for complementary logic circuitry"
+  },
+  "10.1126/sciadv.aec6015": {
+    "journal": "Science Advances",
+    "sent_at": "2026-08-15T00:47:21.742041+00:00",
+    "title": "Distinct types of dendritic Ca 2+ spikes in CA3 pyramidal neurons associated with neuronal activity changes during navigation"
   },
   "10.1126/sciadv.aed6236": {
     "journal": "Science Advances",

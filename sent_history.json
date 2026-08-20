@@ -69,6 +69,11 @@
     "sent_at": "2026-08-13T01:16:09.411054+00:00",
     "title": "Fluorophenylhydrazine‐Modulated Pure‐Red Tin‐Based Perovskite LEDs With 99% Rec. 2020 Gamut Coverage for Active‐Matrix Displays"
   },
+  "10.1002/adfm.77649": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-20T00:45:59.668236+00:00",
+    "title": "A Monolithic Artificial Olfactory Neuron With Gas‐pulse‐driven Physical Reservoir Computing for Intelligent Gas Monitoring"
+  },
   "10.1002/adfm.77661": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-08-12T01:15:02.066980+00:00",
@@ -168,6 +173,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-08-18T00:47:03.366525+00:00",
     "title": "Structure‐Engineered Nanoporous Vanadium Oxide Memristors for Reconfigurable Synapse–Neuron Integration and Synergistic Robotic Motion"
+  },
+  "10.1002/adma.74691": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-08-20T00:45:59.668236+00:00",
+    "title": "Electropolymerized Aptasensor for Femtogram‐Level Cytokine Detection"
   },
   "10.1002/advs.76936": {
     "journal": "Advanced Science",
@@ -329,6 +339,11 @@
     "sent_at": "2026-08-19T00:46:10.125829+00:00",
     "title": "Molecular arrangement and modulation of extrasynaptic αβδ GABAA receptors"
   },
+  "10.1038/s41467-026-76907-4": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-20T00:45:59.668236+00:00",
+    "title": "Dual-ferroelectric stacked high-performance field-effect transistor"
+  },
   "10.1038/s41467-026-76909-2": {
     "journal": "Nature Communications",
     "sent_at": "2026-08-18T00:47:03.366525+00:00",
@@ -338,6 +353,11 @@
     "journal": "Nature Electronics",
     "sent_at": "2026-08-13T01:16:09.411054+00:00",
     "title": "Navigating the pitfalls of two-dimensional ferroelectricity"
+  },
+  "10.1038/s41928-026-01682-5": {
+    "journal": "Nature Electronics",
+    "sent_at": "2026-08-20T00:45:59.668236+00:00",
+    "title": "Programmable polyphasic stimulation with bioresorbable phototransistors"
   },
   "10.1126/sciadv.adz4123": {
     "journal": "Science Advances",
@@ -374,9 +394,19 @@
     "sent_at": "2026-08-13T01:16:09.411054+00:00",
     "title": "Synaptic zinc plasticity shapes adaptive and maladaptive cortical plasticity following cochlear injury"
   },
+  "10.1126/sciadv.aee9649": {
+    "journal": "Science Advances",
+    "sent_at": "2026-08-20T00:45:59.668236+00:00",
+    "title": "Programmable photonic neural engine with all-optical nonlinear activation and 40,000 connections"
+  },
   "10.1126/sciadv.aef4951": {
     "journal": "Science Advances",
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
     "title": "A clinical and experimental investigation of liraglutide effects on the brain-kidney axis"
+  },
+  "10.1126/sciadv.aeg3535": {
+    "journal": "Science Advances",
+    "sent_at": "2026-08-20T00:45:59.668236+00:00",
+    "title": "Undoing of firing rate adaptation enables invariant population codes"
   }
 }

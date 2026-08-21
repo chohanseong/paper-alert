@@ -114,6 +114,11 @@
     "sent_at": "2026-08-18T00:47:03.366525+00:00",
     "title": "Domain Engineering and Anisotropic Domain‐Wall Photovoltaic Effects in Ferroelectric SnS"
   },
+  "10.1002/adfm.77872": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-21T00:51:40.031015+00:00",
+    "title": "Highly Oriented and Continuous Epitaxial 2D Tellurium on Violet Phosphorus With Transistor–Memory Functionality"
+  },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
     "sent_at": "2026-08-09T01:05:59.833279+00:00",
@@ -163,6 +168,16 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-08-12T01:15:02.066980+00:00",
     "title": "Nonvolatile Electrical Control of Spin‐Polarized Tunneling via Sublattice‐Asymmetric Interfacial Magnetoelectric Coupling"
+  },
+  "10.1002/adma.74614": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-08-21T00:51:40.031015+00:00",
+    "title": "Chemical Bonding and Crystal Structure Design for Low Thermal Conductivity in Inorganic Solids"
+  },
+  "10.1002/adma.74625": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-08-21T00:51:40.031015+00:00",
+    "title": "Local Atom Clusters Drive Supercritical Relaxor State in Lead‐Free Dielectrics for Giant Energy Storage"
   },
   "10.1002/adma.74665": {
     "journal": "Advanced Materials",
@@ -333,6 +348,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-08-16T00:50:26.821742+00:00",
     "title": "Giant bulk photovoltaic effect driven by interfacial symmetry breaking in MoS2/Ta2NiSe5 heterostructures"
+  },
+  "10.1038/s41467-026-76878-6": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-21T00:51:40.031015+00:00",
+    "title": "Temporal coding enables hyperacuity in event-based vision"
   },
   "10.1038/s41467-026-76879-5": {
     "journal": "Nature Communications",

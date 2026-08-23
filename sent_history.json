@@ -134,10 +134,20 @@
     "sent_at": "2026-08-22T00:46:43.074646+00:00",
     "title": "Engineering Local Polar Frustration in Lead‐Free Dielectric Ceramics for Ultrahigh Normalized Energy Storage Performance"
   },
+  "10.1002/adfm.77854": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-23T00:51:50.445474+00:00",
+    "title": "Discovery of Energy‐Localized Trap States via Opto‐Electrical Spectroscopy in UWBG Perovskite La:SrSnO 3 FETs"
+  },
   "10.1002/adfm.77872": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-08-21T00:51:40.031015+00:00",
     "title": "Highly Oriented and Continuous Epitaxial 2D Tellurium on Violet Phosphorus With Transistor–Memory Functionality"
+  },
+  "10.1002/adfm.77887": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-23T00:51:50.445474+00:00",
+    "title": "Kesterite Synaptic Memristor Towards Multilevel Physical Unclonable Functions Authorized Cloud Encryption and In‐Hardware Neural Activation for Neuromorphic Applications"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -213,6 +223,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-08-20T00:45:59.668236+00:00",
     "title": "Electropolymerized Aptasensor for Femtogram‐Level Cytokine Detection"
+  },
+  "10.1002/adma.74761": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-08-23T00:51:50.445474+00:00",
+    "title": "Highly Tunable Schottky Barrier to 2D Semiconductors Enabled by an Inorganic‐Molecular‐Crystal Tunneling Layer"
   },
   "10.1002/advs.76936": {
     "journal": "Advanced Science",
@@ -299,6 +314,11 @@
     "sent_at": "2026-08-12T01:15:02.066980+00:00",
     "title": "Vortex Convolver: A Biosignal Processor Based on Floating-Gate Spatial Computing"
   },
+  "10.1021/acsnano.6c06196": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-08-23T00:51:50.445474+00:00",
+    "title": "InF3 Surface Passivation on InAs Quantum Dots Enhances Photoluminescence and Reduces Trap-Induced Dark Current in Shortwave Infrared Photodetectors"
+  },
   "10.1021/acsnano.6c08364": {
     "journal": "ACS Nano",
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
@@ -333,6 +353,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-08-08T09:15:04.332966+00:00",
     "title": "Author Correction: Stretchable all-gel organic electrochemical transistors"
+  },
+  "10.1038/s41467-026-75703-4": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-23T00:51:50.445474+00:00",
+    "title": "Compositional neurosymbolic representations enable efficient active exploration"
   },
   "10.1038/s41467-026-75704-3": {
     "journal": "Nature Communications",
@@ -383,6 +408,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-08-18T00:47:03.366525+00:00",
     "title": "Deprotonation-mediated vitrification of organic-inorganic hybrid perovskites"
+  },
+  "10.1038/s41467-026-76722-x": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-23T00:51:50.445474+00:00",
+    "title": "Enhanced axonal mitochondrial motility and neural activity-induced energy deficits destabilize synaptic transmission in models of bipolar disorder"
   },
   "10.1038/s41467-026-76804-w": {
     "journal": "Nature Communications",

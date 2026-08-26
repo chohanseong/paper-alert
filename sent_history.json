@@ -129,6 +129,11 @@
     "sent_at": "2026-08-22T00:46:43.074646+00:00",
     "title": "Biomaterials Meet Organic Electrochemical Transistors: Materials, Interfaces, and Biosensing Frontiers"
   },
+  "10.1002/adfm.77812": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-26T00:50:17.068442+00:00",
+    "title": "Quasi‐Parallel Ferroelectric Composites Decoupling the Permittivity‐Tunability Trade‐Off"
+  },
   "10.1002/adfm.77842": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-08-22T00:46:43.074646+00:00",
@@ -158,6 +163,36 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-08-23T00:51:50.445474+00:00",
     "title": "Kesterite Synaptic Memristor Towards Multilevel Physical Unclonable Functions Authorized Cloud Encryption and In‐Hardware Neural Activation for Neuromorphic Applications"
+  },
+  "10.1002/adfm.77910": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-26T00:50:17.068442+00:00",
+    "title": "Unified Phase‐Field Framework for Antiferroelectric, Ferroelectric and Dielectric Phases: Application to HZO Thin Films"
+  },
+  "10.1002/adfm.77918": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-26T00:50:17.068442+00:00",
+    "title": "Oxygen‐Vacancy‐Regulated Crystallization and Ferroelectric Phase Stabilization in Hf 0.5 Zr 0.5 O 2 Thin Films"
+  },
+  "10.1002/adfm.77936": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-26T00:50:17.068442+00:00",
+    "title": "Harnessing Non‐Centrosymmetry in GaSb for Giant Bulk Photovoltaics and Intelligent Near‐Infrared Perception"
+  },
+  "10.1002/adfm.77961": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-26T00:50:17.068442+00:00",
+    "title": "Artificial Tactile Neuron Systems: From Biomimetic Sensing to Intelligent Interaction"
+  },
+  "10.1002/adfm.77964": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-26T00:50:17.068442+00:00",
+    "title": "Optically Mediated Nanofluidic Synapse for Ionotronic Logic Circuits"
+  },
+  "10.1002/adfm.77969": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-26T00:50:17.068442+00:00",
+    "title": "Architecture‐Engineered PdSe 2 /SnS 2 /MoS 2 van der Waals Heterostructures for Self‐Powered Photodetection and Programmable Optoelectronic Logic"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -333,6 +368,11 @@
     "journal": "Advanced Science",
     "sent_at": "2026-08-25T00:48:42.348460+00:00",
     "title": "A Reconfigurable Memristive Spiking Neuron Enabling Advanced Neuromorphic Computing"
+  },
+  "10.1002/advs.77437": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-08-26T00:50:17.068442+00:00",
+    "title": "Wafer‐Scale 3D Integration for High‐Density Multi‐Valued Neuromorphic Logic"
   },
   "10.1021/acsnano.5c06178": {
     "journal": "ACS Nano",

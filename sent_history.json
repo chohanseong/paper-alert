@@ -4,6 +4,11 @@
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
     "title": "Integrated Nonvolatile Memory and Energy‐Efficient Multifunctional Neuromorphic Simulation Based on ReS 2 /h‐BN/WTe 2 Heterostructure"
   },
+  "10.1002/adfm.77184": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-27T06:22:31.435585+00:00",
+    "title": "Two‐Dimensional Neuromorphic Electronic Devices and Their Applications in Artificial Neural Network Computing"
+  },
   "10.1002/adfm.77375": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-08-19T00:46:10.125829+00:00",
@@ -58,6 +63,11 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
     "title": "On‐Chip Multifunction Optoelectronic Logic Gates Based on a Single Bipolar Photoresponse 1T‐VSe 2 Heterostructure"
+  },
+  "10.1002/adfm.77555": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-27T06:22:31.435585+00:00",
+    "title": "Binary‐to‐Ternary Reconfigurable Transistors Using Plasma‐Assisted MoS 2"
   },
   "10.1002/adfm.77556": {
     "journal": "Advanced Functional Materials",
@@ -179,6 +189,11 @@
     "sent_at": "2026-08-26T00:50:17.068442+00:00",
     "title": "Harnessing Non‐Centrosymmetry in GaSb for Giant Bulk Photovoltaics and Intelligent Near‐Infrared Perception"
   },
+  "10.1002/adfm.77954": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-27T06:22:31.435585+00:00",
+    "title": "Bulk‐Like Spin Cycloid and Fast Switching in Freestanding BiFeO 3"
+  },
   "10.1002/adfm.77961": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-08-26T00:50:17.068442+00:00",
@@ -193,6 +208,11 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-08-26T00:50:17.068442+00:00",
     "title": "Architecture‐Engineered PdSe 2 /SnS 2 /MoS 2 van der Waals Heterostructures for Self‐Powered Photodetection and Programmable Optoelectronic Logic"
+  },
+  "10.1002/adfm.78018": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-27T06:22:31.435585+00:00",
+    "title": "Spatially Discrete Aluminum Nanoclusters for Controllable and Damage‐Free Doping of 2D Semiconductors"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -273,6 +293,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-08-23T00:51:50.445474+00:00",
     "title": "Highly Tunable Schottky Barrier to 2D Semiconductors Enabled by an Inorganic‐Molecular‐Crystal Tunneling Layer"
+  },
+  "10.1002/adma.74781": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-08-27T06:22:31.435585+00:00",
+    "title": "Atomically Precise Ag 11 and Ag 12 Nanocluster‐Assembled 2D Materials for Memristive and Neuromorphic Functionality"
   },
   "10.1002/advs.76936": {
     "journal": "Advanced Science",
@@ -449,6 +474,11 @@
     "sent_at": "2026-08-09T01:05:59.833279+00:00",
     "title": "The inherent capacity of neurons to learn order relations and support abstract reasoning"
   },
+  "10.1038/s41467-026-76259-z": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-27T06:22:31.435585+00:00",
+    "title": "Stabilization of charged domains in ferroelectric BiFeO3 nanoneedles"
+  },
   "10.1038/s41467-026-76364-z": {
     "journal": "Nature Communications",
     "sent_at": "2026-08-09T01:05:59.833279+00:00",
@@ -514,6 +544,11 @@
     "sent_at": "2026-08-18T00:47:03.366525+00:00",
     "title": "Ferroelectric-assisted charge-transfer plasmons in graphene/CuInP2S6"
   },
+  "10.1038/s41467-026-76950-1": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-08-27T06:22:31.435585+00:00",
+    "title": "Single-device in-sensor computing for multi-channel multiply-accumulate operations"
+  },
   "10.1038/s41928-026-01680-7": {
     "journal": "Nature Electronics",
     "sent_at": "2026-08-13T01:16:09.411054+00:00",
@@ -578,6 +613,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-08-22T00:46:43.074646+00:00",
     "title": "Molecular-driven lead-free halide photoferroelectric solid solution for high-temperature sensitive self-powered x-ray detection"
+  },
+  "10.1126/sciadv.aeg3509": {
+    "journal": "Science Advances",
+    "sent_at": "2026-08-27T06:22:31.435585+00:00",
+    "title": "Emergent polar order from interlayer microstrain in layered perovskites"
   },
   "10.1126/sciadv.aeg3535": {
     "journal": "Science Advances",

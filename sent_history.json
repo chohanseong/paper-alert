@@ -129,6 +129,11 @@
     "sent_at": "2026-08-18T00:47:03.366525+00:00",
     "title": "Hidden Potential of Halide Perovskites in Photo‐Electrocatalytic Syngas Production: Triumph or Trial?"
   },
+  "10.1002/adfm.77732": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-08-28T08:14:15.270527+00:00",
+    "title": "Gradient Defect Architecture for Ultrahigh Energy Storage in Lead‐Free Relaxor Ferroelectrics"
+  },
   "10.1002/adfm.77741": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-08-18T00:47:03.366525+00:00",
@@ -298,6 +303,16 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-08-27T06:22:31.435585+00:00",
     "title": "Atomically Precise Ag 11 and Ag 12 Nanocluster‐Assembled 2D Materials for Memristive and Neuromorphic Functionality"
+  },
+  "10.1002/adma.74815": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-08-28T08:14:15.270527+00:00",
+    "title": "Bioengineered Interfaces for Peripheral Nerve Sensory Restoration"
+  },
+  "10.1002/adma.74824": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-08-28T08:14:15.270527+00:00",
+    "title": "Molecularly Engineered Degradable PCTPU–PAA Dielectrics With Boosted Carrier Mobility for Retina‐Mimic Neuromorphic Visual Sensors Toward Closed‐Loop Green Flexible Electronics"
   },
   "10.1002/advs.76936": {
     "journal": "Advanced Science",
@@ -548,6 +563,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-08-27T06:22:31.435585+00:00",
     "title": "Single-device in-sensor computing for multi-channel multiply-accumulate operations"
+  },
+  "10.1038/s41563-026-02719-y": {
+    "journal": "Nature Materials",
+    "sent_at": "2026-08-28T08:14:15.270527+00:00",
+    "title": "Controlling ferroelectric-like gating in two‑dimensional stacks"
   },
   "10.1038/s41928-026-01680-7": {
     "journal": "Nature Electronics",

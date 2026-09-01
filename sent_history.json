@@ -214,10 +214,45 @@
     "sent_at": "2026-08-26T00:50:17.068442+00:00",
     "title": "Architecture‐Engineered PdSe 2 /SnS 2 /MoS 2 van der Waals Heterostructures for Self‐Powered Photodetection and Programmable Optoelectronic Logic"
   },
+  "10.1002/adfm.77995": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-01T02:53:02.286723+00:00",
+    "title": "Single‐Polymer Multi‐Valued Logic Enabled by Sequential Electrostatic‐to‐Electrochemical Doping"
+  },
+  "10.1002/adfm.77998": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-01T02:53:02.286723+00:00",
+    "title": "Reservoir‐Driven Neuromorphic Computing Based on Composite Rare‐Earth/Transition Metal Oxide Memristor"
+  },
   "10.1002/adfm.78018": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-08-27T06:22:31.435585+00:00",
     "title": "Spatially Discrete Aluminum Nanoclusters for Controllable and Damage‐Free Doping of 2D Semiconductors"
+  },
+  "10.1002/adfm.78041": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-01T02:53:02.286723+00:00",
+    "title": "Inorganic‐Sheet‐Templated Molecular Ordering in Layered Perovskites for Organic Field‐Effect Carrier Transport"
+  },
+  "10.1002/adfm.78052": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-01T02:53:02.286723+00:00",
+    "title": "Emergent Deep‐Ultraviolet Ferroelectrics: Structure and Polarization Mechanism"
+  },
+  "10.1002/adfm.78064": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-01T02:53:02.286723+00:00",
+    "title": "In‐Plane Organic Ferroelectric Memtransistor Arrays for Temporal Optoelectronic Processing"
+  },
+  "10.1002/adfm.78068": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-01T02:53:02.286723+00:00",
+    "title": "Colloidal Quantum Dots‐Based Bioinspired Reconfigurable Photoelectrochemical Device for Broadband Underwater Imaging and Photosynaptic Memory"
+  },
+  "10.1002/adfm.78102": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-01T02:53:02.286723+00:00",
+    "title": "A Quasi‐1D TiS 3 /2H‐MoTe 2 van der Waals Heterostructure for Intelligent Sensing With Decoupled Perception and Memory Functions"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -313,6 +348,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-08-29T04:59:14.339675+00:00",
     "title": "Olefin‐Linked Ionic Covalent Organic Frameworks with Carbenium Backbones for High‐Performance Neuromorphic Computing"
+  },
+  "10.1002/adma.74813": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-01T02:53:02.286723+00:00",
+    "title": "Volatile Memristive Devices With Tunable Temporal Dynamics For Event‐Based Sensing"
   },
   "10.1002/adma.74815": {
     "journal": "Advanced Materials",
@@ -433,6 +473,11 @@
     "journal": "Advanced Science",
     "sent_at": "2026-08-26T00:50:17.068442+00:00",
     "title": "Wafer‐Scale 3D Integration for High‐Density Multi‐Valued Neuromorphic Logic"
+  },
+  "10.1002/advs.77505": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-01T02:53:02.286723+00:00",
+    "title": "Gate Metal‐Driven Sensing and Memory Bifunctionality in Intrinsically Stretchable Organic Electrochemical Transistors for Soft Neuromorphic Systems"
   },
   "10.1021/acsnano.5c06178": {
     "journal": "ACS Nano",

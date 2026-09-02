@@ -9,6 +9,11 @@
     "sent_at": "2026-08-27T06:22:31.435585+00:00",
     "title": "Two‐Dimensional Neuromorphic Electronic Devices and Their Applications in Artificial Neural Network Computing"
   },
+  "10.1002/adfm.77262": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-02T02:12:37.474766+00:00",
+    "title": "Covalent Organic Framework‐Based Photoelectric Memristive Neurons With Unambiguous Encoding Capacity for Advanced Driver Assistance Systems"
+  },
   "10.1002/adfm.77375": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-08-19T00:46:10.125829+00:00",
@@ -73,6 +78,11 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
     "title": "Wavelength‐Specific Photodetector With Laser‐Printed On‐Device Metafilters for Multiplexed In‐Sensor Computing"
+  },
+  "10.1002/adfm.77597": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-02T02:12:37.474766+00:00",
+    "title": "Van der Waals Ferroelectrics Toward Non‐Volatile Nanoelectronics"
   },
   "10.1002/adfm.77601": {
     "journal": "Advanced Functional Materials",
@@ -229,6 +239,11 @@
     "sent_at": "2026-08-27T06:22:31.435585+00:00",
     "title": "Spatially Discrete Aluminum Nanoclusters for Controllable and Damage‐Free Doping of 2D Semiconductors"
   },
+  "10.1002/adfm.78022": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-02T02:12:37.474766+00:00",
+    "title": "Nanoconfinement‐Induced Second‐Harmonic Circular Dichroism via Chirality–Ferroelectric Coupling"
+  },
   "10.1002/adfm.78041": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-01T02:53:02.286723+00:00",
@@ -253,6 +268,16 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-01T02:53:02.286723+00:00",
     "title": "A Quasi‐1D TiS 3 /2H‐MoTe 2 van der Waals Heterostructure for Intelligent Sensing With Decoupled Perception and Memory Functions"
+  },
+  "10.1002/adfm.78109": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-02T02:12:37.474766+00:00",
+    "title": "Enhanced Ferroelectric Phase Formation via Local Structure Modification in the Pre‐Crystalline State of Hafnium Zirconium Oxide Thin Films"
+  },
+  "10.1002/adfm.78115": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-02T02:12:37.474766+00:00",
+    "title": "Van Der Waals Spintronics Toward Neuromorphic Computing"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -338,6 +363,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-08-23T00:51:50.445474+00:00",
     "title": "Highly Tunable Schottky Barrier to 2D Semiconductors Enabled by an Inorganic‐Molecular‐Crystal Tunneling Layer"
+  },
+  "10.1002/adma.74765": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-02T02:12:37.474766+00:00",
+    "title": "From Growth to Performance: Emerging Frontiers in Diamond Materials for High‐Performance Devices"
   },
   "10.1002/adma.74781": {
     "journal": "Advanced Materials",
@@ -629,6 +659,16 @@
     "sent_at": "2026-08-27T06:22:31.435585+00:00",
     "title": "Single-device in-sensor computing for multi-channel multiply-accumulate operations"
   },
+  "10.1038/s41467-026-77284-8": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-02T02:12:37.474766+00:00",
+    "title": "Pharmacological targeting of bunyavirus-induced synaptic impairment prevents neuronal hyperexcitability"
+  },
+  "10.1038/s41467-026-77290-w": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-02T02:12:37.474766+00:00",
+    "title": "Engineering moiré potentials in twisted bilayer MoS2 for selective single-molecule sensing"
+  },
   "10.1038/s41563-026-02719-y": {
     "journal": "Nature Materials",
     "sent_at": "2026-08-28T08:14:15.270527+00:00",
@@ -648,6 +688,11 @@
     "journal": "Nature Electronics",
     "sent_at": "2026-08-29T04:59:14.339675+00:00",
     "title": "Intrinsic polarization superjunctions in III-nitride heterostructures for efficient power electronics"
+  },
+  "10.1038/s41928-026-01694-1": {
+    "journal": "Nature Electronics",
+    "sent_at": "2026-09-02T02:12:37.474766+00:00",
+    "title": "Ferroelectricity in six-ångström-thick two-dimensional gallium oxide"
   },
   "10.1126/sciadv.adz4123": {
     "journal": "Science Advances",

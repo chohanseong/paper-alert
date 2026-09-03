@@ -149,6 +149,11 @@
     "sent_at": "2026-08-18T00:47:03.366525+00:00",
     "title": "Domain Engineering and Anisotropic Domain‐Wall Photovoltaic Effects in Ferroelectric SnS"
   },
+  "10.1002/adfm.77789": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-03T02:20:02.244694+00:00",
+    "title": "Benzodifluoranthenes and Their π‐Extended Derivatives: Syntheses, Structural Analyses, Properties, and Hole Mobilities"
+  },
   "10.1002/adfm.77800": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-08-22T00:46:43.074646+00:00",
@@ -244,6 +249,11 @@
     "sent_at": "2026-09-02T02:12:37.474766+00:00",
     "title": "Nanoconfinement‐Induced Second‐Harmonic Circular Dichroism via Chirality–Ferroelectric Coupling"
   },
+  "10.1002/adfm.78029": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-03T02:20:02.244694+00:00",
+    "title": "Shallow Trap States Control Electrical Performance of Amorphous Oxide Semiconductor Thin‐Film Transistors"
+  },
   "10.1002/adfm.78041": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-01T02:53:02.286723+00:00",
@@ -269,15 +279,30 @@
     "sent_at": "2026-09-01T02:53:02.286723+00:00",
     "title": "A Quasi‐1D TiS 3 /2H‐MoTe 2 van der Waals Heterostructure for Intelligent Sensing With Decoupled Perception and Memory Functions"
   },
+  "10.1002/adfm.78107": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-03T02:20:02.244694+00:00",
+    "title": "Flexible and Regenerable Organic Photoelectrochemical Transistors With MXene‐Induced Ohmic Interfaces for Dopamine Sensing"
+  },
   "10.1002/adfm.78109": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-02T02:12:37.474766+00:00",
     "title": "Enhanced Ferroelectric Phase Formation via Local Structure Modification in the Pre‐Crystalline State of Hafnium Zirconium Oxide Thin Films"
   },
+  "10.1002/adfm.78114": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-03T02:20:02.244694+00:00",
+    "title": "Flexoelectrically Programmed Ferroelectric Domain Lattices Enable Deterministic Exciton Patterning in van der Waals Heterostructures"
+  },
   "10.1002/adfm.78115": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-02T02:12:37.474766+00:00",
     "title": "Van Der Waals Spintronics Toward Neuromorphic Computing"
+  },
+  "10.1002/adfm.78147": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-03T02:20:02.244694+00:00",
+    "title": "Spiderweb‐Inspired Conformable Stretchable Electronic Skin for Tactile Force and Softness Perception"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -399,6 +424,11 @@
     "sent_at": "2026-08-31T02:40:03.284595+00:00",
     "title": "Thermal‐Budget‐Decoupled Integration of Freestanding Hafnium‐Based Ferroelectric Dielectrics for van der Waals Memory Transistors"
   },
+  "10.1002/adma.74880": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-03T02:20:02.244694+00:00",
+    "title": "Mixed‐Dimensional 1D/2D Ternary CMOS for High‐Performance Integrated Circuits"
+  },
   "10.1002/advs.202600020": {
     "journal": "Advanced Science",
     "sent_at": "2026-08-30T02:46:33.273873+00:00",
@@ -484,6 +514,11 @@
     "sent_at": "2026-08-19T00:46:10.125829+00:00",
     "title": "Analog Synaptic Plasticity in 2D Layered Material Iontronic Memtransistors for Brain‐Inspired Computing"
   },
+  "10.1002/advs.77167": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-03T02:20:02.244694+00:00",
+    "title": "Damage‐Free Passivation of Ambipolar OECTs with Fluoropolymer Film for Enhanced Performance and Stability Toward Reliable Biosignal Processing"
+  },
   "10.1002/advs.77200": {
     "journal": "Advanced Science",
     "sent_at": "2026-08-14T01:15:27.558660+00:00",
@@ -509,6 +544,11 @@
     "sent_at": "2026-09-01T02:53:02.286723+00:00",
     "title": "Gate Metal‐Driven Sensing and Memory Bifunctionality in Intrinsically Stretchable Organic Electrochemical Transistors for Soft Neuromorphic Systems"
   },
+  "10.1002/advs.77524": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-03T02:20:02.244694+00:00",
+    "title": "MethyAnno: An Interpretable Automated Annotation Method Leveraging Multi‐Scale Information and Metric Learning Framework for scDNAm Data"
+  },
   "10.1021/acsnano.5c06178": {
     "journal": "ACS Nano",
     "sent_at": "2026-08-14T01:15:27.558660+00:00",
@@ -528,6 +568,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-08-24T00:48:50.824777+00:00",
     "title": "Symmetry-Programmed Pure Spin Photocurrents in Sliding Ferroelectric Altermagnets"
+  },
+  "10.1021/acsnano.6c08339": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-09-03T02:20:02.244694+00:00",
+    "title": "Interface-Engineered Hafnia–MoS2 Ferroelectric Field-Effect Transistors Enabling a Nearly Ideal Memory Window with Back-End-of-Line Compatibility"
   },
   "10.1021/acsnano.6c08364": {
     "journal": "ACS Nano",
@@ -659,6 +704,21 @@
     "sent_at": "2026-08-27T06:22:31.435585+00:00",
     "title": "Single-device in-sensor computing for multi-channel multiply-accumulate operations"
   },
+  "10.1038/s41467-026-76956-9": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-03T02:20:02.244694+00:00",
+    "title": "Innervated human cardiac muscle model reveals sympathetic drivers of KCNH2-associated arrhythmias"
+  },
+  "10.1038/s41467-026-77002-4": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-03T02:20:02.244694+00:00",
+    "title": "Dual effect of α-synuclein disease variants on condensate formation"
+  },
+  "10.1038/s41467-026-77105-y": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-03T02:20:02.244694+00:00",
+    "title": "Barcoded Rabies In Situ Connectomics for high-throughput reconstruction of neural circuits"
+  },
   "10.1038/s41467-026-77284-8": {
     "journal": "Nature Communications",
     "sent_at": "2026-09-02T02:12:37.474766+00:00",
@@ -698,6 +758,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-08-15T00:47:21.742041+00:00",
     "title": "Highly attenuated dendritic propagation of isolated synaptic potentials in vivo"
+  },
+  "10.1126/sciadv.aeb6839": {
+    "journal": "Science Advances",
+    "sent_at": "2026-09-03T02:20:02.244694+00:00",
+    "title": "A male-biased hypothalamic circuit modulates postmating sleep suppression in mice"
   },
   "10.1126/sciadv.aec3842": {
     "journal": "Science Advances",
@@ -739,6 +804,11 @@
     "sent_at": "2026-08-20T00:45:59.668236+00:00",
     "title": "Programmable photonic neural engine with all-optical nonlinear activation and 40,000 connections"
   },
+  "10.1126/sciadv.aef2894": {
+    "journal": "Science Advances",
+    "sent_at": "2026-09-03T02:20:02.244694+00:00",
+    "title": "Human cortical networks trade communication efficiency for computational reliability"
+  },
   "10.1126/sciadv.aef4951": {
     "journal": "Science Advances",
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
@@ -758,5 +828,10 @@
     "journal": "Science Advances",
     "sent_at": "2026-08-20T00:45:59.668236+00:00",
     "title": "Undoing of firing rate adaptation enables invariant population codes"
+  },
+  "10.1126/sciadv.aeh3751": {
+    "journal": "Science Advances",
+    "sent_at": "2026-09-03T02:20:02.244694+00:00",
+    "title": "Light-tunable charge dynamics enable ultralow-power bidirectional lead-free perovskite synapses for intelligent vision"
   }
 }

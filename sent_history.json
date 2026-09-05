@@ -304,15 +304,35 @@
     "sent_at": "2026-09-02T02:12:37.474766+00:00",
     "title": "Van Der Waals Spintronics Toward Neuromorphic Computing"
   },
+  "10.1002/adfm.78129": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-05T02:15:57.083883+00:00",
+    "title": "2D Ferroelectrics: Toward Non‐Volatile Memory and Neuromorphic Computing"
+  },
   "10.1002/adfm.78147": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-03T02:20:02.244694+00:00",
     "title": "Spiderweb‐Inspired Conformable Stretchable Electronic Skin for Tactile Force and Softness Perception"
   },
+  "10.1002/adfm.78164": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-05T02:15:57.083883+00:00",
+    "title": "Reconfigurable Noise‐Spectroscopy Physical Unclonable Function in Floating‐Body Charge‐Trap‐Flash Transistors"
+  },
+  "10.1002/adfm.78168": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-05T02:15:57.083883+00:00",
+    "title": "Molecular Ferroelectric Catalysis: From Material Design Strategies to Catalytic Applications"
+  },
   "10.1002/adfm.78177": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-04T02:16:57.910144+00:00",
     "title": "Ultrahigh‐Density Atomic‐Scale Polar Skyrmion Lattice in SrTiO 3 via Twist Grain Boundary Engineering"
+  },
+  "10.1002/adfm.78211": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-05T02:15:57.083883+00:00",
+    "title": "Emergent Altermagnetic Multiferroicity via Ferroelectrically Driven Magnetic Phase Transition"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -444,6 +464,16 @@
     "sent_at": "2026-09-03T02:20:02.244694+00:00",
     "title": "Mixed‐Dimensional 1D/2D Ternary CMOS for High‐Performance Integrated Circuits"
   },
+  "10.1002/adma.74890": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-05T02:15:57.083883+00:00",
+    "title": "Intrinsically Nonvolatile n‐Type Polymer Synapses for Neuromorphic Vision"
+  },
+  "10.1002/adma.74892": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-05T02:15:57.083883+00:00",
+    "title": "Recent Progress in Understanding and Improving Stability of Organic Transistors"
+  },
   "10.1002/advs.202600020": {
     "journal": "Advanced Science",
     "sent_at": "2026-08-30T02:46:33.273873+00:00",
@@ -529,6 +559,11 @@
     "sent_at": "2026-08-19T00:46:10.125829+00:00",
     "title": "Analog Synaptic Plasticity in 2D Layered Material Iontronic Memtransistors for Brain‐Inspired Computing"
   },
+  "10.1002/advs.77152": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-05T02:15:57.083883+00:00",
+    "title": "Fusing Direct and Indirect Measurements Through Multi‐Fidelity Learning For Accelerated Electrocaloric Materials Discovery"
+  },
   "10.1002/advs.77167": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-03T02:20:02.244694+00:00",
@@ -553,6 +588,11 @@
     "journal": "Advanced Science",
     "sent_at": "2026-08-26T00:50:17.068442+00:00",
     "title": "Wafer‐Scale 3D Integration for High‐Density Multi‐Valued Neuromorphic Logic"
+  },
+  "10.1002/advs.77469": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-05T02:15:57.083883+00:00",
+    "title": "Giant Direct Magnetoelectric Effect in Nanocomposite CoFe 2 O 4 :PVDF‐TrFE Thin Films"
   },
   "10.1002/advs.77505": {
     "journal": "Advanced Science",
@@ -754,6 +794,16 @@
     "sent_at": "2026-09-02T02:12:37.474766+00:00",
     "title": "Engineering moiré potentials in twisted bilayer MoS2 for selective single-molecule sensing"
   },
+  "10.1038/s41467-026-77319-0": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-05T02:15:57.083883+00:00",
+    "title": "Astrocytic PI3Kα controls synaptic plasticity and cognitive function via serine metabolism"
+  },
+  "10.1038/s41467-026-77523-y": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-05T02:15:57.083883+00:00",
+    "title": "Ultrahigh-sensitivity adaptive solar-blind organic neuromorphic sensors for robust corona discharge monitoring"
+  },
   "10.1038/s41563-026-02719-y": {
     "journal": "Nature Materials",
     "sent_at": "2026-08-28T08:14:15.270527+00:00",
@@ -774,10 +824,20 @@
     "sent_at": "2026-08-29T04:59:14.339675+00:00",
     "title": "Intrinsic polarization superjunctions in III-nitride heterostructures for efficient power electronics"
   },
+  "10.1038/s41928-026-01693-2": {
+    "journal": "Nature Electronics",
+    "sent_at": "2026-09-05T02:15:57.083883+00:00",
+    "title": "How we discovered ferroelectricity in hafnium oxide thin films"
+  },
   "10.1038/s41928-026-01694-1": {
     "journal": "Nature Electronics",
     "sent_at": "2026-09-02T02:12:37.474766+00:00",
     "title": "Ferroelectricity in six-ångström-thick two-dimensional gallium oxide"
+  },
+  "10.1038/s41928-026-01702-4": {
+    "journal": "Nature Electronics",
+    "sent_at": "2026-09-05T02:15:57.083883+00:00",
+    "title": "Subnanometre ferroelectricity in strain-engineered gallium oxide"
   },
   "10.1126/sciadv.adz4123": {
     "journal": "Science Advances",
@@ -814,6 +874,16 @@
     "sent_at": "2026-08-15T00:47:21.742041+00:00",
     "title": "Distinct types of dendritic Ca 2+ spikes in CA3 pyramidal neurons associated with neuronal activity changes during navigation"
   },
+  "10.1126/sciadv.aec6546": {
+    "journal": "Science Advances",
+    "sent_at": "2026-09-05T02:15:57.083883+00:00",
+    "title": "Few-shot neuromorphic vision in a nonlinear photonic network laser"
+  },
+  "10.1126/sciadv.aed3793": {
+    "journal": "Science Advances",
+    "sent_at": "2026-09-05T02:15:57.083883+00:00",
+    "title": "Structural basis for modulation of group III mGlu receptors by transsynaptic interactions"
+  },
   "10.1126/sciadv.aed6236": {
     "journal": "Science Advances",
     "sent_at": "2026-08-09T01:05:59.833279+00:00",
@@ -828,6 +898,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-08-20T00:45:59.668236+00:00",
     "title": "Programmable photonic neural engine with all-optical nonlinear activation and 40,000 connections"
+  },
+  "10.1126/sciadv.aef0343": {
+    "journal": "Science Advances",
+    "sent_at": "2026-09-05T02:15:57.083883+00:00",
+    "title": "Learning induces activation-mechanism–dependent neural plasticity in an intracortical microstimulation task"
   },
   "10.1126/sciadv.aef2894": {
     "journal": "Science Advances",

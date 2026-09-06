@@ -474,6 +474,21 @@
     "sent_at": "2026-09-05T02:15:57.083883+00:00",
     "title": "Recent Progress in Understanding and Improving Stability of Organic Transistors"
   },
+  "10.1002/adma.74916": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-06T02:11:43.489414+00:00",
+    "title": "High‐Performance Stretchable Field‐Effect Transistors Based on Intrinsically Flexible n‐Type Partially Conjugated Polymers Synthesized via Aldol Polycondensation"
+  },
+  "10.1002/adma.74920": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-06T02:11:43.489414+00:00",
+    "title": "A Multiferroic Morphotropic Phase Boundary"
+  },
+  "10.1002/adma.74921": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-06T02:11:43.489414+00:00",
+    "title": "Negative Differential Resistance Electronics: From Nonmonotonic Transport Physics to Functionally Compressed Computing"
+  },
   "10.1002/advs.202600020": {
     "journal": "Advanced Science",
     "sent_at": "2026-08-30T02:46:33.273873+00:00",
@@ -704,6 +719,11 @@
     "sent_at": "2026-08-09T01:05:59.833279+00:00",
     "title": "Room-temperature ferroelectrically switchable quantum geometry in few-layer WTe2 for complementary in-memory computing"
   },
+  "10.1038/s41467-026-76391-w": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-06T02:11:43.489414+00:00",
+    "title": "Thermal conductivity predictions with foundation atomistic models"
+  },
   "10.1038/s41467-026-76481-9": {
     "journal": "Nature Communications",
     "sent_at": "2026-08-09T01:05:59.833279+00:00",
@@ -798,6 +818,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-09-05T02:15:57.083883+00:00",
     "title": "Astrocytic PI3Kα controls synaptic plasticity and cognitive function via serine metabolism"
+  },
+  "10.1038/s41467-026-77377-4": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-06T02:11:43.489414+00:00",
+    "title": "Ternary Neurexin-T178-PTPR complexes represent a pre-synaptic core-module of neuronal synapse organization"
   },
   "10.1038/s41467-026-77523-y": {
     "journal": "Nature Communications",

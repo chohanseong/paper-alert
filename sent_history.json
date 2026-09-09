@@ -344,6 +344,11 @@
     "sent_at": "2026-09-05T02:15:57.083883+00:00",
     "title": "Emergent Altermagnetic Multiferroicity via Ferroelectrically Driven Magnetic Phase Transition"
   },
+  "10.1002/adfm.78212": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-09T02:24:17.737086+00:00",
+    "title": "An Epigenetic Fate Converter Based on Nuclei‐Targeting Lipid Nanoparticles Drives Neuronal Programming of Stem Cells for Spinal Cord Repair"
+  },
   "10.1002/adfm.78216": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-08T02:20:45.758620+00:00",
@@ -689,6 +694,11 @@
     "sent_at": "2026-08-19T00:46:10.125829+00:00",
     "title": "Controlled Chemical Vapor Deposition Growth of Single-Crystalline CoO Ultrathin Flakes as Dielectrics for High-Performance Two-Dimensional Electronics"
   },
+  "10.1021/acsnano.6c10469": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-09-09T02:24:17.737086+00:00",
+    "title": "Critical Radius for Forming Oriented Few-Layer MoS2 on High-Curvature Nanostructures"
+  },
   "10.1021/acsnano.6c12450": {
     "journal": "ACS Nano",
     "sent_at": "2026-09-04T02:16:57.910144+00:00",
@@ -829,6 +839,11 @@
     "sent_at": "2026-09-04T02:16:57.910144+00:00",
     "title": "Redox-dependent synaptic clustering of gephyrin"
   },
+  "10.1038/s41467-026-77270-0": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-09T02:24:17.737086+00:00",
+    "title": "Periodic polar vortices in BaTiO3/SrTiO3 superlattices monolithically grown on silicon"
+  },
   "10.1038/s41467-026-77284-8": {
     "journal": "Nature Communications",
     "sent_at": "2026-09-02T02:12:37.474766+00:00",
@@ -849,6 +864,16 @@
     "sent_at": "2026-09-06T02:11:43.489414+00:00",
     "title": "Ternary Neurexin-T178-PTPR complexes represent a pre-synaptic core-module of neuronal synapse organization"
   },
+  "10.1038/s41467-026-77397-0": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-09T02:24:17.737086+00:00",
+    "title": "Ferroelectrically programmable lanthanide luminescent memristor"
+  },
+  "10.1038/s41467-026-77503-2": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-09T02:24:17.737086+00:00",
+    "title": "End processing in NHEJ by Polymerase λ and PNKP is coordinated during short-range synapsis"
+  },
   "10.1038/s41467-026-77523-y": {
     "journal": "Nature Communications",
     "sent_at": "2026-09-05T02:15:57.083883+00:00",
@@ -858,6 +883,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-09-08T02:20:45.758620+00:00",
     "title": "Symmetry breaking induces room-temperature interface ferroelectricity in two-dimensional metastable mosaic-like heterostructures"
+  },
+  "10.1038/s41467-026-77592-z": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-09T02:24:17.737086+00:00",
+    "title": "Two-dimensional digital-analog multimode circuits based on asymmetric vertical double-gate WSe2 transistors"
   },
   "10.1038/s41563-026-02719-y": {
     "journal": "Nature Materials",

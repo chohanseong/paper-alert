@@ -519,6 +519,11 @@
     "sent_at": "2026-08-30T02:46:33.273873+00:00",
     "title": "Early Retinal UCHL1 Dysregulation Coupled With Synaptic Loss Reflects Alzheimer's Disease Severity"
   },
+  "10.1002/advs.202600021": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-10T02:22:55.974707+00:00",
+    "title": "An Efficient Biological Codon Recognition Reservoir Computing System Based on Low‐Energy Epitaxial Hf 0.52 Zr 0.48 O 2 Ferroelectric Memristors"
+  },
   "10.1002/advs.76936": {
     "journal": "Advanced Science",
     "sent_at": "2026-08-13T01:16:09.411054+00:00",
@@ -634,6 +639,11 @@
     "sent_at": "2026-09-05T02:15:57.083883+00:00",
     "title": "Giant Direct Magnetoelectric Effect in Nanocomposite CoFe 2 O 4 :PVDF‐TrFE Thin Films"
   },
+  "10.1002/advs.77486": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-10T02:22:55.974707+00:00",
+    "title": "Ion‐Exchange‐Driven Ternary Organic Neuromorphic Devices with High Efficiency and Stability"
+  },
   "10.1002/advs.77505": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-01T02:53:02.286723+00:00",
@@ -649,10 +659,35 @@
     "sent_at": "2026-09-08T02:20:45.758620+00:00",
     "title": "Probabilistic Computing via Gate‐Tunable Random Telegraph Noise"
   },
+  "10.1002/advs.77570": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-10T02:22:55.974707+00:00",
+    "title": "Transient Sleep Deprivation Induces Persistent Auditory Neuropathy via ROS‐Initiated Neuroinflammation and BK Channel Suppression"
+  },
+  "10.1002/advs.77601": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-10T02:22:55.974707+00:00",
+    "title": "Multi‐Modal Low‐Power Adaptive Braille Recognition System Based on Hf 0.3 Zr 0.7 O 2 Memristor"
+  },
+  "10.1002/advs.77618": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-10T02:22:55.974707+00:00",
+    "title": "Deposition Rate‐Controlled Functional Evolution of p‐Type Selenium‐Alloyed Tellurium–Tellurium Oxide Films for Thin‐Film Transistors"
+  },
+  "10.1002/advs.77639": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-10T02:22:55.974707+00:00",
+    "title": "Mechanisms of Temperature‐Dependent Hysteresis in Freestanding BaTiO 3 /MoS 2 Heterostructures"
+  },
   "10.1021/acsnano.5c06178": {
     "journal": "ACS Nano",
     "sent_at": "2026-08-14T01:15:27.558660+00:00",
     "title": "Ultrafast Switchable Polar and Magnetic Orders by Nonlinear Light–Matter Interaction"
+  },
+  "10.1021/acsnano.6c03282": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-09-10T02:22:55.974707+00:00",
+    "title": "Graphene Field-Effect Transistor Process and Analysis Optimization in 200 mm Pilot-Line Environment"
   },
   "10.1021/acsnano.6c04605": {
     "journal": "ACS Nano",
@@ -929,6 +964,11 @@
     "sent_at": "2026-09-05T02:15:57.083883+00:00",
     "title": "Subnanometre ferroelectricity in strain-engineered gallium oxide"
   },
+  "10.1126/sciadv.adq8840": {
+    "journal": "Science Advances",
+    "sent_at": "2026-09-10T02:22:55.974707+00:00",
+    "title": "Astrocytes mediate the dopaminergic modulation of tonic GABAergic signaling in substantia nigra"
+  },
   "10.1126/sciadv.adz4123": {
     "journal": "Science Advances",
     "sent_at": "2026-08-15T00:47:21.742041+00:00",
@@ -983,6 +1023,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-08-13T01:16:09.411054+00:00",
     "title": "Synaptic zinc plasticity shapes adaptive and maladaptive cortical plasticity following cochlear injury"
+  },
+  "10.1126/sciadv.aee9425": {
+    "journal": "Science Advances",
+    "sent_at": "2026-09-10T02:22:55.974707+00:00",
+    "title": "Probabilistic inference of homonymous and heteronymous recurrent inhibition in human muscles from large-scale motor neuron recordings"
   },
   "10.1126/sciadv.aee9649": {
     "journal": "Science Advances",

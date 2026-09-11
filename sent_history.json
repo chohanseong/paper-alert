@@ -314,6 +314,11 @@
     "sent_at": "2026-09-05T02:15:57.083883+00:00",
     "title": "2D Ferroelectrics: Toward Non‐Volatile Memory and Neuromorphic Computing"
   },
+  "10.1002/adfm.78139": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-11T02:18:06.276754+00:00",
+    "title": "Autonomous Multi‐Objective Nanoscale Characterization of Combinatorial (Al, Sc, B)N Films Reveals Composition‐Dependent Ferroelectric Regimes"
+  },
   "10.1002/adfm.78147": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-03T02:20:02.244694+00:00",
@@ -358,6 +363,21 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-08T02:20:45.758620+00:00",
     "title": "Reconfigurable In‐Sensor Processing Based on Photo‐Electric Tailored Photovoltaics"
+  },
+  "10.1002/adfm.78325": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-11T02:18:06.276754+00:00",
+    "title": "Strain‐Engineered Zener Tunneling Diodes Enable Energy‐Efficient Neuromorphic Edge Vision"
+  },
+  "10.1002/adfm.78328": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-11T02:18:06.276754+00:00",
+    "title": "Tellurium‐Induced Phase‐Orbital Coupling Enables High‐Mobility p‐Type Tin Oxide Transistor"
+  },
+  "10.1002/adfm.78395": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-11T02:18:06.276754+00:00",
+    "title": "Boosting Energy Storage of AgNbO 3 ‐Based Capacitors by Constructing Low‐Atomic‐Displacement Region and M 2 ‐M 3 Two‐Phase Coexistence Strategy"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -499,6 +519,11 @@
     "sent_at": "2026-09-05T02:15:57.083883+00:00",
     "title": "Recent Progress in Understanding and Improving Stability of Organic Transistors"
   },
+  "10.1002/adma.74897": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-11T02:18:06.276754+00:00",
+    "title": "Descriptors to Dynamics: A Materials and Device Perspective on in‐Materio Physical Reservoir Computing for Neuromorphic Edge Intelligence"
+  },
   "10.1002/adma.74916": {
     "journal": "Advanced Materials",
     "sent_at": "2026-09-06T02:11:43.489414+00:00",
@@ -513,6 +538,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-09-06T02:11:43.489414+00:00",
     "title": "Negative Differential Resistance Electronics: From Nonmonotonic Transport Physics to Functionally Compressed Computing"
+  },
+  "10.1002/adma.74951": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-11T02:18:06.276754+00:00",
+    "title": "Dual‐State Programmable Oxide Transistor for Time‐Based Cryptography"
   },
   "10.1002/advs.202600020": {
     "journal": "Advanced Science",
@@ -693,6 +723,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-08-12T01:15:02.066980+00:00",
     "title": "Vortex Convolver: A Biosignal Processor Based on Floating-Gate Spatial Computing"
+  },
+  "10.1021/acsnano.6c05081": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-09-11T02:18:06.276754+00:00",
+    "title": "High Performance Switchable Dual-Mode Photoresponse Enabled by Defect States in ReS2/PdSe2 Heterojunctions"
   },
   "10.1021/acsnano.6c06196": {
     "journal": "ACS Nano",
@@ -924,6 +959,11 @@
     "sent_at": "2026-09-09T02:24:17.737086+00:00",
     "title": "Two-dimensional digital-analog multimode circuits based on asymmetric vertical double-gate WSe2 transistors"
   },
+  "10.1038/s41467-026-77661-3": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-11T02:18:06.276754+00:00",
+    "title": "Autonomous robotic operation controlled by wave-based neuromorphic hardware"
+  },
   "10.1038/s41563-026-02719-y": {
     "journal": "Nature Materials",
     "sent_at": "2026-08-28T08:14:15.270527+00:00",
@@ -943,6 +983,11 @@
     "journal": "Nature Electronics",
     "sent_at": "2026-08-20T00:45:59.668236+00:00",
     "title": "Programmable polyphasic stimulation with bioresorbable phototransistors"
+  },
+  "10.1038/s41928-026-01688-z": {
+    "journal": "Nature Electronics",
+    "sent_at": "2026-09-11T02:18:06.276754+00:00",
+    "title": "Soft-matter multistate ionic neuromorphic processing based on cascaded-heterointerface ion traps"
   },
   "10.1038/s41928-026-01691-4": {
     "journal": "Nature Electronics",

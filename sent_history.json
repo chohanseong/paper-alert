@@ -374,6 +374,11 @@
     "sent_at": "2026-09-11T02:18:06.276754+00:00",
     "title": "Tellurium‐Induced Phase‐Orbital Coupling Enables High‐Mobility p‐Type Tin Oxide Transistor"
   },
+  "10.1002/adfm.78394": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-12T02:25:08.288550+00:00",
+    "title": "A Self‐Healing Ionic Synaptic Device for Resilient Neuromorphic Motion Control of a Mechanical Arm"
+  },
   "10.1002/adfm.78395": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-11T02:18:06.276754+00:00",
@@ -543,6 +548,21 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-09-11T02:18:06.276754+00:00",
     "title": "Dual‐State Programmable Oxide Transistor for Time‐Based Cryptography"
+  },
+  "10.1002/adma.74953": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-12T02:25:08.288550+00:00",
+    "title": "Interfacial Gap Switching in MXene Ti 3 C 2 T x MoS 2 Memristors"
+  },
+  "10.1002/adma.74984": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-12T02:25:08.288550+00:00",
+    "title": "Uniting Ferroelectricity, Piezoelectricity, and Axial Negative Thermal Expansion in Single‐Component Organic Materials Enables High‐Performance Memristor and Energy‐Harvesting Nanogenerators"
+  },
+  "10.1002/adma.74987": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-12T02:25:08.288550+00:00",
+    "title": "Ferroelectric‐Assisted van der Waals Charge‐Dynamics Reservoir Arrays for Spatiotemporal Computing"
   },
   "10.1002/advs.202600020": {
     "journal": "Advanced Science",
@@ -909,6 +929,11 @@
     "sent_at": "2026-09-04T02:16:57.910144+00:00",
     "title": "Redox-dependent synaptic clustering of gephyrin"
   },
+  "10.1038/s41467-026-77264-y": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-12T02:25:08.288550+00:00",
+    "title": "Thermal conductivity and optical phonon scattering of CMOS compatible aluminum nitride based ferroelectric thin films"
+  },
   "10.1038/s41467-026-77270-0": {
     "journal": "Nature Communications",
     "sent_at": "2026-09-09T02:24:17.737086+00:00",
@@ -1044,6 +1069,11 @@
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
     "title": "Monolithically integrating polarization-doped InGaN p-FET and GaN n-FET for complementary logic circuitry"
   },
+  "10.1126/sciadv.aec4911": {
+    "journal": "Science Advances",
+    "sent_at": "2026-09-12T02:25:08.288550+00:00",
+    "title": "Dendritic shaft constrictions shape synaptic integration in neurons"
+  },
   "10.1126/sciadv.aec6015": {
     "journal": "Science Advances",
     "sent_at": "2026-08-15T00:47:21.742041+00:00",
@@ -1063,6 +1093,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-08-09T01:05:59.833279+00:00",
     "title": "Ferroelectric control of the Mott insulator–topological metal transition"
+  },
+  "10.1126/sciadv.aed8555": {
+    "journal": "Science Advances",
+    "sent_at": "2026-09-12T02:25:08.288550+00:00",
+    "title": "Imaging topological polar structures in marginally twisted 2D semiconductors"
   },
   "10.1126/sciadv.aee9298": {
     "journal": "Science Advances",
@@ -1098,6 +1133,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-08-22T00:46:43.074646+00:00",
     "title": "Molecular-driven lead-free halide photoferroelectric solid solution for high-temperature sensitive self-powered x-ray detection"
+  },
+  "10.1126/sciadv.aeg0958": {
+    "journal": "Science Advances",
+    "sent_at": "2026-09-12T02:25:08.288550+00:00",
+    "title": "CaMKIIα holoenzymes self-organize into chain-like mesoscale clusters"
   },
   "10.1126/sciadv.aeg3509": {
     "journal": "Science Advances",

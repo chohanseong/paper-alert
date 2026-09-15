@@ -374,6 +374,11 @@
     "sent_at": "2026-09-11T02:18:06.276754+00:00",
     "title": "Tellurium‐Induced Phase‐Orbital Coupling Enables High‐Mobility p‐Type Tin Oxide Transistor"
   },
+  "10.1002/adfm.78360": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-15T02:44:03.112887+00:00",
+    "title": "Ultralow‐Power Optoelectronic Organic‐Inorganic Heterostructure Synapses for Monolithic Sensing‐Memory‐Computing Integrated Autonomous Driving Vision"
+  },
   "10.1002/adfm.78394": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-12T02:25:08.288550+00:00",
@@ -539,6 +544,11 @@
     "sent_at": "2026-09-05T02:15:57.083883+00:00",
     "title": "Recent Progress in Understanding and Improving Stability of Organic Transistors"
   },
+  "10.1002/adma.74894": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-15T02:44:03.112887+00:00",
+    "title": "Strong Polarons Enable High‐Performance Perovskite Optoelectronic Synaptic Diode Array for In‐Sensor Computing"
+  },
   "10.1002/adma.74897": {
     "journal": "Advanced Materials",
     "sent_at": "2026-09-11T02:18:06.276754+00:00",
@@ -568,6 +578,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-09-12T02:25:08.288550+00:00",
     "title": "Interfacial Gap Switching in MXene Ti 3 C 2 T x MoS 2 Memristors"
+  },
+  "10.1002/adma.74978": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-15T02:44:03.112887+00:00",
+    "title": "Poly(Alkoxythiophene) Rod‐Coil Block Copolymers for Organic Electrochemical Transistors"
   },
   "10.1002/adma.74984": {
     "journal": "Advanced Materials",
@@ -719,6 +734,11 @@
     "sent_at": "2026-09-01T02:53:02.286723+00:00",
     "title": "Gate Metal‐Driven Sensing and Memory Bifunctionality in Intrinsically Stretchable Organic Electrochemical Transistors for Soft Neuromorphic Systems"
   },
+  "10.1002/advs.77513": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-15T02:44:03.112887+00:00",
+    "title": "A Very‐High Frequency Solution‐Processed Organic Field‐Effect Transistor With Improved Voltage‐Normalized Frequency of Transition"
+  },
   "10.1002/advs.77524": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-03T02:20:02.244694+00:00",
@@ -733,6 +753,11 @@
     "journal": "Advanced Science",
     "sent_at": "2026-09-10T02:22:55.974707+00:00",
     "title": "Transient Sleep Deprivation Induces Persistent Auditory Neuropathy via ROS‐Initiated Neuroinflammation and BK Channel Suppression"
+  },
+  "10.1002/advs.77599": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-15T02:44:03.112887+00:00",
+    "title": "Crystallized Domain Walls in HfO 2 Enable Chessboard‐Type Ultra‐High‐Dense Ferroelectric Memory"
   },
   "10.1002/advs.77601": {
     "journal": "Advanced Science",
@@ -788,6 +813,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
     "title": "Programmable Cascaded Optical Memristors Based on Phase-Change Materials for Photonic Neuromorphic Computing"
+  },
+  "10.1021/acsnano.6c08876": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-09-15T02:44:03.112887+00:00",
+    "title": "Chiral Morphology in MoS2 Nanostructures for Spin-Polarized Bifunctional Oxygen Electrocatalysis"
   },
   "10.1021/acsnano.6c09035": {
     "journal": "ACS Nano",
@@ -1014,6 +1044,11 @@
     "sent_at": "2026-09-11T02:18:06.276754+00:00",
     "title": "Autonomous robotic operation controlled by wave-based neuromorphic hardware"
   },
+  "10.1038/s41467-026-77800-w": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-15T02:44:03.112887+00:00",
+    "title": "Learning reorganizes dendritic and stabilizes axon initial segment inhibitory synapses in CA1 pyramidal neurons"
+  },
   "10.1038/s41563-026-02719-y": {
     "journal": "Nature Materials",
     "sent_at": "2026-08-28T08:14:15.270527+00:00",
@@ -1058,6 +1093,16 @@
     "journal": "Nature Electronics",
     "sent_at": "2026-09-05T02:15:57.083883+00:00",
     "title": "Subnanometre ferroelectricity in strain-engineered gallium oxide"
+  },
+  "10.1038/s41928-026-01706-0": {
+    "journal": "Nature Electronics",
+    "sent_at": "2026-09-15T02:44:03.112887+00:00",
+    "title": "A spiking neural network-in-logic architecture based on reconfigurable molybdenum disulfide dual-gate transistors with ferroelectric gating"
+  },
+  "10.1038/s41928-026-01719-9": {
+    "journal": "Nature Electronics",
+    "sent_at": "2026-09-15T02:44:03.112887+00:00",
+    "title": "Light-to-token conversion using MoS2"
   },
   "10.1126/sciadv.adq8840": {
     "journal": "Science Advances",

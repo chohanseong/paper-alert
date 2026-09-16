@@ -374,6 +374,11 @@
     "sent_at": "2026-09-11T02:18:06.276754+00:00",
     "title": "Tellurium‐Induced Phase‐Orbital Coupling Enables High‐Mobility p‐Type Tin Oxide Transistor"
   },
+  "10.1002/adfm.78335": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-16T02:38:56.778775+00:00",
+    "title": "Broadband Convolutional Processing Perception‐Memory‐Computation InSe Neuromorphic Vision Device for High‐Accuracy Recognition of Color Images"
+  },
   "10.1002/adfm.78360": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-15T02:44:03.112887+00:00",
@@ -389,6 +394,11 @@
     "sent_at": "2026-09-11T02:18:06.276754+00:00",
     "title": "Boosting Energy Storage of AgNbO 3 ‐Based Capacitors by Constructing Low‐Atomic‐Displacement Region and M 2 ‐M 3 Two‐Phase Coexistence Strategy"
   },
+  "10.1002/adfm.78418": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-16T02:38:56.778775+00:00",
+    "title": "Multivalued Logic and Encryption Based on Anti‐Ambipolar Transistor Dynamic Controlled by Light and Temperature"
+  },
   "10.1002/adfm.78420": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-13T02:23:08.956110+00:00",
@@ -399,10 +409,35 @@
     "sent_at": "2026-09-13T02:23:08.956110+00:00",
     "title": "Structure‐Guided Balancing of Ambipolar Transport Enables Symmetric Switching in Heterojunction Bilayer Organic Transistor Inverters"
   },
+  "10.1002/adfm.78443": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-16T02:38:56.778775+00:00",
+    "title": "An Adaptive Inhibitory WSe 2 Transistor for Retinomorphic In‐Sensor Image Processing"
+  },
   "10.1002/adfm.78446": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-13T02:23:08.956110+00:00",
     "title": "Memristors Empowering Next‐Generation Human‐Computer Interaction"
+  },
+  "10.1002/adfm.78451": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-16T02:38:56.778775+00:00",
+    "title": "Lead‐Free Relaxor Ferroelectric Ceramic for High Temperature Self‐Powered X‐Ray Imaging via Phase Boundary Engineering"
+  },
+  "10.1002/adfm.78461": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-16T02:38:56.778775+00:00",
+    "title": "Logic‐Native Ferroelectric Transistor Arrays for Neuromorphic Edge Vision"
+  },
+  "10.1002/adfm.78466": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-16T02:38:56.778775+00:00",
+    "title": "Sapphire Surface Reconstruction for Uniform Monolayer, Bilayer 2‐inch WSe 2 Wafers"
+  },
+  "10.1002/adfm.78493": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-16T02:38:56.778775+00:00",
+    "title": "Entropy‐Driven Local Polarization Engineering for Superior Energy Storage Performance"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -593,6 +628,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-09-12T02:25:08.288550+00:00",
     "title": "Ferroelectric‐Assisted van der Waals Charge‐Dynamics Reservoir Arrays for Spatiotemporal Computing"
+  },
+  "10.1002/adma.75003": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-16T02:38:56.778775+00:00",
+    "title": "Lithography‐Compatible Conductive Metal–Organic Frameworks for Scalable Electronics"
   },
   "10.1002/adma.75006": {
     "journal": "Advanced Materials",
@@ -969,6 +1009,11 @@
     "sent_at": "2026-09-03T02:20:02.244694+00:00",
     "title": "Dual effect of α-synuclein disease variants on condensate formation"
   },
+  "10.1038/s41467-026-77009-x": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-16T02:38:56.778775+00:00",
+    "title": "Interrogating DNA methylation associated with Lewy body pathology in a cross brain-region and multi-cohort study"
+  },
   "10.1038/s41467-026-77105-y": {
     "journal": "Nature Communications",
     "sent_at": "2026-09-03T02:20:02.244694+00:00",
@@ -1098,6 +1143,11 @@
     "journal": "Nature Electronics",
     "sent_at": "2026-09-15T02:44:03.112887+00:00",
     "title": "A spiking neural network-in-logic architecture based on reconfigurable molybdenum disulfide dual-gate transistors with ferroelectric gating"
+  },
+  "10.1038/s41928-026-01708-y": {
+    "journal": "Nature Electronics",
+    "sent_at": "2026-09-16T02:38:56.778775+00:00",
+    "title": "In situ monitoring of channel swelling in organic electrochemical transistors using a laser Doppler vibrometer"
   },
   "10.1038/s41928-026-01719-9": {
     "journal": "Nature Electronics",

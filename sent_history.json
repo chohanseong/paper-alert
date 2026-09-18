@@ -439,6 +439,11 @@
     "sent_at": "2026-09-16T02:38:56.778775+00:00",
     "title": "Sapphire Surface Reconstruction for Uniform Monolayer, Bilayer 2‐inch WSe 2 Wafers"
   },
+  "10.1002/adfm.78486": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-18T02:29:47.523301+00:00",
+    "title": "Recent Advances in Synaptic Photodetectors based on Colloidal Semiconductor Nanocrystals: Materials, Devices, Mechanisms, and Applications"
+  },
   "10.1002/adfm.78493": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-16T02:38:56.778775+00:00",
@@ -604,6 +609,11 @@
     "sent_at": "2026-09-11T02:18:06.276754+00:00",
     "title": "Descriptors to Dynamics: A Materials and Device Perspective on in‐Materio Physical Reservoir Computing for Neuromorphic Edge Intelligence"
   },
+  "10.1002/adma.74913": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-18T02:29:47.523301+00:00",
+    "title": "Nonequilibrium Interfacial Complexation Fibers With Programmable Ionic Memory"
+  },
   "10.1002/adma.74916": {
     "journal": "Advanced Materials",
     "sent_at": "2026-09-06T02:11:43.489414+00:00",
@@ -653,6 +663,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-09-13T02:23:08.956110+00:00",
     "title": "Deterministic Patterning and Alignment of Tellurium Quantum Wires Using Nanoscale Templates"
+  },
+  "10.1002/adma.75027": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-18T02:29:47.523301+00:00",
+    "title": "Bioinspired Mechanosensitive Organic Artificial Neuron With Programmable Excitatory and Inhibitory Responses via Nonlinear Mechano‐Electrochemical Coupling"
   },
   "10.1002/advs.202600020": {
     "journal": "Advanced Science",
@@ -829,6 +844,16 @@
     "sent_at": "2026-09-10T02:22:55.974707+00:00",
     "title": "Mechanisms of Temperature‐Dependent Hysteresis in Freestanding BaTiO 3 /MoS 2 Heterostructures"
   },
+  "10.1002/advs.77655": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-18T02:29:47.523301+00:00",
+    "title": "Organic Electrochemical Transistors for Neuromorphic Bioelectronics: Materials and Manufacturing Technologies"
+  },
+  "10.1002/advs.77814": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-18T02:29:47.523301+00:00",
+    "title": "A Bio‐Inspired Visual Sensor With UV‐to‐NIR Fusion for Enhanced Recognition in Autonomous Driving Systems"
+  },
   "10.1021/acsnano.5c06178": {
     "journal": "ACS Nano",
     "sent_at": "2026-08-14T01:15:27.558660+00:00",
@@ -903,6 +928,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-09-04T02:16:57.910144+00:00",
     "title": "Li-Based Electrochemical Memory Achieving Stable Analog Weight Modulation via Interface Engineering"
+  },
+  "10.1021/acsnano.6c14382": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-09-18T02:29:47.523301+00:00",
+    "title": "Fingerprint-Expanding Gaussian Transistors for Compact Physical Unclonable Functions"
   },
   "10.1038/s41467-026-74906-z": {
     "journal": "Nature Communications",
@@ -1118,6 +1148,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-09-15T02:44:03.112887+00:00",
     "title": "Learning reorganizes dendritic and stabilizes axon initial segment inhibitory synapses in CA1 pyramidal neurons"
+  },
+  "10.1038/s41467-026-77914-1": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-18T02:29:47.523301+00:00",
+    "title": "Large strain and high reversible dielectric tunability in Sm-modified PMN-PT ceramics"
   },
   "10.1038/s41563-026-02719-y": {
     "journal": "Nature Materials",

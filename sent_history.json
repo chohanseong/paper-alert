@@ -284,6 +284,11 @@
     "sent_at": "2026-09-01T02:53:02.286723+00:00",
     "title": "Colloidal Quantum Dots‐Based Bioinspired Reconfigurable Photoelectrochemical Device for Broadband Underwater Imaging and Photosynaptic Memory"
   },
+  "10.1002/adfm.78076": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-19T02:29:13.536824+00:00",
+    "title": "Defect‐Mediated Optical Gating in Phase‐Engineered Ferroelectrics for Machine‐Learning‐Assisted Optical Encryption"
+  },
   "10.1002/adfm.78102": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-01T02:53:02.286723+00:00",
@@ -434,6 +439,11 @@
     "sent_at": "2026-09-16T02:38:56.778775+00:00",
     "title": "Logic‐Native Ferroelectric Transistor Arrays for Neuromorphic Edge Vision"
   },
+  "10.1002/adfm.78465": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-19T02:29:13.536824+00:00",
+    "title": "A Stretchable Organic Electrochemical Transistor Mechano‐Synapse With Biomimetic Mechanotransduction for Intelligent Soft Electronic Skin"
+  },
   "10.1002/adfm.78466": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-16T02:38:56.778775+00:00",
@@ -443,6 +453,11 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-18T02:29:47.523301+00:00",
     "title": "Recent Advances in Synaptic Photodetectors based on Colloidal Semiconductor Nanocrystals: Materials, Devices, Mechanisms, and Applications"
+  },
+  "10.1002/adfm.78487": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-19T02:29:13.536824+00:00",
+    "title": "Thermosensitive Elastic Depinning Kinetics in Ultrathin Ferroelectric Hf x Zr 1−x O 2 Films for Self‐Revoking Cryogenic Memory"
   },
   "10.1002/adfm.78493": {
     "journal": "Advanced Functional Materials",
@@ -454,10 +469,20 @@
     "sent_at": "2026-09-17T02:42:54.625155+00:00",
     "title": "Ferroelectric Thin‑Film Polarization‑Sensitive Photodetector Based on the Plasmon‑Enhanced Bulk Photovoltaic Effect"
   },
+  "10.1002/adfm.78523": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-19T02:29:13.536824+00:00",
+    "title": "Sub‐1 ms Optoelectronic Synapse Based on {ZnCdO/ZnO} Multilayer Structure for High‐Speed Neuromorphic Vision Systems"
+  },
   "10.1002/adfm.78527": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-17T02:42:54.625155+00:00",
     "title": "Hybrid Ferroelectric Tunnel Junctions with Intrinsic Nonlinearity and Self‐Rectification via Interfacial Reconstruction"
+  },
+  "10.1002/adfm.78548": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-19T02:29:13.536824+00:00",
+    "title": "Multidimensional Optoelectronic Neuromorphic Vision Using Anisotropic Ferroelectric Heterostructures"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -668,6 +693,16 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-09-18T02:29:47.523301+00:00",
     "title": "Bioinspired Mechanosensitive Organic Artificial Neuron With Programmable Excitatory and Inhibitory Responses via Nonlinear Mechano‐Electrochemical Coupling"
+  },
+  "10.1002/adma.75044": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-19T02:29:13.536824+00:00",
+    "title": "Molecular Cocrystal‐Based Neuromorphic Vision System With Near‐Infrared Responsivity and High Electronic Performance for Facial Recognition in Scattering Media"
+  },
+  "10.1002/adma.75046": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-19T02:29:13.536824+00:00",
+    "title": "Ferroelectric‐Driven Nonvolatile Phase Transition in MoTe 2 Transistors With an Expanded Memory Window"
   },
   "10.1002/advs.202600020": {
     "journal": "Advanced Science",
@@ -1223,6 +1258,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-08-15T00:47:21.742041+00:00",
     "title": "Highly attenuated dendritic propagation of isolated synaptic potentials in vivo"
+  },
+  "10.1126/sciadv.aeb3077": {
+    "journal": "Science Advances",
+    "sent_at": "2026-09-19T02:29:13.536824+00:00",
+    "title": "High-speed reservoir computing using photonic integrated circuit optical parametric oscillators"
   },
   "10.1126/sciadv.aeb6839": {
     "journal": "Science Advances",

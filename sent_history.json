@@ -459,6 +459,11 @@
     "sent_at": "2026-09-19T02:29:13.536824+00:00",
     "title": "Thermosensitive Elastic Depinning Kinetics in Ultrathin Ferroelectric Hf x Zr 1−x O 2 Films for Self‐Revoking Cryogenic Memory"
   },
+  "10.1002/adfm.78491": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-22T02:40:07.375955+00:00",
+    "title": "Interface‐Engineered Giant Multistate Resistance Switching in Altermagnetic Multiferroic Tunnel Junctions"
+  },
   "10.1002/adfm.78493": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-16T02:38:56.778775+00:00",
@@ -703,6 +708,16 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-09-19T02:29:13.536824+00:00",
     "title": "Ferroelectric‐Driven Nonvolatile Phase Transition in MoTe 2 Transistors With an Expanded Memory Window"
+  },
+  "10.1002/adma.75093": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-22T02:40:07.375955+00:00",
+    "title": "Perovskite Photodetectors With Customizable Frequency Response"
+  },
+  "10.1002/adma.75096": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-22T02:40:07.375955+00:00",
+    "title": "A Memristor‐Based Saturation‐Constrained Information Capacity Framework for Temporal Information Processing"
   },
   "10.1002/advs.202600020": {
     "journal": "Advanced Science",
@@ -954,6 +969,11 @@
     "sent_at": "2026-09-09T02:24:17.737086+00:00",
     "title": "Critical Radius for Forming Oriented Few-Layer MoS2 on High-Curvature Nanostructures"
   },
+  "10.1021/acsnano.6c11805": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-09-22T02:40:07.375955+00:00",
+    "title": "Cross-Scale Mixed Conduction in Organic Electrochemical Transistors: From Nanoscale Ion–Electron Coupling to Biointegrated Intelligence"
+  },
   "10.1021/acsnano.6c12030": {
     "journal": "ACS Nano",
     "sent_at": "2026-09-17T02:42:54.625155+00:00",
@@ -1109,6 +1129,11 @@
     "sent_at": "2026-09-04T02:16:57.910144+00:00",
     "title": "Redox-dependent synaptic clustering of gephyrin"
   },
+  "10.1038/s41467-026-77186-9": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-22T02:40:07.375955+00:00",
+    "title": "Wafer-scale 2D MoS₂ transistors with sub-5 nm channel length and subthreshold performance beyond the silicon limit"
+  },
   "10.1038/s41467-026-77264-y": {
     "journal": "Nature Communications",
     "sent_at": "2026-09-12T02:25:08.288550+00:00",
@@ -1183,6 +1208,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-09-15T02:44:03.112887+00:00",
     "title": "Learning reorganizes dendritic and stabilizes axon initial segment inhibitory synapses in CA1 pyramidal neurons"
+  },
+  "10.1038/s41467-026-77913-2": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-22T02:40:07.375955+00:00",
+    "title": "Creation of ferroelectric flux-closure transistor array for non-volatile field-effect memory"
   },
   "10.1038/s41467-026-77914-1": {
     "journal": "Nature Communications",

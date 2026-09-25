@@ -489,6 +489,11 @@
     "sent_at": "2026-09-19T02:29:13.536824+00:00",
     "title": "Multidimensional Optoelectronic Neuromorphic Vision Using Anisotropic Ferroelectric Heterostructures"
   },
+  "10.1002/adfm.78615": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-25T02:45:46.771333+00:00",
+    "title": "Polar Chaos Unleashes Outstanding Energy Storage in Lead‐Free Multilayer Ceramic Capacitors"
+  },
   "10.1002/adfm.78624": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-24T02:29:23.646862+00:00",
@@ -498,6 +503,21 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-24T02:29:23.646862+00:00",
     "title": "Robust Ferroelectricity in Chalcogenides Down to 2 nm Particles"
+  },
+  "10.1002/adfm.78640": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-25T02:45:46.771333+00:00",
+    "title": "Defect‐Engineered N‐Doped ZnO as a Dual‐Functional Platform for PENG‐Driven Memristive Sensory Memory"
+  },
+  "10.1002/adfm.78647": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-25T02:45:46.771333+00:00",
+    "title": "Analog Classification of Human Hand Gestures Exploiting Dendritic Integration With an Organic Artificial Soma"
+  },
+  "10.1002/adfm.78689": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-25T02:45:46.771333+00:00",
+    "title": "Adsorption of Selected Chiral Small Molecules Preserves Stacking‐Dependent Polarization at van der Waals Interfaces"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -694,6 +714,11 @@
     "sent_at": "2026-09-12T02:25:08.288550+00:00",
     "title": "Ferroelectric‐Assisted van der Waals Charge‐Dynamics Reservoir Arrays for Spatiotemporal Computing"
   },
+  "10.1002/adma.75002": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-25T02:45:46.771333+00:00",
+    "title": "Elasticity‐Driven Periodic Polarization Patterns in a Chiral Ferroelectric Nematic Fluid"
+  },
   "10.1002/adma.75003": {
     "journal": "Advanced Materials",
     "sent_at": "2026-09-16T02:38:56.778775+00:00",
@@ -743,6 +768,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-09-24T02:29:23.646862+00:00",
     "title": "Programmable Doping‐Enabled Engineering of Hydrogel Iontronics for Tailored Soft Ionic Devices"
+  },
+  "10.1002/adma.75141": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-25T02:45:46.771333+00:00",
+    "title": "Ternary Field‐Effect Transistor by Antiferroelectric Gating"
   },
   "10.1002/advs.202600020": {
     "journal": "Advanced Science",
@@ -984,6 +1014,11 @@
     "sent_at": "2026-08-14T01:15:27.558660+00:00",
     "title": "Solution-Processed, Visible-Light-Emitting Diodes Based on Colloidal Two-Dimensional Materials"
   },
+  "10.1021/acsnano.6c09478": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-09-25T02:45:46.771333+00:00",
+    "title": "Boosting External Quantum Efficiency beyond 100% in a Nanosecond-Scale Fast Photovoltaic MoS2-Si Photodiode"
+  },
   "10.1021/acsnano.6c09588": {
     "journal": "ACS Nano",
     "sent_at": "2026-08-19T00:46:10.125829+00:00",
@@ -1113,6 +1148,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-08-16T00:50:26.821742+00:00",
     "title": "Giant bulk photovoltaic effect driven by interfacial symmetry breaking in MoS2/Ta2NiSe5 heterostructures"
+  },
+  "10.1038/s41467-026-76844-2": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-25T02:45:46.771333+00:00",
+    "title": "Jamming-controlled stochasticity in metal-insulator switching"
   },
   "10.1038/s41467-026-76878-6": {
     "journal": "Nature Communications",

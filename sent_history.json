@@ -524,6 +524,16 @@
     "sent_at": "2026-09-25T02:45:46.771333+00:00",
     "title": "Adsorption of Selected Chiral Small Molecules Preserves Stacking‐Dependent Polarization at van der Waals Interfaces"
   },
+  "10.1002/adfm.78743": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-27T02:49:36.611374+00:00",
+    "title": "Optical and Electrical Modulation of Ferroelectric Polarization Enabling Photovoltaic Polarity Reconfiguration in WSe 2 Vertical Homojunction"
+  },
+  "10.1002/adfm.78752": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-27T02:49:36.611374+00:00",
+    "title": "Imprint‐Controlled Tuning of Memory Windows in Ferroelectric Nonvolatile Memory Field‐Effect Transistors With Asymmetric Multilayers"
+  },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
     "sent_at": "2026-08-09T01:05:59.833279+00:00",
@@ -1248,6 +1258,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-09-09T02:24:17.737086+00:00",
     "title": "Ferroelectrically programmable lanthanide luminescent memristor"
+  },
+  "10.1038/s41467-026-77487-z": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-27T02:49:36.611374+00:00",
+    "title": "Microglia regulate nucleus accumbens synaptic development and circuit function underlying threat avoidance behaviors in mice"
   },
   "10.1038/s41467-026-77503-2": {
     "journal": "Nature Communications",

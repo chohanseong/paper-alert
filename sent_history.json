@@ -524,6 +524,11 @@
     "sent_at": "2026-09-25T02:45:46.771333+00:00",
     "title": "Adsorption of Selected Chiral Small Molecules Preserves Stacking‐Dependent Polarization at van der Waals Interfaces"
   },
+  "10.1002/adfm.78732": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-29T03:32:16.589610+00:00",
+    "title": "Bioinspired Ultralow‐Power Flexible Electro‐Optically Configurable Synaptic Transistors: An Integrated Perception‐Processing‐Tracking Visual Chain"
+  },
   "10.1002/adfm.78743": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-27T02:49:36.611374+00:00",
@@ -758,6 +763,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-09-19T02:29:13.536824+00:00",
     "title": "Ferroelectric‐Driven Nonvolatile Phase Transition in MoTe 2 Transistors With an Expanded Memory Window"
+  },
+  "10.1002/adma.75067": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-29T03:32:16.589610+00:00",
+    "title": "Epitaxially Integrated Electro‐Optic KNbO 3 Thin Films on Silicon"
   },
   "10.1002/adma.75069": {
     "journal": "Advanced Materials",
@@ -1028,6 +1038,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-08-24T00:48:50.824777+00:00",
     "title": "Symmetry-Programmed Pure Spin Photocurrents in Sliding Ferroelectric Altermagnets"
+  },
+  "10.1021/acsnano.6c07651": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-09-29T03:32:16.589610+00:00",
+    "title": "Emulation of Synaptic Functions with Poly(Ionic Liquid) Heterojunction for Visual Pattern Recognition"
   },
   "10.1021/acsnano.6c08339": {
     "journal": "ACS Nano",
@@ -1343,6 +1358,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-09-24T02:29:23.646862+00:00",
     "title": "Berry curvature dipole generation and nonreciprocal spin photocurrents in ferroelectricity polarized heterostructures"
+  },
+  "10.1038/s41467-026-78298-y": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-09-29T03:32:16.589610+00:00",
+    "title": "Author Correction: Nanoscale exchange-bias magnetic tunnel junctions enabled memristive synapse and leaky-integrate-fire neuron for neuromorphic computing"
   },
   "10.1038/s41563-026-02719-y": {
     "journal": "Nature Materials",

@@ -369,6 +369,11 @@
     "sent_at": "2026-09-08T02:20:45.758620+00:00",
     "title": "Reconfigurable In‐Sensor Processing Based on Photo‐Electric Tailored Photovoltaics"
   },
+  "10.1002/adfm.78293": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "Light Polarization Sensitive Transistor Action in the van der Waals Ferroelectric 4H‐SnS 2"
+  },
   "10.1002/adfm.78325": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-11T02:18:06.276754+00:00",
@@ -499,6 +504,11 @@
     "sent_at": "2026-09-25T02:45:46.771333+00:00",
     "title": "Polar Chaos Unleashes Outstanding Energy Storage in Lead‐Free Multilayer Ceramic Capacitors"
   },
+  "10.1002/adfm.78617": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "Surface Oxidation Induced Ferroelectricity and Memristor Like Conductance in Bulk T d ‐WTe 2"
+  },
   "10.1002/adfm.78624": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-24T02:29:23.646862+00:00",
@@ -524,6 +534,11 @@
     "sent_at": "2026-09-25T02:45:46.771333+00:00",
     "title": "Adsorption of Selected Chiral Small Molecules Preserves Stacking‐Dependent Polarization at van der Waals Interfaces"
   },
+  "10.1002/adfm.78728": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "Device–System Co‐Design of a Memristor‐Based 3D Convolutional Spiking Neural Network for Dynamic Vision Processing"
+  },
   "10.1002/adfm.78732": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-29T03:32:16.589610+00:00",
@@ -538,6 +553,26 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-27T02:49:36.611374+00:00",
     "title": "Imprint‐Controlled Tuning of Memory Windows in Ferroelectric Nonvolatile Memory Field‐Effect Transistors With Asymmetric Multilayers"
+  },
+  "10.1002/adfm.78755": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "Pressure‐Induced Topochemical Reconstruction for Quenchable Metastable ZnIn 2 S 4 With Enhanced Photoelectric Effect for Artificial Synapses Application"
+  },
+  "10.1002/adfm.78765": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "Lateral Scaling Effects on Thermal Transport in Suspended Bilayer WS 2 Nanoribbons"
+  },
+  "10.1002/adfm.78769": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "High‐Gain MoS 2 Differential PNP Bipolar Junction Transistors for Dynamic Amplification via Contact‐Barrier Tuning"
+  },
+  "10.1002/adfm.78811": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "Bias‐Free Tactile Synaptic Ionogel With Viscoelastic Memory for Biomechanical Monitoring"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -799,6 +834,16 @@
     "sent_at": "2026-09-25T02:45:46.771333+00:00",
     "title": "Ternary Field‐Effect Transistor by Antiferroelectric Gating"
   },
+  "10.1002/adma.75194": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "Topological Hall Effect Induced by Chiral Spin Textures at the Ferroelectric/Ferromagnetic Interface"
+  },
+  "10.1002/advs.202519007": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "Integrating Genetics With Epidemiological Measurements Identifies Burden QTLs of Inflammatory Bowel Disease across 20 Countries."
+  },
   "10.1002/advs.202522265": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-28T02:50:43.701185+00:00",
@@ -964,6 +1009,11 @@
     "sent_at": "2026-09-08T02:20:45.758620+00:00",
     "title": "Probabilistic Computing via Gate‐Tunable Random Telegraph Noise"
   },
+  "10.1002/advs.77560": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "High-Performance Violet Phosphorene-Based Device via Tellurium Doping-Induced Contact Resistance Reduction."
+  },
   "10.1002/advs.77570": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-10T02:22:55.974707+00:00",
@@ -978,6 +1028,11 @@
     "journal": "Advanced Science",
     "sent_at": "2026-09-10T02:22:55.974707+00:00",
     "title": "Multi‐Modal Low‐Power Adaptive Braille Recognition System Based on Hf 0.3 Zr 0.7 O 2 Memristor"
+  },
+  "10.1002/advs.77617": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "Solution-Processed Multi-Junction Optoelectronic Synapses for Mode-Switchable SWIR Neuromorphic Vision Sensing."
   },
   "10.1002/advs.77618": {
     "journal": "Advanced Science",
@@ -994,6 +1049,11 @@
     "sent_at": "2026-09-18T02:29:47.523301+00:00",
     "title": "Organic Electrochemical Transistors for Neuromorphic Bioelectronics: Materials and Manufacturing Technologies"
   },
+  "10.1002/advs.77797": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "A Dual-Programmable 2M NOR Flash Architecture for Energy-Efficient In-Memory Computing."
+  },
   "10.1002/advs.77814": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-18T02:29:47.523301+00:00",
@@ -1004,10 +1064,30 @@
     "sent_at": "2026-09-28T02:50:43.701185+00:00",
     "title": "Shear‐Mode Direct Piezoelectric Response of Ferroelectric Nematic Liquid Crystals"
   },
+  "10.1002/advs.77915": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "Solvent-Desorption-Induced Formation of a Long-Period Polymorph Yielding a High-Performance Porphyrin-Based Organic Semiconductor."
+  },
+  "10.1002/advs.77921": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "Ultralow‐Energy Analog Reservoir Computing via Reconfigurable 2‐Transistor Memory"
+  },
+  "10.1002/advs.77984": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "Beyond-Classical Ferroelectric Metamaterials: 3D-Printed Planar Lattices With Programmable Electro-Thermo-Mechanical Coupling."
+  },
   "10.1002/advs.78018": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-28T02:50:43.701185+00:00",
     "title": "Huntingtin Aggregate‐Responsive Autophagy Gene Circuit Mitigates Disease Pathology in R6/2 Mice"
+  },
+  "10.1002/advs.78038": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "Highly Stable and Non-Volatile Optoelectronic Synapses for Sensing, Memory, and Computing Enabled by a Deep-Potential Floating Gate."
   },
   "10.1021/acsnano.5c06178": {
     "journal": "ACS Nano",
@@ -1378,6 +1458,11 @@
     "journal": "Nature Materials",
     "sent_at": "2026-09-26T02:48:42.950682+00:00",
     "title": "Rapid-responsive and water-stable organic electrochemical transistors enabled by supramolecular artificial ion channels"
+  },
+  "10.1038/s41565-026-02280-4": {
+    "journal": "Nature Nanotechnology",
+    "sent_at": "2026-09-30T03:16:48.007856+00:00",
+    "title": "Single-crystal rhombohedral boron nitride wafers for integrated sliding ferroelectric memory"
   },
   "10.1038/s41928-026-01680-7": {
     "journal": "Nature Electronics",

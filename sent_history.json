@@ -569,10 +569,20 @@
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
     "title": "High‐Gain MoS 2 Differential PNP Bipolar Junction Transistors for Dynamic Amplification via Contact‐Barrier Tuning"
   },
+  "10.1002/adfm.78791": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-01T03:23:37.966140+00:00",
+    "title": "Dynamically Reconfigurable Multibit Modulator Enabled by Programmable Anti‐Ambipolar Memory Transistors"
+  },
   "10.1002/adfm.78811": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
     "title": "Bias‐Free Tactile Synaptic Ionogel With Viscoelastic Memory for Biomechanical Monitoring"
+  },
+  "10.1002/adfm.78812": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-01T03:23:37.966140+00:00",
+    "title": "Polarization‐Driven Optoelectronic Synapse With Programmable Plasticity for Neuromorphic Visual System"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -839,6 +849,11 @@
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
     "title": "Topological Hall Effect Induced by Chiral Spin Textures at the Ferroelectric/Ferromagnetic Interface"
   },
+  "10.1002/adma.75197": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-10-01T03:23:37.966140+00:00",
+    "title": "Enhanced Bulk Photovoltaics in Polar 2D Hybrid Perovskite via Pressure‐Strengthened Organic‐Inorganic Interactions"
+  },
   "10.1002/advs.202519007": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
@@ -1049,6 +1064,11 @@
     "sent_at": "2026-09-18T02:29:47.523301+00:00",
     "title": "Organic Electrochemical Transistors for Neuromorphic Bioelectronics: Materials and Manufacturing Technologies"
   },
+  "10.1002/advs.77733": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-01T03:23:37.966140+00:00",
+    "title": "Spatial Transcriptomics Reveals a T Cell‐Mediated Microglial Activation Axis of Immune Checkpoint Inhibition‐Related Adverse Events in the Brain"
+  },
   "10.1002/advs.77797": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
@@ -1074,10 +1094,20 @@
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
     "title": "Ultralow‐Energy Analog Reservoir Computing via Reconfigurable 2‐Transistor Memory"
   },
+  "10.1002/advs.77948": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-01T03:23:37.966140+00:00",
+    "title": "Multiferroic Quantum Criticality in a Proper Ferroelectric Quasi‐one‐dimensional Ising Antiferromagnet"
+  },
   "10.1002/advs.77984": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
     "title": "Beyond-Classical Ferroelectric Metamaterials: 3D-Printed Planar Lattices With Programmable Electro-Thermo-Mechanical Coupling."
+  },
+  "10.1002/advs.78006": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-01T03:23:37.966140+00:00",
+    "title": "Neonatal Sevoflurane Exposure Induces Long‐Term Cognitive Impairment via Epigenetically Mediated MMP9 Activation and Perineuronal Net Disruption in the Hippocampal CA2"
   },
   "10.1002/advs.78018": {
     "journal": "Advanced Science",
@@ -1088,6 +1118,11 @@
     "journal": "Advanced Science",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
     "title": "Highly Stable and Non-Volatile Optoelectronic Synapses for Sensing, Memory, and Computing Enabled by a Deep-Potential Floating Gate."
+  },
+  "10.1002/advs.78101": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-01T03:23:37.966140+00:00",
+    "title": "Trap‐Programmable Ruddlesden–Popper Perovskite Nanocrystals for Persistent Optoelectronic Memory and Photonic Synapses"
   },
   "10.1021/acsnano.5c06178": {
     "journal": "ACS Nano",
@@ -1459,6 +1494,11 @@
     "sent_at": "2026-09-26T02:48:42.950682+00:00",
     "title": "Rapid-responsive and water-stable organic electrochemical transistors enabled by supramolecular artificial ion channels"
   },
+  "10.1038/s41563-026-02747-8": {
+    "journal": "Nature Materials",
+    "sent_at": "2026-10-01T03:23:37.966140+00:00",
+    "title": "Amplitude-controllable event-driven organic photosensors based on ionic-mediated inhibition"
+  },
   "10.1038/s41565-026-02280-4": {
     "journal": "Nature Nanotechnology",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
@@ -1593,6 +1633,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-09-24T02:29:23.646862+00:00",
     "title": "Thalamofrontal synaptic weakening underlies short-term memory deficits from adolescent NMDAR hypofunction"
+  },
+  "10.1126/sciadv.aee4525": {
+    "journal": "Science Advances",
+    "sent_at": "2026-10-01T03:23:37.966140+00:00",
+    "title": "Electronic profiling of neuronal extracellular vesicles enables early prediction of Parkinson’s disease"
   },
   "10.1126/sciadv.aee9298": {
     "journal": "Science Advances",

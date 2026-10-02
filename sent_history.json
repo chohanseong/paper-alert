@@ -559,6 +559,11 @@
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
     "title": "Pressure‐Induced Topochemical Reconstruction for Quenchable Metastable ZnIn 2 S 4 With Enhanced Photoelectric Effect for Artificial Synapses Application"
   },
+  "10.1002/adfm.78756": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-02T03:24:05.161894+00:00",
+    "title": "Wafer Scale Solution Processing of 2D Transistors and Circuits With High Mobility Single‐Flake Transport"
+  },
   "10.1002/adfm.78765": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
@@ -854,6 +859,11 @@
     "sent_at": "2026-10-01T03:23:37.966140+00:00",
     "title": "Enhanced Bulk Photovoltaics in Polar 2D Hybrid Perovskite via Pressure‐Strengthened Organic‐Inorganic Interactions"
   },
+  "10.1002/adma.75224": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-10-02T03:24:05.161894+00:00",
+    "title": "Nonvolatile Ferroelectric Control of Diffusive Spin Transport at Room Temperature in Graphene/CuInP 2 S 6 Heterostructures"
+  },
   "10.1002/advs.202519007": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
@@ -1114,10 +1124,20 @@
     "sent_at": "2026-09-28T02:50:43.701185+00:00",
     "title": "Huntingtin Aggregate‐Responsive Autophagy Gene Circuit Mitigates Disease Pathology in R6/2 Mice"
   },
+  "10.1002/advs.78033": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-02T03:24:05.161894+00:00",
+    "title": "A Neutrophil Membrane‐Encapsulated Pd/hCeO 2 Nanoformulation for Alleviating Age‐Dependent Perioperative Neurocognitive Disorders"
+  },
   "10.1002/advs.78038": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
     "title": "Highly Stable and Non-Volatile Optoelectronic Synapses for Sensing, Memory, and Computing Enabled by a Deep-Potential Floating Gate."
+  },
+  "10.1002/advs.78099": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-02T03:24:05.161894+00:00",
+    "title": "EphB1 Receptor Blockade Augments Morphine Antinociception via Inhibiting GRK2‐Mediated µ‐Opioid Receptor Internalization"
   },
   "10.1002/advs.78101": {
     "journal": "Advanced Science",
@@ -1374,6 +1394,11 @@
     "sent_at": "2026-09-04T02:16:57.910144+00:00",
     "title": "Redox-dependent synaptic clustering of gephyrin"
   },
+  "10.1038/s41467-026-77175-y": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-10-02T03:24:05.161894+00:00",
+    "title": "High-entropy enabled two-dimensional ferroelectricity and memristive synapses in van der Waals layered materials"
+  },
   "10.1038/s41467-026-77186-9": {
     "journal": "Nature Communications",
     "sent_at": "2026-09-22T02:40:07.375955+00:00",
@@ -1473,6 +1498,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-09-24T02:29:23.646862+00:00",
     "title": "Berry curvature dipole generation and nonreciprocal spin photocurrents in ferroelectricity polarized heterostructures"
+  },
+  "10.1038/s41467-026-78157-w": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-10-02T03:24:05.161894+00:00",
+    "title": "Low contact resistance and high current density in ballistic p-type transistors based on oxygen-doped WSe2 monolayers"
   },
   "10.1038/s41467-026-78298-y": {
     "journal": "Nature Communications",

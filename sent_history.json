@@ -1709,6 +1709,11 @@
     "sent_at": "2026-08-22T00:46:43.074646+00:00",
     "title": "Molecular-driven lead-free halide photoferroelectric solid solution for high-temperature sensitive self-powered x-ray detection"
   },
+  "10.1126/sciadv.aef9861": {
+    "journal": "Science Advances",
+    "sent_at": "2026-10-03T03:08:18.632185+00:00",
+    "title": "Bulk ferroelectric heterostructures"
+  },
   "10.1126/sciadv.aeg0958": {
     "journal": "Science Advances",
     "sent_at": "2026-09-12T02:25:08.288550+00:00",
@@ -1743,5 +1748,10 @@
     "journal": "Science Advances",
     "sent_at": "2026-09-17T02:42:54.625155+00:00",
     "title": "Direct visualization of interfacial defect effects on polarization switching in BaTiO 3 tunnel junctions"
+  },
+  "10.1126/sciadv.ael7308": {
+    "journal": "Science Advances",
+    "sent_at": "2026-10-03T03:08:18.632185+00:00",
+    "title": "Erratum for the Research Article “AAGGG repeat expansions trigger RFC1-independent synaptic dysregulation in human CANVAS neurons” by C. Maltby et al."
   }
 }

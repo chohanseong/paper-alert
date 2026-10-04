@@ -534,6 +534,11 @@
     "sent_at": "2026-09-25T02:45:46.771333+00:00",
     "title": "Adsorption of Selected Chiral Small Molecules Preserves Stacking‐Dependent Polarization at van der Waals Interfaces"
   },
+  "10.1002/adfm.78714": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-04T03:36:47.570826+00:00",
+    "title": "Current‐Driven Chirality Detection of Magnetic Textures in Cylindrical Nanowires"
+  },
   "10.1002/adfm.78728": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
@@ -579,6 +584,11 @@
     "sent_at": "2026-10-01T03:23:37.966140+00:00",
     "title": "Dynamically Reconfigurable Multibit Modulator Enabled by Programmable Anti‐Ambipolar Memory Transistors"
   },
+  "10.1002/adfm.78799": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-04T03:36:47.570826+00:00",
+    "title": "Atomic‐Scale Visualization of Topotactic Resistive Switching in Epitaxial La 0.5 Sr 0.5 CoO x Neuromorphic Memristors"
+  },
   "10.1002/adfm.78811": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
@@ -588,6 +598,11 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-10-01T03:23:37.966140+00:00",
     "title": "Polarization‐Driven Optoelectronic Synapse With Programmable Plasticity for Neuromorphic Visual System"
+  },
+  "10.1002/adfm.78817": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-04T03:36:47.570826+00:00",
+    "title": "Can Organic and Oxide Semiconductors Do More Than Coexist? Functional Heterointerfaces for Hybrid Thin‐Film Transistors"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -1219,6 +1234,11 @@
     "sent_at": "2026-09-24T02:29:23.646862+00:00",
     "title": "Quantifying Variability, Symmetry, and Nonlinearity of Protonic Electrochemical Random-Access Memory for Hardware Neural Network Training"
   },
+  "10.1021/acsnano.6c10356": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-10-04T03:36:47.570826+00:00",
+    "title": "Scalable Independently Tunable MoS2 Memtransistor via Contact-Engineering for Cardiac Signal Processing"
+  },
   "10.1021/acsnano.6c10469": {
     "journal": "ACS Nano",
     "sent_at": "2026-09-09T02:24:17.737086+00:00",
@@ -1494,6 +1514,11 @@
     "sent_at": "2026-09-18T02:29:47.523301+00:00",
     "title": "Large strain and high reversible dielectric tunability in Sm-modified PMN-PT ceramics"
   },
+  "10.1038/s41467-026-78039-1": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-10-04T03:36:47.570826+00:00",
+    "title": "Bulk mesophases modeling of ferroelectric nematic liquid crystals"
+  },
   "10.1038/s41467-026-78052-4": {
     "journal": "Nature Communications",
     "sent_at": "2026-09-24T02:29:23.646862+00:00",
@@ -1508,6 +1533,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-09-29T03:32:16.589610+00:00",
     "title": "Author Correction: Nanoscale exchange-bias magnetic tunnel junctions enabled memristive synapse and leaky-integrate-fire neuron for neuromorphic computing"
+  },
+  "10.1038/s41467-026-78364-5": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-10-04T03:36:47.570826+00:00",
+    "title": "Monolithic three-dimensionally integrated memristor-thin-film transistor for electrically programmable multimode reservoir computing"
   },
   "10.1038/s41563-026-02719-y": {
     "journal": "Nature Materials",

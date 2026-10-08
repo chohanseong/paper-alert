@@ -609,6 +609,21 @@
     "sent_at": "2026-10-04T03:36:47.570826+00:00",
     "title": "Can Organic and Oxide Semiconductors Do More Than Coexist? Functional Heterointerfaces for Hybrid Thin‐Film Transistors"
   },
+  "10.1002/adfm.78824": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-08T03:48:37.717333+00:00",
+    "title": "Contact Engineering Toward High‐Performance MoS 2 Neuromorphic Devices"
+  },
+  "10.1002/adfm.78856": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-08T03:48:37.717333+00:00",
+    "title": "Light‐Assisted Sub‐Coercive Ferroelectric Programming for Reconfigurable In‐Sensor Logic"
+  },
+  "10.1002/adfm.78910": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-08T03:48:37.717333+00:00",
+    "title": "Multi‐Timescale In‐Sensor Reservoir Computing With Composition‐Engineered InSnO Optoelectronic Synaptic Transistors"
+  },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
     "sent_at": "2026-08-09T01:05:59.833279+00:00",
@@ -888,6 +903,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-10-02T03:24:05.161894+00:00",
     "title": "Nonvolatile Ferroelectric Control of Diffusive Spin Transport at Room Temperature in Graphene/CuInP 2 S 6 Heterostructures"
+  },
+  "10.1002/adma.75239": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-10-08T03:48:37.717333+00:00",
+    "title": "Reactivity‐Guided Janus Graphene With Asymmetric Interfacial Electrostatics for Tunable Charge Transport"
   },
   "10.1002/adma.75254": {
     "journal": "Advanced Materials",
@@ -1194,6 +1214,21 @@
     "sent_at": "2026-10-05T03:20:04.126939+00:00",
     "title": "Modifying Electrochemical Doping in Light‐Emitting Electrochemical Cells With Gold Nanoparticles"
   },
+  "10.1002/advs.78149": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-08T03:48:37.717333+00:00",
+    "title": "Reconsidering Control Logic and Translational Interpretation in TNEA‐Based Modulation of Hippocampal Oscillations"
+  },
+  "10.1002/advs.78179": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-08T03:48:37.717333+00:00",
+    "title": "Modulation of Presynaptic Inhibitory Retinal Circuits for Retinal Ganglion Cell Neuroprotection in Glaucoma"
+  },
+  "10.1002/advs.78190": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-08T03:48:37.717333+00:00",
+    "title": "A Hypothalamic Oxytocinergic–Sympathetic Axis Couples Anxiety Dysregulation With Impaired Tendon–Bone Repair"
+  },
   "10.1021/acsnano.5c06178": {
     "journal": "ACS Nano",
     "sent_at": "2026-08-14T01:15:27.558660+00:00",
@@ -1263,6 +1298,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-08-14T01:15:27.558660+00:00",
     "title": "Solution-Processed, Visible-Light-Emitting Diodes Based on Colloidal Two-Dimensional Materials"
+  },
+  "10.1021/acsnano.6c09449": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-10-08T03:48:37.717333+00:00",
+    "title": "Beyond Scalar Objectives: Expert-Feedback-Driven Autonomous Experimentation for Scientific Discovery at the Nanoscale"
   },
   "10.1021/acsnano.6c09478": {
     "journal": "ACS Nano",
@@ -1454,6 +1494,11 @@
     "sent_at": "2026-09-03T02:20:02.244694+00:00",
     "title": "Barcoded Rabies In Situ Connectomics for high-throughput reconstruction of neural circuits"
   },
+  "10.1038/s41467-026-77110-1": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-10-08T03:48:37.717333+00:00",
+    "title": "Spatiotemporal co-regulation of IL2 and TCR receptors reveals early antigen-driven synaptic synergy in human CD8+ T cells"
+  },
   "10.1038/s41467-026-77147-2": {
     "journal": "Nature Communications",
     "sent_at": "2026-09-04T02:16:57.910144+00:00",
@@ -1589,10 +1634,20 @@
     "sent_at": "2026-09-29T03:32:16.589610+00:00",
     "title": "Author Correction: Nanoscale exchange-bias magnetic tunnel junctions enabled memristive synapse and leaky-integrate-fire neuron for neuromorphic computing"
   },
+  "10.1038/s41467-026-78336-9": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-10-08T03:48:37.717333+00:00",
+    "title": "Interfacial ferroelectricity at naturally-formed van der Waals interfaces"
+  },
   "10.1038/s41467-026-78364-5": {
     "journal": "Nature Communications",
     "sent_at": "2026-10-04T03:36:47.570826+00:00",
     "title": "Monolithic three-dimensionally integrated memristor-thin-film transistor for electrically programmable multimode reservoir computing"
+  },
+  "10.1038/s41467-026-78436-6": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-10-08T03:48:37.717333+00:00",
+    "title": "Author Correction: Ferroelectric ultraviolet photodetector material with ultrafast response speed"
   },
   "10.1038/s41563-026-02719-y": {
     "journal": "Nature Materials",
@@ -1784,6 +1839,11 @@
     "sent_at": "2026-09-17T02:42:54.625155+00:00",
     "title": "Investigations of spin textures at small length and short timescales with neutron, x-ray, and optical methods"
   },
+  "10.1126/sciadv.aef4354": {
+    "journal": "Science Advances",
+    "sent_at": "2026-10-08T03:48:37.717333+00:00",
+    "title": "Wafer-scale synthesis of WSe 2 for high-performance p-type top-gated transistors and logic circuits"
+  },
   "10.1126/sciadv.aef4951": {
     "journal": "Science Advances",
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
@@ -1814,6 +1874,11 @@
     "sent_at": "2026-08-20T00:45:59.668236+00:00",
     "title": "Undoing of firing rate adaptation enables invariant population codes"
   },
+  "10.1126/sciadv.aeg4558": {
+    "journal": "Science Advances",
+    "sent_at": "2026-10-08T03:48:37.717333+00:00",
+    "title": "Solution-processed organic infrared photodetectors operating beyond 1.4 μm for sensitive environmental monitoring"
+  },
   "10.1126/sciadv.aeg8564": {
     "journal": "Science Advances",
     "sent_at": "2026-09-17T02:42:54.625155+00:00",
@@ -1833,6 +1898,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-09-17T02:42:54.625155+00:00",
     "title": "Direct visualization of interfacial defect effects on polarization switching in BaTiO 3 tunnel junctions"
+  },
+  "10.1126/sciadv.aei7570": {
+    "journal": "Science Advances",
+    "sent_at": "2026-10-08T03:48:37.717333+00:00",
+    "title": "Sensory receptor expansion and neural accommodation in butterfly color vision"
   },
   "10.1126/sciadv.ael7308": {
     "journal": "Science Advances",

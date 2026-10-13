@@ -634,6 +634,11 @@
     "sent_at": "2026-10-08T03:48:37.717333+00:00",
     "title": "Multi‐Timescale In‐Sensor Reservoir Computing With Composition‐Engineered InSnO Optoelectronic Synaptic Transistors"
   },
+  "10.1002/adfm.78912": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-13T04:49:10.151881+00:00",
+    "title": "Spatially Complementary In‐Plane Lattice Strain Engineering for Reduced Contact Resistance and Enhanced Ferroelectric Switching in Van Der Waals α‐In 2 Se 3 Ferroelectric Semiconductor Field‐Effect Transistors"
+  },
   "10.1002/adfm.78920": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-10-10T03:38:10.877574+00:00",
@@ -643,6 +648,11 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-10-09T03:53:56.149119+00:00",
     "title": "Biomimetic Dual‐Stream Neurons with Organic–Inorganic Heterojunction for Efficient Neuromorphic Vision Computing"
+  },
+  "10.1002/adfm.79015": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-13T04:49:10.151881+00:00",
+    "title": "Topology‐Guided Hierarchical Programming of Transfer Characteristics in Single‐Molecule Electrochemical Transistors"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -949,6 +959,11 @@
     "sent_at": "2026-10-07T03:34:12.046724+00:00",
     "title": "Helicity‐Defined Analog Conductance States in Chiral Perovskite Synapses"
   },
+  "10.1002/adma.75320": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-10-13T04:49:10.151881+00:00",
+    "title": "Dual‐Encrypted Ultraviolet Optical Communication Driven by Opto‐Piezoelectric Coupling in Two‐Dimensional Flexible Ferroelectric Single‐Crystalline Thin‐Films"
+  },
   "10.1002/advs.202519007": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
@@ -1254,6 +1269,11 @@
     "sent_at": "2026-10-08T03:48:37.717333+00:00",
     "title": "A Hypothalamic Oxytocinergic–Sympathetic Axis Couples Anxiety Dysregulation With Impaired Tendon–Bone Repair"
   },
+  "10.1002/advs.78209": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-13T04:49:10.151881+00:00",
+    "title": "Lattice Disorder in CuI Enables Filament‐Free Transparent Memristors"
+  },
   "10.1021/acsnano.5c06178": {
     "journal": "ACS Nano",
     "sent_at": "2026-08-14T01:15:27.558660+00:00",
@@ -1383,6 +1403,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-09-18T02:29:47.523301+00:00",
     "title": "Fingerprint-Expanding Gaussian Transistors for Compact Physical Unclonable Functions"
+  },
+  "10.1021/acsnano.6c14423": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-10-13T04:49:10.151881+00:00",
+    "title": "A Capacitively Coupled Dual-Gate 2D Transistor Unifying Logic-in-Memory and Tunable Synaptic Plasticity"
   },
   "10.1038/s41467-026-74906-z": {
     "journal": "Nature Communications",

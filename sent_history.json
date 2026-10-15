@@ -654,6 +654,11 @@
     "sent_at": "2026-10-14T02:55:50.168299+00:00",
     "title": "Neuromorphic Devices for Extreme Environments: State‐Variable Reliability and Stabilization Strategies"
   },
+  "10.1002/adfm.78989": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-15T02:35:38.289857+00:00",
+    "title": "Neuromorphic Computing with Interfacial Dynamics in Electrolytic Memristive Synapse"
+  },
   "10.1002/adfm.78995": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-10-14T02:55:50.168299+00:00",
@@ -663,6 +668,11 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-10-13T04:49:10.151881+00:00",
     "title": "Topology‐Guided Hierarchical Programming of Transfer Characteristics in Single‐Molecule Electrochemical Transistors"
+  },
+  "10.1002/adfm.79045": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-15T02:35:38.289857+00:00",
+    "title": "Programming Multi‐Timescale Carrier Dynamics in Circularly Polarized Light Photodetectors for Polarization Neuromorphic Vision"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -979,6 +989,11 @@
     "sent_at": "2026-10-13T04:49:10.151881+00:00",
     "title": "Dual‐Encrypted Ultraviolet Optical Communication Driven by Opto‐Piezoelectric Coupling in Two‐Dimensional Flexible Ferroelectric Single‐Crystalline Thin‐Films"
   },
+  "10.1002/adma.75369": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-10-15T02:35:38.289857+00:00",
+    "title": "Nonreciprocal Bending in Ferroelectric Membranes Driven by Flexoelectricity"
+  },
   "10.1002/advs.202519007": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
@@ -1103,6 +1118,11 @@
     "journal": "Advanced Science",
     "sent_at": "2026-08-22T00:46:43.074646+00:00",
     "title": "Van der Waals Heterostructures for Next‐Generation Spintronics: Multiferroic‐Mediated Magnetoelectric Properties"
+  },
+  "10.1002/advs.77239": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-15T02:35:38.289857+00:00",
+    "title": "Artificial Grain Boundaries Created by Freestanding Membrane Transfer Reveal Angle‐Dependent Ferroelectric Switching and Leakage in BaTiO 3"
   },
   "10.1002/advs.77375": {
     "journal": "Advanced Science",
@@ -1338,6 +1358,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-08-08T10:25:04.455653+00:00",
     "title": "Programmable Cascaded Optical Memristors Based on Phase-Change Materials for Photonic Neuromorphic Computing"
+  },
+  "10.1021/acsnano.6c08428": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-10-15T02:35:38.289857+00:00",
+    "title": "Unified Single-Transistor Cell for Multimode Reconfigurable Logic and Ternary In-Memory Search"
   },
   "10.1021/acsnano.6c08876": {
     "journal": "ACS Nano",
@@ -1724,6 +1749,11 @@
     "sent_at": "2026-10-08T03:48:37.717333+00:00",
     "title": "Interfacial ferroelectricity at naturally-formed van der Waals interfaces"
   },
+  "10.1038/s41467-026-78354-7": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-10-15T02:35:38.289857+00:00",
+    "title": "Universal crystallization kinetics of solution-processed semiconductors"
+  },
   "10.1038/s41467-026-78364-5": {
     "journal": "Nature Communications",
     "sent_at": "2026-10-04T03:36:47.570826+00:00",
@@ -1763,6 +1793,11 @@
     "journal": "Nature Nanotechnology",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
     "title": "Single-crystal rhombohedral boron nitride wafers for integrated sliding ferroelectric memory"
+  },
+  "10.1038/s41565-026-02293-z": {
+    "journal": "Nature Nanotechnology",
+    "sent_at": "2026-10-15T02:35:38.289857+00:00",
+    "title": "Sliding ferroelectricity scales up"
   },
   "10.1038/s41928-026-01680-7": {
     "journal": "Nature Electronics",
@@ -1818,6 +1853,11 @@
     "journal": "Nature Electronics",
     "sent_at": "2026-09-24T02:29:23.646862+00:00",
     "title": "Finding ferroelectricity"
+  },
+  "10.1038/s41928-026-01730-0": {
+    "journal": "Nature Electronics",
+    "sent_at": "2026-10-15T02:35:38.289857+00:00",
+    "title": "Building indium oxide transistors in three dimensions"
   },
   "10.1126/sciadv.adq8840": {
     "journal": "Science Advances",
@@ -1988,6 +2028,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-09-17T02:42:54.625155+00:00",
     "title": "Direct visualization of interfacial defect effects on polarization switching in BaTiO 3 tunnel junctions"
+  },
+  "10.1126/sciadv.aeh9563": {
+    "journal": "Science Advances",
+    "sent_at": "2026-10-15T02:35:38.289857+00:00",
+    "title": "Vitamin D binding protein in ventral CA3 of the hippocampus drives stress-induced depression"
   },
   "10.1126/sciadv.aei7570": {
     "journal": "Science Advances",

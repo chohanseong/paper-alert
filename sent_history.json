@@ -649,6 +649,11 @@
     "sent_at": "2026-10-09T03:53:56.149119+00:00",
     "title": "Biomimetic Dual‐Stream Neurons with Organic–Inorganic Heterojunction for Efficient Neuromorphic Vision Computing"
   },
+  "10.1002/adfm.78947": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-20T02:49:54.644284+00:00",
+    "title": "Noise‐Driven Functionality in Neuromorphic Materials, Devices, and Systems"
+  },
   "10.1002/adfm.78949": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-10-14T02:55:50.168299+00:00",
@@ -698,6 +703,11 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-10-16T02:30:37.725495+00:00",
     "title": "Entropy‐Engineered Topological Relaxor States in Lead‐Free Ferroelectric Superlattices for High‐Performance Capacitive Energy Storage"
+  },
+  "10.1002/adfm.79169": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-20T02:49:54.644284+00:00",
+    "title": "Hydrogen‐Bonding/Steric‐Effect Competition Drives Symmetry Differentiation Toward Antiferroelectric and Ferroelectric States in Homologous 1D Hybrid Lead Bromides"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -1019,6 +1029,11 @@
     "sent_at": "2026-10-15T02:35:38.289857+00:00",
     "title": "Nonreciprocal Bending in Ferroelectric Membranes Driven by Flexoelectricity"
   },
+  "10.1002/adma.75389": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-10-20T02:49:54.644284+00:00",
+    "title": "Chiral Phonon–Driven Ultrafast Spin Currents in a Non‐Magnetic Ferroelectric"
+  },
   "10.1002/adma.75390": {
     "journal": "Advanced Materials",
     "sent_at": "2026-10-16T02:30:37.725495+00:00",
@@ -1028,6 +1043,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-10-16T02:30:37.725495+00:00",
     "title": "High‐Performance Low Threshold Voltage n ‐Type OECTs via a Stepwise Cyanation of Quinoxaline‐Based Polymeric Semiconductor"
+  },
+  "10.1002/adma.75434": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-10-20T02:49:54.644284+00:00",
+    "title": "Breaking the Boltzmann Limit: A Review of Emerging Ultralow‐Power Transistor Technologies"
   },
   "10.1002/advs.202519007": {
     "journal": "Advanced Science",
@@ -1528,6 +1548,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-10-13T04:49:10.151881+00:00",
     "title": "A Capacitively Coupled Dual-Gate 2D Transistor Unifying Logic-in-Memory and Tunable Synaptic Plasticity"
+  },
+  "10.1021/acsnano.6c14517": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-10-20T02:49:54.644284+00:00",
+    "title": "Ferroelectric Switching of Skyrmion Topology in 2D Multiferroics"
   },
   "10.1021/acsnano.6c15470": {
     "journal": "ACS Nano",

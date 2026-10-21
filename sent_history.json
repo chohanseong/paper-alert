@@ -1514,10 +1514,20 @@
     "sent_at": "2026-09-23T02:39:46.280204+00:00",
     "title": "Spatially Decoupled Ionic Pathways for Preserved Energetic Disorder of Organic Mixed Conductors"
   },
+  "10.1021/acsnano.6c11662": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-10-21T02:43:48.881033+00:00",
+    "title": "Monolithic 3D Stacked Carbon Nanotube/Indium–Tin–Oxide Complementary Transistors for High-Frequency Logic and Sense Amplifier Integration with Memory"
+  },
   "10.1021/acsnano.6c11805": {
     "journal": "ACS Nano",
     "sent_at": "2026-09-22T02:40:07.375955+00:00",
     "title": "Cross-Scale Mixed Conduction in Organic Electrochemical Transistors: From Nanoscale Ion–Electron Coupling to Biointegrated Intelligence"
+  },
+  "10.1021/acsnano.6c11972": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-10-21T02:43:48.881033+00:00",
+    "title": "Sliding Ferroelectric Tunnel Junctions with Ultrahigh Tunneling Electroresistance"
   },
   "10.1021/acsnano.6c12030": {
     "journal": "ACS Nano",
@@ -1533,6 +1543,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-10-14T02:55:50.168299+00:00",
     "title": "Nanoscale Spintronic Microwave Devices: From Fundamental Mechanisms to Emerging Applications"
+  },
+  "10.1021/acsnano.6c13488": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-10-21T02:43:48.881033+00:00",
+    "title": "Achieving Robust Ferroelectric Properties of Hf0.6Zr0.4O2 Thin Films through the Pseudofield-Inducing Effect of Al0.85Sc0.15N Bottom Electrode"
   },
   "10.1021/acsnano.6c13869": {
     "journal": "ACS Nano",
@@ -1558,6 +1573,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-10-14T02:55:50.168299+00:00",
     "title": "Emergent Phenomena in Wurtzite Ferroelectric Semiconductors"
+  },
+  "10.1021/acsnano.6c18064": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-10-21T02:43:48.881033+00:00",
+    "title": "Multi-Terminal Reconfigurable Silver Nanowire Network for Associative-Learning-Like Response and Path Optimization"
   },
   "10.1038/s41467-026-74906-z": {
     "journal": "Nature Communications",
@@ -1913,6 +1933,11 @@
     "journal": "Nature Nanotechnology",
     "sent_at": "2026-10-15T02:35:38.289857+00:00",
     "title": "Sliding ferroelectricity scales up"
+  },
+  "10.1038/s41565-026-02309-8": {
+    "journal": "Nature Nanotechnology",
+    "sent_at": "2026-10-21T02:43:48.881033+00:00",
+    "title": "Stacking-specific two-dimensional In2Se3 for ferroelectric homojunctions"
   },
   "10.1038/s41928-026-01680-7": {
     "journal": "Nature Electronics",

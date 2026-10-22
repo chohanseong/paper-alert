@@ -704,6 +704,16 @@
     "sent_at": "2026-10-16T02:30:37.725495+00:00",
     "title": "Entropy‐Engineered Topological Relaxor States in Lead‐Free Ferroelectric Superlattices for High‐Performance Capacitive Energy Storage"
   },
+  "10.1002/adfm.79144": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-22T02:41:45.349932+00:00",
+    "title": "Programming Neuromorphic Plasticity Through Ionic and Electronic Coupling in Organic Electrochemical Transistors"
+  },
+  "10.1002/adfm.79151": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-22T02:41:45.349932+00:00",
+    "title": "Low‐Flicker‐Noise MoS 2 Transistors Enabled by High‐ κ Rare‐Earth Oxychlorides for Mixed‐Signal Electronics"
+  },
   "10.1002/adfm.79169": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-10-20T02:49:54.644284+00:00",
@@ -994,6 +1004,11 @@
     "sent_at": "2026-10-02T03:24:05.161894+00:00",
     "title": "Nonvolatile Ferroelectric Control of Diffusive Spin Transport at Room Temperature in Graphene/CuInP 2 S 6 Heterostructures"
   },
+  "10.1002/adma.75235": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-10-22T02:41:45.349932+00:00",
+    "title": "Bridging Biosensing and Hardware‐Level Data Security With a Conjugated Radical Polymer"
+  },
   "10.1002/adma.75239": {
     "journal": "Advanced Materials",
     "sent_at": "2026-10-08T03:48:37.717333+00:00",
@@ -1048,6 +1063,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-10-20T02:49:54.644284+00:00",
     "title": "Breaking the Boltzmann Limit: A Review of Emerging Ultralow‐Power Transistor Technologies"
+  },
+  "10.1002/adma.75438": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-10-22T02:41:45.349932+00:00",
+    "title": "Biomass DNA: An Emerging Building Block for Advanced Materials"
   },
   "10.1002/advs.202519007": {
     "journal": "Advanced Science",
@@ -1399,6 +1419,16 @@
     "sent_at": "2026-10-19T02:37:58.684890+00:00",
     "title": "AKAP1 Protects Retinal Ganglion Cells and Preserves Vision by Improving Mitochondrial and Synaptic Health in Glaucomatous Neurodegeneration"
   },
+  "10.1002/advs.78389": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-22T02:41:45.349932+00:00",
+    "title": "Interfacial Polarization Dynamics of Nitrile Dipoles in Organic Synaptic Transistors for Acoustic Reservoir Computing"
+  },
+  "10.1002/advs.78415": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-22T02:41:45.349932+00:00",
+    "title": "Multifunctional Vertical Bulk‐Heterojunction Transistors With Amorphous GaO x for Neuromorphic Perception‐to‐Decision"
+  },
   "10.1021/acsnano.5c06178": {
     "journal": "ACS Nano",
     "sent_at": "2026-08-14T01:15:27.558660+00:00",
@@ -1533,6 +1563,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-09-17T02:42:54.625155+00:00",
     "title": "Nonsurgical Platelet Membrane-Decorated Gold Yarnball Brain Antenna for In Situ Nitric Oxide Generation and Neuronal Regeneration"
+  },
+  "10.1021/acsnano.6c12433": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-10-22T02:41:45.349932+00:00",
+    "title": "Noise-Suppressed High-Performance WSe2 Phototransistors Enabled by Optically Programmed Remote Contact Doping"
   },
   "10.1021/acsnano.6c12450": {
     "journal": "ACS Nano",
@@ -1904,6 +1939,11 @@
     "sent_at": "2026-10-16T02:30:37.725495+00:00",
     "title": "High-performance p-type two-dimensional transistors enabled by weak disorder engineering"
   },
+  "10.1038/s41467-026-78845-7": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-10-22T02:41:45.349932+00:00",
+    "title": "Chronic TFE3 activation in TFE3-associated neurodevelopmental disorder drives metabolic rigidity, lysosomal failure, and cell-extracellular matrix destabilization"
+  },
   "10.1038/s41563-026-02719-y": {
     "journal": "Nature Materials",
     "sent_at": "2026-08-28T08:14:15.270527+00:00",
@@ -2159,6 +2199,11 @@
     "sent_at": "2026-10-08T03:48:37.717333+00:00",
     "title": "Solution-processed organic infrared photodetectors operating beyond 1.4 μm for sensitive environmental monitoring"
   },
+  "10.1126/sciadv.aeg5289": {
+    "journal": "Science Advances",
+    "sent_at": "2026-10-22T02:41:45.349932+00:00",
+    "title": "High ambipolar mobility fluorinated MXene for ultrasensitive biosensing transistors"
+  },
   "10.1126/sciadv.aeg8564": {
     "journal": "Science Advances",
     "sent_at": "2026-09-17T02:42:54.625155+00:00",
@@ -2178,6 +2223,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-09-17T02:42:54.625155+00:00",
     "title": "Direct visualization of interfacial defect effects on polarization switching in BaTiO 3 tunnel junctions"
+  },
+  "10.1126/sciadv.aeh8187": {
+    "journal": "Science Advances",
+    "sent_at": "2026-10-22T02:41:45.349932+00:00",
+    "title": "Spatial decoupling of recognition and signaling in aptamer switches via tri-strand intermolecular competition"
   },
   "10.1126/sciadv.aeh9563": {
     "journal": "Science Advances",

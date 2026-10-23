@@ -674,6 +674,11 @@
     "sent_at": "2026-10-14T02:55:50.168299+00:00",
     "title": "Environment‐Adaptive Neuromorphic Transistor Enabled by Background‐Light‐Driven Response Reconfiguration"
   },
+  "10.1002/adfm.79013": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-23T02:47:24.329812+00:00",
+    "title": "Flexible Neuromorphic Softness Sensory System"
+  },
   "10.1002/adfm.79015": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-10-13T04:49:10.151881+00:00",
@@ -699,6 +704,11 @@
     "sent_at": "2026-10-16T02:30:37.725495+00:00",
     "title": "Optoelectronic Synergy and Multimodal Neuromorphic Computing in SnS 2 /h‐BN/NbOCl 2 Van Der Waals Floating Gate Architecture"
   },
+  "10.1002/adfm.79070": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-23T02:47:24.329812+00:00",
+    "title": "Exceptional Electro‐Optic Coefficient Unlocked via Polarization Swaying in KNbO 3 Thin Films"
+  },
   "10.1002/adfm.79095": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-10-16T02:30:37.725495+00:00",
@@ -714,10 +724,20 @@
     "sent_at": "2026-10-22T02:41:45.349932+00:00",
     "title": "Low‐Flicker‐Noise MoS 2 Transistors Enabled by High‐ κ Rare‐Earth Oxychlorides for Mixed‐Signal Electronics"
   },
+  "10.1002/adfm.79154": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-23T02:47:24.329812+00:00",
+    "title": "Counter‐Anion‐Engineered Solid‐State Polymer Electrolytes for Vertically Stacked Artificial Synapses With Configurable Plasticity"
+  },
   "10.1002/adfm.79169": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-10-20T02:49:54.644284+00:00",
     "title": "Hydrogen‐Bonding/Steric‐Effect Competition Drives Symmetry Differentiation Toward Antiferroelectric and Ferroelectric States in Homologous 1D Hybrid Lead Bromides"
+  },
+  "10.1002/adfm.79215": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-23T02:47:24.329812+00:00",
+    "title": "Neuromorphic Devices Enhanced by Resonant Photonic Structures"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -983,6 +1003,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-09-25T02:45:46.771333+00:00",
     "title": "Ternary Field‐Effect Transistor by Antiferroelectric Gating"
+  },
+  "10.1002/adma.75144": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-10-23T02:47:24.329812+00:00",
+    "title": "Sub‐nm 2 Ferroelectric Domains via Charged 180° Walls in ZrO 2"
   },
   "10.1002/adma.75172": {
     "journal": "Advanced Materials",
@@ -1454,6 +1479,11 @@
     "sent_at": "2026-09-11T02:18:06.276754+00:00",
     "title": "High Performance Switchable Dual-Mode Photoresponse Enabled by Defect States in ReS2/PdSe2 Heterojunctions"
   },
+  "10.1021/acsnano.6c05789": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-10-23T02:47:24.329812+00:00",
+    "title": "Mechanistic Insights into Sodium Storage in N-Doped Graphene/MoS2 Heterostructures Revealed by Operando Raman Spectroscopy"
+  },
   "10.1021/acsnano.6c06196": {
     "journal": "ACS Nano",
     "sent_at": "2026-08-23T00:51:50.445474+00:00",
@@ -1883,6 +1913,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-10-09T03:53:56.149119+00:00",
     "title": "Integration of high-κ oxide on 2D semiconductors with carbon-dot monolayer assembly as van der Waals interfacial layer"
+  },
+  "10.1038/s41467-026-78128-1": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-10-23T02:47:24.329812+00:00",
+    "title": "Reduced-DSP 200G/λ low-voltage slow-light silicon modulator enabled by built-in EO equalizer"
   },
   "10.1038/s41467-026-78157-w": {
     "journal": "Nature Communications",

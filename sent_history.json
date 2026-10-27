@@ -764,6 +764,11 @@
     "sent_at": "2026-10-24T02:43:44.956862+00:00",
     "title": "Ultralow Electric and Photonic Noise MoS 2 Transistors for Noise‐Limited Multistate Readout"
   },
+  "10.1002/adfm.79283": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-27T03:07:13.605045+00:00",
+    "title": "A Monolithic Quantum‐Dot/AlGaN Phototransistor Breaking the UV–NIR Sensitivity Trade‐off for Ultrasensitive Dual‐Band Detection"
+  },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
     "sent_at": "2026-08-09T01:05:59.833279+00:00",
@@ -1134,6 +1139,11 @@
     "sent_at": "2026-10-25T02:34:18.591903+00:00",
     "title": "Beyond State of Charge: Electrochemical States and Trajectory Design in Organic Mixed Conductors"
   },
+  "10.1002/adma.75522": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-10-27T03:07:13.605045+00:00",
+    "title": "A Glycan Key Unlocks Microglia Targeting and Reprogramming to Promote Functional Recovery After Spinal Cord Injury"
+  },
   "10.1002/advs.202519007": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
@@ -1459,6 +1469,11 @@
     "sent_at": "2026-10-13T04:49:10.151881+00:00",
     "title": "Lattice Disorder in CuI Enables Filament‐Free Transparent Memristors"
   },
+  "10.1002/advs.78211": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-27T03:07:13.605045+00:00",
+    "title": "Polarity‐Controlled Coexistence of Electrochemical Metallization and Valence Change Mechanisms in a Unified Metal Halide Perovskite Memristor"
+  },
   "10.1002/advs.78217": {
     "journal": "Advanced Science",
     "sent_at": "2026-10-16T02:30:37.725495+00:00",
@@ -1493,6 +1508,11 @@
     "journal": "Advanced Science",
     "sent_at": "2026-10-22T02:41:45.349932+00:00",
     "title": "Interfacial Polarization Dynamics of Nitrile Dipoles in Organic Synaptic Transistors for Acoustic Reservoir Computing"
+  },
+  "10.1002/advs.78404": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-27T03:07:13.605045+00:00",
+    "title": "Molecularly Engineered Nitrate Double Perovskites with Elevated Ferroelectric Phase Transition Temperature and Large Piezoelectric Response"
   },
   "10.1002/advs.78415": {
     "journal": "Advanced Science",
@@ -2033,6 +2053,16 @@
     "journal": "Nature Communications",
     "sent_at": "2026-10-25T02:34:18.591903+00:00",
     "title": "A synaptic mitochondrion–ribbon–vesicle complex organizes photoreceptor neurotransmission"
+  },
+  "10.1038/s41467-026-78928-5": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-10-27T03:07:13.605045+00:00",
+    "title": "Synthesis-by-design of ferroelectric Dion–Jacobson two-dimensional hybrid organic–inorganic perovskites"
+  },
+  "10.1038/s41467-026-79064-w": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-10-27T03:07:13.605045+00:00",
+    "title": "MoS2-based composites with magnetoelectric synergistic loss for enhanced microwave absorption"
   },
   "10.1038/s41563-026-02719-y": {
     "journal": "Nature Materials",

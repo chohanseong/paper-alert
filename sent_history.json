@@ -769,6 +769,11 @@
     "sent_at": "2026-10-27T03:07:13.605045+00:00",
     "title": "A Monolithic Quantum‐Dot/AlGaN Phototransistor Breaking the UV–NIR Sensitivity Trade‐off for Ultrasensitive Dual‐Band Detection"
   },
+  "10.1002/adfm.79300": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-28T03:20:22.460076+00:00",
+    "title": "Nanoimprint‐Enhanced Organic Heterojunction Phototransistors for Bipolar Optical Encoding in Reservoir Computing"
+  },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
     "sent_at": "2026-08-09T01:05:59.833279+00:00",
@@ -1154,6 +1159,11 @@
     "sent_at": "2026-09-28T02:50:43.701185+00:00",
     "title": "Targeted Restoration of the Microbial Tryptophan Oxidative Pathway Ameliorates Autism‐Like Behavioral and Synaptic Deficits"
   },
+  "10.1002/advs.202522800": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-28T03:20:22.460076+00:00",
+    "title": "CNTN2 Deficiency Disrupts Ascending Auditory Neuroglial Interactions and Redox Homeostasis in Neural Presbycusis"
+  },
   "10.1002/advs.202524087": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-28T02:50:43.701185+00:00",
@@ -1519,6 +1529,11 @@
     "sent_at": "2026-10-22T02:41:45.349932+00:00",
     "title": "Multifunctional Vertical Bulk‐Heterojunction Transistors With Amorphous GaO x for Neuromorphic Perception‐to‐Decision"
   },
+  "10.1002/advs.78461": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-28T03:20:22.460076+00:00",
+    "title": "Highly Linear Perovskite Synapses for Neuromorphic Computing"
+  },
   "10.1021/acsnano.5c06178": {
     "journal": "ACS Nano",
     "sent_at": "2026-08-14T01:15:27.558660+00:00",
@@ -1649,6 +1664,11 @@
     "sent_at": "2026-09-22T02:40:07.375955+00:00",
     "title": "Cross-Scale Mixed Conduction in Organic Electrochemical Transistors: From Nanoscale Ion–Electron Coupling to Biointegrated Intelligence"
   },
+  "10.1021/acsnano.6c11877": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-10-28T03:20:22.460076+00:00",
+    "title": "Dopant Engineered Y-Doped Hafnia-Zirconia Nanolaminates with 0.26 nm Equivalent Oxide Thickness for Dynamic Random Access Memory Capacitors"
+  },
   "10.1021/acsnano.6c11972": {
     "journal": "ACS Nano",
     "sent_at": "2026-10-21T02:43:48.881033+00:00",
@@ -1673,6 +1693,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-10-14T02:55:50.168299+00:00",
     "title": "Nanoscale Spintronic Microwave Devices: From Fundamental Mechanisms to Emerging Applications"
+  },
+  "10.1021/acsnano.6c13060": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-10-28T03:20:22.460076+00:00",
+    "title": "Band-like Transport with Hall Mobility &amp;gt;70 cm2 V–1 s–1 in Stoichiometric Perovskite Crystals via Ion Confinement and Strain Relaxation"
   },
   "10.1021/acsnano.6c13488": {
     "journal": "ACS Nano",
@@ -2063,6 +2088,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-10-27T03:07:13.605045+00:00",
     "title": "MoS2-based composites with magnetoelectric synergistic loss for enhanced microwave absorption"
+  },
+  "10.1038/s41467-026-79300-3": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-10-28T03:20:22.460076+00:00",
+    "title": "Ventral CA1 perineuronal nets modulate morphine-associated contextual memory via vCA1–NAcC synaptic remodeling in male mice"
   },
   "10.1038/s41563-026-02719-y": {
     "journal": "Nature Materials",

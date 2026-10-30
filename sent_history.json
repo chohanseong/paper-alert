@@ -784,6 +784,21 @@
     "sent_at": "2026-10-29T03:44:04.270250+00:00",
     "title": "Breaking the Gain–Speed Trade‐Off in Phototransistors With Sub‐10 nm Single‐Crystalline Organic–Inorganic van der Waals Heterojunctions at the Exciton‐Diffusion Limit"
   },
+  "10.1002/adfm.79354": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-30T03:46:58.567202+00:00",
+    "title": "Thickness‐Programmable Opto‐Memristive Dynamics in 6‐In Wafer‐Scale Atomic‐Layer‐Controlled WS 2 for Reservoir Computing"
+  },
+  "10.1002/adfm.79356": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-30T03:46:58.567202+00:00",
+    "title": "Atomically Sharp but Three‐Dimensionally Rough Ferroelectric Domain Walls in BiFeO 3 Nano‐islands"
+  },
+  "10.1002/adfm.79365": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-30T03:46:58.567202+00:00",
+    "title": "Fluctuation‐Enhanced True Random Number Generators and Physical Unclonable Functions in a Synaptic Hybrid Ferro‐Ionic Tunnel Diode"
+  },
   "10.1002/adfm.79378": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-10-29T03:44:04.270250+00:00",
@@ -1164,6 +1179,11 @@
     "sent_at": "2026-10-27T03:07:13.605045+00:00",
     "title": "A Glycan Key Unlocks Microglia Targeting and Reprogramming to Promote Functional Recovery After Spinal Cord Injury"
   },
+  "10.1002/adma.75545": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-10-30T03:46:58.567202+00:00",
+    "title": "Where Ions Meet Electrons: Advanced Bioelectronic Interfaces With Organic Electrochemical Transistors"
+  },
   "10.1002/advs.202519007": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
@@ -1524,6 +1544,11 @@
     "sent_at": "2026-10-19T02:37:58.684890+00:00",
     "title": "AKAP1 Protects Retinal Ganglion Cells and Preserves Vision by Improving Mitochondrial and Synaptic Health in Glaucomatous Neurodegeneration"
   },
+  "10.1002/advs.78355": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-30T03:46:58.567202+00:00",
+    "title": "Laser‐Induced Rashba Spin‐Orbit Torques in Multiferroic Semiconductor (Ge,Mn)Te"
+  },
   "10.1002/advs.78366": {
     "journal": "Advanced Science",
     "sent_at": "2026-10-24T02:43:44.956862+00:00",
@@ -1548,6 +1573,11 @@
     "journal": "Advanced Science",
     "sent_at": "2026-10-28T03:20:22.460076+00:00",
     "title": "Highly Linear Perovskite Synapses for Neuromorphic Computing"
+  },
+  "10.1002/advs.78527": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-10-30T03:46:58.567202+00:00",
+    "title": "Propofol Modulates Fear Memory Reconsolidation by Inhibiting D2 Receptor‐Expressing Neurons in the Medial Prefrontal Cortex"
   },
   "10.1021/acsnano.5c06178": {
     "journal": "ACS Nano",
@@ -1588,6 +1618,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-08-24T00:48:50.824777+00:00",
     "title": "Symmetry-Programmed Pure Spin Photocurrents in Sliding Ferroelectric Altermagnets"
+  },
+  "10.1021/acsnano.6c06825": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-10-30T03:46:58.567202+00:00",
+    "title": "Single-Atom-Mediated Two-Dimensional Heterointerface Stabilizing 1T-MoS2 for Durable Hydrogen Evolution"
   },
   "10.1021/acsnano.6c07579": {
     "journal": "ACS Nano",
@@ -1743,6 +1778,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-10-14T02:55:50.168299+00:00",
     "title": "Emergent Phenomena in Wurtzite Ferroelectric Semiconductors"
+  },
+  "10.1021/acsnano.6c15970": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-10-30T03:46:58.567202+00:00",
+    "title": "Dopant-Enhanced Polarization in ReS2 Field-Effect Transistor"
   },
   "10.1021/acsnano.6c16739": {
     "journal": "ACS Nano",
@@ -2088,6 +2128,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-10-16T02:30:37.725495+00:00",
     "title": "High-performance p-type two-dimensional transistors enabled by weak disorder engineering"
+  },
+  "10.1038/s41467-026-78705-4": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-10-30T03:46:58.567202+00:00",
+    "title": "Resolving the Kay–Dunn limit and the speed–endurance dilemma in ferroelectric Hf0.5Zr0.5O2 for DRAM-class sub-volt capacitors"
   },
   "10.1038/s41467-026-78845-7": {
     "journal": "Nature Communications",

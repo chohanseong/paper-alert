@@ -799,6 +799,11 @@
     "sent_at": "2026-10-30T03:46:58.567202+00:00",
     "title": "Fluctuation‐Enhanced True Random Number Generators and Physical Unclonable Functions in a Synaptic Hybrid Ferro‐Ionic Tunnel Diode"
   },
+  "10.1002/adfm.79372": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-10-31T03:30:38.202193+00:00",
+    "title": "Bridging Local Anionic Polarity to Macroscopic State Separability: Molecular Design for Tailored Polaron Kinetics in Organic Synaptic Transistors"
+  },
   "10.1002/adfm.79378": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-10-29T03:44:04.270250+00:00",
@@ -1714,6 +1719,11 @@
     "sent_at": "2026-09-22T02:40:07.375955+00:00",
     "title": "Cross-Scale Mixed Conduction in Organic Electrochemical Transistors: From Nanoscale Ion–Electron Coupling to Biointegrated Intelligence"
   },
+  "10.1021/acsnano.6c11854": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-10-31T03:30:38.202193+00:00",
+    "title": "Wafer-Scale p-type TeSeO x for Complementary Oxide Electronics"
+  },
   "10.1021/acsnano.6c11877": {
     "journal": "ACS Nano",
     "sent_at": "2026-10-28T03:20:22.460076+00:00",
@@ -2404,6 +2414,11 @@
     "sent_at": "2026-10-03T03:08:18.632185+00:00",
     "title": "Bulk ferroelectric heterostructures"
   },
+  "10.1126/sciadv.aef9907": {
+    "journal": "Science Advances",
+    "sent_at": "2026-10-31T03:30:38.202193+00:00",
+    "title": "Intrinsic cellular persistent firing sustains hippocampal spatial representations during working memory"
+  },
   "10.1126/sciadv.aeg0958": {
     "journal": "Science Advances",
     "sent_at": "2026-09-12T02:25:08.288550+00:00",
@@ -2438,6 +2453,16 @@
     "journal": "Science Advances",
     "sent_at": "2026-09-17T02:42:54.625155+00:00",
     "title": "Viscoelastic nanomechanical devices for neuromorphic information processing"
+  },
+  "10.1126/sciadv.aeh2062": {
+    "journal": "Science Advances",
+    "sent_at": "2026-10-31T03:30:38.202193+00:00",
+    "title": "A-site cation–pseudohalide co-design for tin halide perovskite transistors"
+  },
+  "10.1126/sciadv.aeh2170": {
+    "journal": "Science Advances",
+    "sent_at": "2026-10-31T03:30:38.202193+00:00",
+    "title": "Electric field–controlled spin transport in a topological insulator interfaced with a ferroelectric antiferromagnet"
   },
   "10.1126/sciadv.aeh3751": {
     "journal": "Science Advances",

@@ -834,6 +834,11 @@
     "sent_at": "2026-11-03T04:47:38.097192+00:00",
     "title": "Bottom‐Stack Shear Transfer in Thin‐Film Flexoelectric Measurements"
   },
+  "10.1002/adfm.79471": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-04T04:12:21.439002+00:00",
+    "title": "Domain‐Pinned Ferroelectric‐Like Fields Drive Deep Zn 2+ Intercalation in Bi 2 TeO 5"
+  },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
     "sent_at": "2026-08-09T01:05:59.833279+00:00",
@@ -1619,6 +1624,11 @@
     "sent_at": "2026-10-28T03:20:22.460076+00:00",
     "title": "Highly Linear Perovskite Synapses for Neuromorphic Computing"
   },
+  "10.1002/advs.78508": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-11-04T04:12:21.439002+00:00",
+    "title": "Device Stochasticity Directly Implements Bayesian Sampling in Spiking Neurons"
+  },
   "10.1002/advs.78527": {
     "journal": "Advanced Science",
     "sent_at": "2026-10-30T03:46:58.567202+00:00",
@@ -2189,6 +2199,11 @@
     "sent_at": "2026-10-30T03:46:58.567202+00:00",
     "title": "Resolving the Kay–Dunn limit and the speed–endurance dilemma in ferroelectric Hf0.5Zr0.5O2 for DRAM-class sub-volt capacitors"
   },
+  "10.1038/s41467-026-78843-9": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-11-04T04:12:21.439002+00:00",
+    "title": "DNA-driven dimerization of Ku70/Ku80 regulates the synapsis of double-strand breaks by APLF"
+  },
   "10.1038/s41467-026-78845-7": {
     "journal": "Nature Communications",
     "sent_at": "2026-10-22T02:41:45.349932+00:00",
@@ -2208,6 +2223,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-10-27T03:07:13.605045+00:00",
     "title": "MoS2-based composites with magnetoelectric synergistic loss for enhanced microwave absorption"
+  },
+  "10.1038/s41467-026-79253-7": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-11-04T04:12:21.439002+00:00",
+    "title": "High-performance annealing-free wurtzite ferroelectric field-effect transistors with ultrathin oxide semiconductors for neuromorphic computing"
   },
   "10.1038/s41467-026-79300-3": {
     "journal": "Nature Communications",

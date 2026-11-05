@@ -1814,6 +1814,11 @@
     "sent_at": "2026-10-28T03:20:22.460076+00:00",
     "title": "Band-like Transport with Hall Mobility &amp;gt;70 cm2 V–1 s–1 in Stoichiometric Perovskite Crystals via Ion Confinement and Strain Relaxation"
   },
+  "10.1021/acsnano.6c13212": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-11-05T04:30:34.627466+00:00",
+    "title": "Ferroelectric AlScN Four-Mode Reconfigurable Transistors Enabling Unified Logic, Memory, and Neuromorphic Computing"
+  },
   "10.1021/acsnano.6c13488": {
     "journal": "ACS Nano",
     "sent_at": "2026-10-21T02:43:48.881033+00:00",
@@ -2229,6 +2234,11 @@
     "sent_at": "2026-11-04T04:12:21.439002+00:00",
     "title": "High-performance annealing-free wurtzite ferroelectric field-effect transistors with ultrathin oxide semiconductors for neuromorphic computing"
   },
+  "10.1038/s41467-026-79270-6": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-11-05T04:30:34.627466+00:00",
+    "title": "Quantized even number of vortices in a confined PTO/STO ferroelectric heterostructure with edge pinning effect"
+  },
   "10.1038/s41467-026-79300-3": {
     "journal": "Nature Communications",
     "sent_at": "2026-10-28T03:20:22.460076+00:00",
@@ -2533,6 +2543,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-09-03T02:20:02.244694+00:00",
     "title": "Light-tunable charge dynamics enable ultralow-power bidirectional lead-free perovskite synapses for intelligent vision"
+  },
+  "10.1126/sciadv.aeh5390": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-05T04:30:34.627466+00:00",
+    "title": "A disynaptic trigeminal circuit for the transformation and integration of oral chemesthesis in male mice"
   },
   "10.1126/sciadv.aeh5401": {
     "journal": "Science Advances",

@@ -799,6 +799,11 @@
     "sent_at": "2026-10-30T03:46:58.567202+00:00",
     "title": "Atomically Sharp but Three‐Dimensionally Rough Ferroelectric Domain Walls in BiFeO 3 Nano‐islands"
   },
+  "10.1002/adfm.79361": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-06T04:29:36.038211+00:00",
+    "title": "Synapse‐Integrated Physical Unclonable Functions for Trusted Inference in Neuromorphic Computing"
+  },
   "10.1002/adfm.79365": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-10-30T03:46:58.567202+00:00",
@@ -834,10 +839,25 @@
     "sent_at": "2026-11-03T04:47:38.097192+00:00",
     "title": "Bottom‐Stack Shear Transfer in Thin‐Film Flexoelectric Measurements"
   },
+  "10.1002/adfm.79449": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-06T04:29:36.038211+00:00",
+    "title": "Superior Capacitive Energy Storage in Lead‐Free Bi 0.5 Na 0.5 TiO 3 ‐based Relaxors via High‐Entropy Design"
+  },
   "10.1002/adfm.79471": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-11-04T04:12:21.439002+00:00",
     "title": "Domain‐Pinned Ferroelectric‐Like Fields Drive Deep Zn 2+ Intercalation in Bi 2 TeO 5"
+  },
+  "10.1002/adfm.79481": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-06T04:29:36.038211+00:00",
+    "title": "Analog‐Tunable Nonvolatile Memristors with Self‐Compliance Behavior via a MoS x ‐Interlayer Strategy for Neuromorphic Recognition and Zero‐Trust Image Encryption"
+  },
+  "10.1002/adfm.79502": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-06T04:29:36.038211+00:00",
+    "title": "Freestanding Membrane Enabled Multi‐Stimulus Ferroelectric Switching"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -1634,6 +1654,11 @@
     "sent_at": "2026-10-30T03:46:58.567202+00:00",
     "title": "Propofol Modulates Fear Memory Reconsolidation by Inhibiting D2 Receptor‐Expressing Neurons in the Medial Prefrontal Cortex"
   },
+  "10.1002/advs.78666": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-11-06T04:29:36.038211+00:00",
+    "title": "Strain‐Enhanced Ultrastretchable Semiconducting Polymer Fibers for Organic Electrochemical Transistors"
+  },
   "10.1021/acsnano.5c06178": {
     "journal": "ACS Nano",
     "sent_at": "2026-08-14T01:15:27.558660+00:00",
@@ -2278,6 +2303,11 @@
     "journal": "Nature Nanotechnology",
     "sent_at": "2026-10-21T02:43:48.881033+00:00",
     "title": "Stacking-specific two-dimensional In2Se3 for ferroelectric homojunctions"
+  },
+  "10.1038/s41565-026-02314-x": {
+    "journal": "Nature Nanotechnology",
+    "sent_at": "2026-11-06T04:29:36.038211+00:00",
+    "title": "Atomically resolved exciton emission from single defects in MoS2"
   },
   "10.1038/s41928-026-01680-7": {
     "journal": "Nature Electronics",

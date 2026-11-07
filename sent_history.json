@@ -754,6 +754,11 @@
     "sent_at": "2026-10-24T02:43:44.956862+00:00",
     "title": "Programmable Organic Light‐Emitting Transistors Enabled by Floating‐Gate Charge Storage"
   },
+  "10.1002/adfm.79255": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-07T03:57:12.190121+00:00",
+    "title": "A Nonlinear Organic Low‐Frequency Sound Sensor Based on Electrochemical Coupling in a Solidified Gel Membrane"
+  },
   "10.1002/adfm.79270": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-10-25T02:34:18.591903+00:00",
@@ -849,6 +854,11 @@
     "sent_at": "2026-11-04T04:12:21.439002+00:00",
     "title": "Domain‐Pinned Ferroelectric‐Like Fields Drive Deep Zn 2+ Intercalation in Bi 2 TeO 5"
   },
+  "10.1002/adfm.79480": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-07T03:57:12.190121+00:00",
+    "title": "High‐Modulus Skeleton‐Reinforced PDMS Microstamps for Precision Transfer Printing of Microscale Devices"
+  },
   "10.1002/adfm.79481": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-11-06T04:29:36.038211+00:00",
@@ -858,6 +868,21 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-11-06T04:29:36.038211+00:00",
     "title": "Freestanding Membrane Enabled Multi‐Stimulus Ferroelectric Switching"
+  },
+  "10.1002/adfm.79503": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-07T03:57:12.190121+00:00",
+    "title": "An Overlooked Transport Mechanism in Organic Mixed Conductors"
+  },
+  "10.1002/adfm.79533": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-07T03:57:12.190121+00:00",
+    "title": "Skin‐Matched Ferroelectric Triboelectric Interfaces for Self‐Powered Human‐Machine Interactions Under Ultralow Force"
+  },
+  "10.1002/adfm.79537": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-07T03:57:12.190121+00:00",
+    "title": "Intrinsically Self‐Assembled SrFeO x Topotactic Phase Transition Memristor"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -1248,6 +1273,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-11-01T03:36:02.983185+00:00",
     "title": "Layered Precursor‐Guided Growth of Nondegenerate Amorphous In 2 O 3 Approaching the Thickness Limit"
+  },
+  "10.1002/adma.75648": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-11-07T03:57:12.190121+00:00",
+    "title": "Ferroionic‐Assisted, Charge‐Driven Polymorphic Phase Engineering for Multilevel Memristive Devices"
   },
   "10.1002/advs.202519007": {
     "journal": "Advanced Science",
@@ -1739,6 +1769,11 @@
     "sent_at": "2026-09-15T02:44:03.112887+00:00",
     "title": "Chiral Morphology in MoS2 Nanostructures for Spin-Polarized Bifunctional Oxygen Electrocatalysis"
   },
+  "10.1021/acsnano.6c08923": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-11-07T03:57:12.190121+00:00",
+    "title": "High-Reliability Ultrascaled IGZO FETs for Multibit 2T0C DRAM toward Monolithic 3D Integration of an AI Accelerator"
+  },
   "10.1021/acsnano.6c08996": {
     "journal": "ACS Nano",
     "sent_at": "2026-10-06T04:07:15.222276+00:00",
@@ -1848,6 +1883,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-10-21T02:43:48.881033+00:00",
     "title": "Achieving Robust Ferroelectric Properties of Hf0.6Zr0.4O2 Thin Films through the Pseudofield-Inducing Effect of Al0.85Sc0.15N Bottom Electrode"
+  },
+  "10.1021/acsnano.6c13795": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-11-07T03:57:12.190121+00:00",
+    "title": "Memory Window Improvement in Ferroelectric Thin-Film Transistors with HfZrO2/AlN Bilayers Grown by Atomic Layer Deposition"
   },
   "10.1021/acsnano.6c13869": {
     "journal": "ACS Nano",
@@ -2548,6 +2588,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-10-22T02:41:45.349932+00:00",
     "title": "High ambipolar mobility fluorinated MXene for ultrasensitive biosensing transistors"
+  },
+  "10.1126/sciadv.aeg8175": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-07T03:57:12.190121+00:00",
+    "title": "Visualizing nanoscopic acoustic mode competition in a van der Waals ferroelectric"
   },
   "10.1126/sciadv.aeg8564": {
     "journal": "Science Advances",

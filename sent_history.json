@@ -1279,6 +1279,11 @@
     "sent_at": "2026-11-01T03:36:02.983185+00:00",
     "title": "Blending With Insulating Polymers Enables Stable Anti‐Ambipolar Characteristics in n‐Type Organic Mixed‐Conductors for Heterogeneous Spiking Neurons"
   },
+  "10.1002/adma.75543": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-11-10T05:29:24.921614+00:00",
+    "title": "Quantum Saturation of the Electro‐Optic Effect"
+  },
   "10.1002/adma.75545": {
     "journal": "Advanced Materials",
     "sent_at": "2026-10-30T03:46:58.567202+00:00",
@@ -1293,6 +1298,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-11-07T03:57:12.190121+00:00",
     "title": "Ferroionic‐Assisted, Charge‐Driven Polymorphic Phase Engineering for Multilevel Memristive Devices"
+  },
+  "10.1002/adma.75650": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-11-10T05:29:24.921614+00:00",
+    "title": "Upcycling Piezoelectric Single‐Crystal Debris Into High‐Performance Flexible 0–3 Composites"
   },
   "10.1002/advs.202519007": {
     "journal": "Advanced Science",
@@ -1819,6 +1829,11 @@
     "sent_at": "2026-08-19T00:46:10.125829+00:00",
     "title": "Controlled Chemical Vapor Deposition Growth of Single-Crystalline CoO Ultrathin Flakes as Dielectrics for High-Performance Two-Dimensional Electronics"
   },
+  "10.1021/acsnano.6c09859": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-11-10T05:29:24.921614+00:00",
+    "title": "Layer-Dependent Variation in Raman Modes of MoS2"
+  },
   "10.1021/acsnano.6c09861": {
     "journal": "ACS Nano",
     "sent_at": "2026-09-24T02:29:23.646862+00:00",
@@ -1918,6 +1933,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-09-18T02:29:47.523301+00:00",
     "title": "Fingerprint-Expanding Gaussian Transistors for Compact Physical Unclonable Functions"
+  },
+  "10.1021/acsnano.6c14396": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-11-10T05:29:24.921614+00:00",
+    "title": "A Flexible Complementary Memristive Synapse for Convolutional Neural Network Applications"
   },
   "10.1021/acsnano.6c14423": {
     "journal": "ACS Nano",
@@ -2199,6 +2219,16 @@
     "sent_at": "2026-09-18T02:29:47.523301+00:00",
     "title": "Large strain and high reversible dielectric tunability in Sm-modified PMN-PT ceramics"
   },
+  "10.1038/s41467-026-77954-7": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-11-10T05:29:24.921614+00:00",
+    "title": "Comment on “Self-organizing neuromorphic nanowire networks as stochastic dynamical systems\""
+  },
+  "10.1038/s41467-026-77956-5": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-11-10T05:29:24.921614+00:00",
+    "title": "Reply to: Comment on “Self-organizing neuromorphic nanowire networks as stochastic dynamical systems”"
+  },
   "10.1038/s41467-026-77971-6": {
     "journal": "Nature Communications",
     "sent_at": "2026-10-06T04:07:15.222276+00:00",
@@ -2368,6 +2398,11 @@
     "journal": "Nature Nanotechnology",
     "sent_at": "2026-11-06T04:29:36.038211+00:00",
     "title": "Atomically resolved exciton emission from single defects in MoS2"
+  },
+  "10.1038/s41565-026-02331-w": {
+    "journal": "Nature Nanotechnology",
+    "sent_at": "2026-11-10T05:29:24.921614+00:00",
+    "title": "Dynamic electrical control of on-chip second-harmonic generation with ferroelectric NbOBr2"
   },
   "10.1038/s41928-026-01680-7": {
     "journal": "Nature Electronics",

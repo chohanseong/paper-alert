@@ -1724,6 +1724,11 @@
     "sent_at": "2026-10-30T03:46:58.567202+00:00",
     "title": "Propofol Modulates Fear Memory Reconsolidation by Inhibiting D2 Receptor‐Expressing Neurons in the Medial Prefrontal Cortex"
   },
+  "10.1002/advs.78621": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-11-12T05:07:54.614268+00:00",
+    "title": "An Iontronic Bimodal Afferent Nerve for Cross‐Modal Neuromorphic Fusion and Robotic Sorting"
+  },
   "10.1002/advs.78666": {
     "journal": "Advanced Science",
     "sent_at": "2026-11-06T04:29:36.038211+00:00",
@@ -1853,6 +1858,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-08-19T00:46:10.125829+00:00",
     "title": "Controlled Chemical Vapor Deposition Growth of Single-Crystalline CoO Ultrathin Flakes as Dielectrics for High-Performance Two-Dimensional Electronics"
+  },
+  "10.1021/acsnano.6c09613": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-11-12T05:07:54.614268+00:00",
+    "title": "Ferroelectric-Empowered van der Waals Spectrometer with Record-High Sensitivity and Ultralow Noise"
   },
   "10.1021/acsnano.6c09859": {
     "journal": "ACS Nano",
@@ -1993,6 +2003,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-11-11T03:58:59.261539+00:00",
     "title": "An Optoelectronic SnP2S6 Memristive Neuron for Biologically Inspired Multimodal Neuromorphic Information Processing"
+  },
+  "10.1021/acsnano.6c17948": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-11-12T05:07:54.614268+00:00",
+    "title": "ZnO–Te Anti-Ambipolar Switch Integration with Complementary Field-Effect Transistors Enabling a Pull-Middle Architecture for Standard Ternary Inverters"
   },
   "10.1021/acsnano.6c18064": {
     "journal": "ACS Nano",
@@ -2374,6 +2389,11 @@
     "sent_at": "2026-10-27T03:07:13.605045+00:00",
     "title": "MoS2-based composites with magnetoelectric synergistic loss for enhanced microwave absorption"
   },
+  "10.1038/s41467-026-79139-8": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-11-12T05:07:54.614268+00:00",
+    "title": "Low-thermal-budget solution-processed montmorillonite dielectric for low-voltage 2D electronics"
+  },
   "10.1038/s41467-026-79253-7": {
     "journal": "Nature Communications",
     "sent_at": "2026-11-04T04:12:21.439002+00:00",
@@ -2388,6 +2408,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-10-28T03:20:22.460076+00:00",
     "title": "Ventral CA1 perineuronal nets modulate morphine-associated contextual memory via vCA1–NAcC synaptic remodeling in male mice"
+  },
+  "10.1038/s41467-026-79401-z": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-11-12T05:07:54.614268+00:00",
+    "title": "Autapse-inspired neuromorphic hardware with synapse–neuron integration for bidirectional feedback control"
   },
   "10.1038/s41563-026-02719-y": {
     "journal": "Nature Materials",
@@ -2493,6 +2518,16 @@
     "journal": "Nature Electronics",
     "sent_at": "2026-10-15T02:35:38.289857+00:00",
     "title": "Building indium oxide transistors in three dimensions"
+  },
+  "10.1038/s41928-026-01732-y": {
+    "journal": "Nature Electronics",
+    "sent_at": "2026-11-12T05:07:54.614268+00:00",
+    "title": "A high-polarity molecular-anchor design for stable high-mobility perovskite transistors"
+  },
+  "10.1038/s41928-026-01733-x": {
+    "journal": "Nature Electronics",
+    "sent_at": "2026-11-12T05:07:54.614268+00:00",
+    "title": "Designing additives for perovskite transistors using molecular polarity as a guide"
   },
   "10.1126/sciadv.adq8840": {
     "journal": "Science Advances",
@@ -2704,6 +2739,11 @@
     "sent_at": "2026-09-03T02:20:02.244694+00:00",
     "title": "Light-tunable charge dynamics enable ultralow-power bidirectional lead-free perovskite synapses for intelligent vision"
   },
+  "10.1126/sciadv.aeh4857": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-12T05:07:54.614268+00:00",
+    "title": "Input-specific deployment of the active zone scaffold RIM tunes synaptic release probability and plasticity"
+  },
   "10.1126/sciadv.aeh5390": {
     "journal": "Science Advances",
     "sent_at": "2026-11-05T04:30:34.627466+00:00",
@@ -2739,10 +2779,25 @@
     "sent_at": "2026-10-29T03:44:04.270250+00:00",
     "title": "Presynaptic filopodia form kinapses and promote convective membrane flow to sustain synchronous neurotransmitter release"
   },
+  "10.1126/sciadv.aei3615": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-12T05:07:54.614268+00:00",
+    "title": "Electronic hair: Transforming hair into a scalable bioelectronic interface"
+  },
   "10.1126/sciadv.aei7570": {
     "journal": "Science Advances",
     "sent_at": "2026-10-08T03:48:37.717333+00:00",
     "title": "Sensory receptor expansion and neural accommodation in butterfly color vision"
+  },
+  "10.1126/sciadv.aej0737": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-12T05:07:54.614268+00:00",
+    "title": "Boosting stability and charge transfer of conducting polymer poly(benzodifurandione) (PBFDO) through complementary topology"
+  },
+  "10.1126/sciadv.aej3501": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-12T05:07:54.614268+00:00",
+    "title": "Incomplete synaptic vesicle priming functionally disconnects CA1 pyramidal cells"
   },
   "10.1126/sciadv.ael7308": {
     "journal": "Science Advances",

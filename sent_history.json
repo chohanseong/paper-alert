@@ -1994,6 +1994,11 @@
     "sent_at": "2026-10-30T03:46:58.567202+00:00",
     "title": "Dopant-Enhanced Polarization in ReS2 Field-Effect Transistor"
   },
+  "10.1021/acsnano.6c16642": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-11-13T04:23:30.074406+00:00",
+    "title": "Polarization-Controlled Dual-Mode Switching in van der Waals α-In2Se3 Memristors for Multitime-Scale Reservoir Computing"
+  },
   "10.1021/acsnano.6c16739": {
     "journal": "ACS Nano",
     "sent_at": "2026-10-29T03:44:04.270250+00:00",
@@ -2003,6 +2008,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-11-11T03:58:59.261539+00:00",
     "title": "An Optoelectronic SnP2S6 Memristive Neuron for Biologically Inspired Multimodal Neuromorphic Information Processing"
+  },
+  "10.1021/acsnano.6c17755": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-11-13T04:23:30.074406+00:00",
+    "title": "Accelerating the Discovery of Synthesizable 2D Hybrid Double Perovskites through Human–LLM Collaborative Descriptor Engineering"
   },
   "10.1021/acsnano.6c17948": {
     "journal": "ACS Nano",
@@ -2383,6 +2393,11 @@
     "journal": "Nature Communications",
     "sent_at": "2026-10-27T03:07:13.605045+00:00",
     "title": "Synthesis-by-design of ferroelectric Dion–Jacobson two-dimensional hybrid organic–inorganic perovskites"
+  },
+  "10.1038/s41467-026-79012-8": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-11-13T04:23:30.074406+00:00",
+    "title": "Room-temperature continuous-wave lasing-like emission from solution-processed bulk monolayer MoS2 thin films"
   },
   "10.1038/s41467-026-79064-w": {
     "journal": "Nature Communications",

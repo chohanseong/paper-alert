@@ -909,10 +909,25 @@
     "sent_at": "2026-11-11T03:58:59.261539+00:00",
     "title": "Reconfigurable Neuromorphic Logic Circuits Driven by Ion‐Mediated Organic Electrochemical Diodes"
   },
+  "10.1002/adfm.79555": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-14T04:20:46.015746+00:00",
+    "title": "High‐Performance Transistors beyond the 1‐nm CMOS Node: From Channel Materials and Three‐Dimensional Architectures to Cross‐Layer Co‐optimization"
+  },
   "10.1002/adfm.79561": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-11-08T03:41:35.439129+00:00",
     "title": "Self‐Assembly and Humidity‐Adaptive Memristive Behavior of Benzophosphole Nanohoops"
+  },
+  "10.1002/adfm.79617": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-14T04:20:46.015746+00:00",
+    "title": "Boolean Logic‐Assisted Organic Photoelectrochemical Transistor DNA Molecular Computing Platform for Dual‐miRNA‐Based Precise Breast Cancer Diagnosis"
+  },
+  "10.1002/adfm.79673": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-14T04:20:46.015746+00:00",
+    "title": "Decoupling Polarization From Loss: A Synergistic Strategy for High‐Efficiency Electrocaloric Cooling"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -1304,6 +1319,11 @@
     "sent_at": "2026-10-30T03:46:58.567202+00:00",
     "title": "Where Ions Meet Electrons: Advanced Bioelectronic Interfaces With Organic Electrochemical Transistors"
   },
+  "10.1002/adma.75572": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-11-14T04:20:46.015746+00:00",
+    "title": "Molecularly Programmed Stress Dissipation Strategy for Ultrastretchable Neuromorphic Electronics"
+  },
   "10.1002/adma.75594": {
     "journal": "Advanced Materials",
     "sent_at": "2026-11-01T03:36:02.983185+00:00",
@@ -1318,6 +1338,16 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-11-10T05:29:24.921614+00:00",
     "title": "Upcycling Piezoelectric Single‐Crystal Debris Into High‐Performance Flexible 0–3 Composites"
+  },
+  "10.1002/adma.75667": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-11-14T04:20:46.015746+00:00",
+    "title": "Ion‐Access Engineering for High‐Performance Vertical Organic Electrolyte‐Gated Transistors"
+  },
+  "10.1002/adma.75689": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-11-14T04:20:46.015746+00:00",
+    "title": "Interfacial Trap and Field Regulation Enables Bias‐Switchable Dual‐Mode Organic Photodetectors for Adaptive Near‐Infrared Detection"
   },
   "10.1002/advs.202519007": {
     "journal": "Advanced Science",
@@ -1964,6 +1994,11 @@
     "sent_at": "2026-10-12T03:34:35.405682+00:00",
     "title": "Decoupled Channel and Contact Modulation in α-In2Se3/ZrO2/Hf0.5Zr0.5O2 Dual-Ferroelectric Field-Effect Transistor"
   },
+  "10.1021/acsnano.6c14245": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-11-14T04:20:46.015746+00:00",
+    "title": "Ferroelectric Neuromorphic Devices Enable Nonphotosensitive Neurons to Achieve Event-Driven Photosensitive Artificial Neural Interfaces"
+  },
   "10.1021/acsnano.6c14382": {
     "journal": "ACS Nano",
     "sent_at": "2026-09-18T02:29:47.523301+00:00",
@@ -2023,6 +2058,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-10-21T02:43:48.881033+00:00",
     "title": "Multi-Terminal Reconfigurable Silver Nanowire Network for Associative-Learning-Like Response and Path Optimization"
+  },
+  "10.1021/acsnano.6c18638": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-11-14T04:20:46.015746+00:00",
+    "title": "Sulfur Doping-Induced Surface Reconstruction of High-Entropy Composites Boosts Bifunctional Oxygen Electrocatalysis for Zinc-Air Batteries"
   },
   "10.1038/s41467-026-74906-z": {
     "journal": "Nature Communications",
@@ -2404,6 +2444,11 @@
     "sent_at": "2026-10-27T03:07:13.605045+00:00",
     "title": "MoS2-based composites with magnetoelectric synergistic loss for enhanced microwave absorption"
   },
+  "10.1038/s41467-026-79135-y": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-11-14T04:20:46.015746+00:00",
+    "title": "Vagal afferent activation induces a dissociated NREM sleep-like state with wake-related locus coeruleus activity"
+  },
   "10.1038/s41467-026-79139-8": {
     "journal": "Nature Communications",
     "sent_at": "2026-11-12T05:07:54.614268+00:00",
@@ -2628,6 +2673,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-10-17T02:23:50.707530+00:00",
     "title": "MFN2-associated astrocyte dysfunction contributes to neuronal hyperexcitability and depressive-like behaviors"
+  },
+  "10.1126/sciadv.aed9140": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-14T04:20:46.015746+00:00",
+    "title": "Lynx1 suppression reopens the window for effective rehabilitation after stroke in mice"
   },
   "10.1126/sciadv.aee0110": {
     "journal": "Science Advances",

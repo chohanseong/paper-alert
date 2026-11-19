@@ -874,6 +874,11 @@
     "sent_at": "2026-11-06T04:29:36.038211+00:00",
     "title": "Analog‐Tunable Nonvolatile Memristors with Self‐Compliance Behavior via a MoS x ‐Interlayer Strategy for Neuromorphic Recognition and Zero‐Trust Image Encryption"
   },
+  "10.1002/adfm.79485": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-19T05:18:14.683653+00:00",
+    "title": "Chirality Imprinting and Spin‐Texture Tunability in Conformally Coated 3D Magnetic Nanostructured Metamaterials"
+  },
   "10.1002/adfm.79502": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-11-06T04:29:36.038211+00:00",
@@ -1374,6 +1379,11 @@
     "sent_at": "2026-11-14T04:20:46.015746+00:00",
     "title": "Interfacial Trap and Field Regulation Enables Bias‐Switchable Dual‐Mode Organic Photodetectors for Adaptive Near‐Infrared Detection"
   },
+  "10.1002/adma.75764": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-11-19T05:18:14.683653+00:00",
+    "title": "Microstructure Engineering of Organic Mixed Ionic‐Electronic Conductors, an Emerging Toolbox for Performance Enhancement and New Applications"
+  },
   "10.1002/adma.75774": {
     "journal": "Advanced Materials",
     "sent_at": "2026-11-18T05:22:07.798607+00:00",
@@ -1813,6 +1823,21 @@
     "journal": "Advanced Science",
     "sent_at": "2026-11-17T05:54:49.869101+00:00",
     "title": "CRH‐CRHR1 Signaling in BNST‐vHPC Projections Mediates Trigeminal Neuropathic Pain‐Induced Anxiety‐ and Depression‐Like Behaviors"
+  },
+  "10.1002/advs.78796": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-11-19T05:18:14.683653+00:00",
+    "title": "Microfabrication Route Shapes Morphology and Performance in PEDOT:PSS Organic Electrochemical Transistors"
+  },
+  "10.1002/advs.78845": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-11-19T05:18:14.683653+00:00",
+    "title": "Decoding and Rewiring Neurovascular Communication in Spinal Cord Injury via Computational Extracellular Vesicle Dynamics"
+  },
+  "10.1002/advs.78852": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-11-19T05:18:14.683653+00:00",
+    "title": "Golgi‐Linked Glucosylceramide Metabolism Regulates Cocaine‐Induced Dendritic Membrane Remodeling"
   },
   "10.1021/acsnano.5c06178": {
     "journal": "ACS Nano",
@@ -2529,6 +2554,11 @@
     "sent_at": "2026-11-12T05:07:54.614268+00:00",
     "title": "Autapse-inspired neuromorphic hardware with synapse–neuron integration for bidirectional feedback control"
   },
+  "10.1038/s41467-026-79434-4": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-11-19T05:18:14.683653+00:00",
+    "title": "Dual-functional-unit modulation enables superior energy storage in high-entropy relaxor ferroelectrics"
+  },
   "10.1038/s41563-026-02719-y": {
     "journal": "Nature Materials",
     "sent_at": "2026-08-28T08:14:15.270527+00:00",
@@ -2738,6 +2768,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-10-29T03:44:04.270250+00:00",
     "title": "An oxidized ribonucleotide 8-oxoGTP drives neuroinflammation and accelerates cognitive decline"
+  },
+  "10.1126/sciadv.aee0620": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-19T05:18:14.683653+00:00",
+    "title": "Ribosome-associated vesicles promote activity-dependent local translation in neurons"
   },
   "10.1126/sciadv.aee2152": {
     "journal": "Science Advances",

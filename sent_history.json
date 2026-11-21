@@ -959,6 +959,11 @@
     "sent_at": "2026-11-14T04:20:46.015746+00:00",
     "title": "Decoupling Polarization From Loss: A Synergistic Strategy for High‐Efficiency Electrocaloric Cooling"
   },
+  "10.1002/adfm.79782": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-21T05:00:16.326408+00:00",
+    "title": "A van der Waals Double‐Floating‐Gate Memory for Optoelectronic Three‐Factor Learning"
+  },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
     "sent_at": "2026-08-09T01:05:59.833279+00:00",
@@ -1388,6 +1393,11 @@
     "journal": "Advanced Materials",
     "sent_at": "2026-11-18T05:22:07.798607+00:00",
     "title": "Halide Perovskite Heterojunction Crossbar Arrays for Selector‐Free Analog In‐Memory Computing"
+  },
+  "10.1002/adma.75782": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-11-21T05:00:16.326408+00:00",
+    "title": "Synergistic Integration of Materials and Design Strategies for Next‐Generation Stretchable Displays"
   },
   "10.1002/advs.202519007": {
     "journal": "Advanced Science",
@@ -2564,6 +2574,11 @@
     "sent_at": "2026-11-20T05:04:48.715065+00:00",
     "title": "Large electrocaloric effects in unannealed multilayer capacitors of partially ordered lead scandium tantalate"
   },
+  "10.1038/s41467-026-79576-5": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-11-21T05:00:16.326408+00:00",
+    "title": "High-κ bismuth molybdate single-crystalline dielectric for high-temperature two-dimensional transistors"
+  },
   "10.1038/s41563-026-02719-y": {
     "journal": "Nature Materials",
     "sent_at": "2026-08-28T08:14:15.270527+00:00",
@@ -2744,6 +2759,11 @@
     "sent_at": "2026-09-05T02:15:57.083883+00:00",
     "title": "Few-shot neuromorphic vision in a nonlinear photonic network laser"
   },
+  "10.1126/sciadv.aed3338": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-21T05:00:16.326408+00:00",
+    "title": "Cyclin-dependent kinase-like 5 (CDKL5) binds talin and is anchored at the postsynaptic density by direct PDZ interactions"
+  },
   "10.1126/sciadv.aed3793": {
     "journal": "Science Advances",
     "sent_at": "2026-09-05T02:15:57.083883+00:00",
@@ -2849,6 +2869,11 @@
     "sent_at": "2026-09-12T02:25:08.288550+00:00",
     "title": "CaMKIIα holoenzymes self-organize into chain-like mesoscale clusters"
   },
+  "10.1126/sciadv.aeg1429": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-21T05:00:16.326408+00:00",
+    "title": "An all-magnonic neuron with tunable fading memory"
+  },
   "10.1126/sciadv.aeg3509": {
     "journal": "Science Advances",
     "sent_at": "2026-08-27T06:22:31.435585+00:00",
@@ -2919,6 +2944,11 @@
     "sent_at": "2026-10-22T02:41:45.349932+00:00",
     "title": "Spatial decoupling of recognition and signaling in aptamer switches via tri-strand intermolecular competition"
   },
+  "10.1126/sciadv.aeh9258": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-21T05:00:16.326408+00:00",
+    "title": "Dissecting the molecular triggers of early and late long-term potentiation"
+  },
   "10.1126/sciadv.aeh9563": {
     "journal": "Science Advances",
     "sent_at": "2026-10-15T02:35:38.289857+00:00",
@@ -2944,6 +2974,16 @@
     "sent_at": "2026-11-12T05:07:54.614268+00:00",
     "title": "Electronic hair: Transforming hair into a scalable bioelectronic interface"
   },
+  "10.1126/sciadv.aei3974": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-21T05:00:16.326408+00:00",
+    "title": "Flexible megahertz low-power complementary circuits based on nanoscale organic transistors"
+  },
+  "10.1126/sciadv.aei7313": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-21T05:00:16.326408+00:00",
+    "title": "Neuromorphic self-aware wings for embodied-intelligent bionic flying microrobotics"
+  },
   "10.1126/sciadv.aei7570": {
     "journal": "Science Advances",
     "sent_at": "2026-10-08T03:48:37.717333+00:00",
@@ -2953,6 +2993,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-11-12T05:07:54.614268+00:00",
     "title": "Boosting stability and charge transfer of conducting polymer poly(benzodifurandione) (PBFDO) through complementary topology"
+  },
+  "10.1126/sciadv.aej3331": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-21T05:00:16.326408+00:00",
+    "title": "Solubility-driven morphological decoupling enables elastic electron-deficient semiconducting polymers for fully stretchable electronics"
   },
   "10.1126/sciadv.aej3501": {
     "journal": "Science Advances",

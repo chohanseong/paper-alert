@@ -1399,6 +1399,11 @@
     "sent_at": "2026-11-21T05:00:16.326408+00:00",
     "title": "Synergistic Integration of Materials and Design Strategies for Next‐Generation Stretchable Displays"
   },
+  "10.1002/adma.75817": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-11-22T04:22:10.981089+00:00",
+    "title": "N‐Type Organic Ultraviolet Sensor"
+  },
   "10.1002/advs.202519007": {
     "journal": "Advanced Science",
     "sent_at": "2026-09-30T03:16:48.007856+00:00",
@@ -2574,10 +2579,20 @@
     "sent_at": "2026-11-20T05:04:48.715065+00:00",
     "title": "Large electrocaloric effects in unannealed multilayer capacitors of partially ordered lead scandium tantalate"
   },
+  "10.1038/s41467-026-79544-z": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-11-22T04:22:10.981089+00:00",
+    "title": "Episodic memory consolidation by reactivation of human concept neurons during sleep reflects contents, not sequence of events"
+  },
   "10.1038/s41467-026-79576-5": {
     "journal": "Nature Communications",
     "sent_at": "2026-11-21T05:00:16.326408+00:00",
     "title": "High-κ bismuth molybdate single-crystalline dielectric for high-temperature two-dimensional transistors"
+  },
+  "10.1038/s41467-026-79577-4": {
+    "journal": "Nature Communications",
+    "sent_at": "2026-11-22T04:22:10.981089+00:00",
+    "title": "Localized strain-engineered 1D electron guides in 2D MoS2 devices with synaptic memory and high-mobility transistor functionalities"
   },
   "10.1038/s41563-026-02719-y": {
     "journal": "Nature Materials",

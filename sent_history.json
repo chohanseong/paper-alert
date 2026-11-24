@@ -959,10 +959,25 @@
     "sent_at": "2026-11-14T04:20:46.015746+00:00",
     "title": "Decoupling Polarization From Loss: A Synergistic Strategy for High‐Efficiency Electrocaloric Cooling"
   },
+  "10.1002/adfm.79710": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-24T07:48:53.401041+00:00",
+    "title": "The Role of Energy Disorder on the Effective Capacitance of Electrolyte‐Gated Organic Transistors"
+  },
   "10.1002/adfm.79782": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-11-21T05:00:16.326408+00:00",
     "title": "A van der Waals Double‐Floating‐Gate Memory for Optoelectronic Three‐Factor Learning"
+  },
+  "10.1002/adfm.79784": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-24T07:48:53.401041+00:00",
+    "title": "Channel Swelling Modulation towards Artificial Neuron Based on Antiambipolar OECT"
+  },
+  "10.1002/adfm.79840": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-24T07:48:53.401041+00:00",
+    "title": "A Single MoTe 2 /MoS 2 Heterojunction Transistor With Reconfigurable Dual‐Path Transport for Multivalued Logic and In‐Sensor Frequency Coding"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -1399,6 +1414,11 @@
     "sent_at": "2026-11-21T05:00:16.326408+00:00",
     "title": "Synergistic Integration of Materials and Design Strategies for Next‐Generation Stretchable Displays"
   },
+  "10.1002/adma.75814": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-11-24T07:48:53.401041+00:00",
+    "title": "A Spin‐Crossover Neutral‐Site Perovskite Ferroelectric"
+  },
   "10.1002/adma.75817": {
     "journal": "Advanced Materials",
     "sent_at": "2026-11-22T04:22:10.981089+00:00",
@@ -1779,6 +1799,11 @@
     "sent_at": "2026-10-24T02:43:44.956862+00:00",
     "title": "Quantized Analog Inference Hardware Enabled by MoS 2– Hf 1‐x Zr x O 2 FeFET Synapses"
   },
+  "10.1002/advs.78369": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-11-24T07:48:53.401041+00:00",
+    "title": "Ferroelectric Oxide–MOF Core–Shell Architectures for Coupled Adsorption and Ultrasound‐Driven Pollutant Removal"
+  },
   "10.1002/advs.78389": {
     "journal": "Advanced Science",
     "sent_at": "2026-10-22T02:41:45.349932+00:00",
@@ -2123,6 +2148,11 @@
     "journal": "ACS Nano",
     "sent_at": "2026-10-20T02:49:54.644284+00:00",
     "title": "Ferroelectric Switching of Skyrmion Topology in 2D Multiferroics"
+  },
+  "10.1021/acsnano.6c14536": {
+    "journal": "ACS Nano",
+    "sent_at": "2026-11-24T07:48:53.401041+00:00",
+    "title": "All-Transistor Probabilistic Bits with Deterministic Clamping for Bayesian Inference and Integer Factorization"
   },
   "10.1021/acsnano.6c15470": {
     "journal": "ACS Nano",

@@ -969,6 +969,11 @@
     "sent_at": "2026-11-24T07:48:53.401041+00:00",
     "title": "The Role of Energy Disorder on the Effective Capacitance of Electrolyte‐Gated Organic Transistors"
   },
+  "10.1002/adfm.79734": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-26T06:12:20.131354+00:00",
+    "title": "High‐Gain Oxide Heterojunction Inverters Toward Coincidence‐Based Auditory Spatial Coding"
+  },
   "10.1002/adfm.79782": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-11-21T05:00:16.326408+00:00",
@@ -978,6 +983,11 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-11-24T07:48:53.401041+00:00",
     "title": "Channel Swelling Modulation towards Artificial Neuron Based on Antiambipolar OECT"
+  },
+  "10.1002/adfm.79802": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-26T06:12:20.131354+00:00",
+    "title": "Reconfigurable Diffusive Single‐Memristor for Fully Memristive Reservoir Computing"
   },
   "10.1002/adfm.79840": {
     "journal": "Advanced Functional Materials",
@@ -1444,6 +1454,11 @@
     "sent_at": "2026-11-25T06:20:44.433847+00:00",
     "title": "Single‐Device Bidirectional Photonic Synapses: From Polarity Switching to Adaptive Neuromorphic Computing"
   },
+  "10.1002/adma.75838": {
+    "journal": "Advanced Materials",
+    "sent_at": "2026-11-26T06:12:20.131354+00:00",
+    "title": "An Electrically Gated Solid‐State Thermal Transistor for Energy‐Efficient Thermal Management"
+  },
   "10.1002/adma.75839": {
     "journal": "Advanced Materials",
     "sent_at": "2026-11-25T06:20:44.433847+00:00",
@@ -1868,6 +1883,11 @@
     "journal": "Advanced Science",
     "sent_at": "2026-11-06T04:29:36.038211+00:00",
     "title": "Strain‐Enhanced Ultrastretchable Semiconducting Polymer Fibers for Organic Electrochemical Transistors"
+  },
+  "10.1002/advs.78674": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-11-26T06:12:20.131354+00:00",
+    "title": "HspBp1 Promotes Tau Pathology and Cognitive Impairments by Inhibiting STUB1(CHIP)‐Mediated Tau Ubiquitination"
   },
   "10.1002/advs.78702": {
     "journal": "Advanced Science",
@@ -2714,6 +2734,11 @@
     "sent_at": "2026-10-21T02:43:48.881033+00:00",
     "title": "Stacking-specific two-dimensional In2Se3 for ferroelectric homojunctions"
   },
+  "10.1038/s41565-026-02311-0": {
+    "journal": "Nature Nanotechnology",
+    "sent_at": "2026-11-26T06:12:20.131354+00:00",
+    "title": "Integration of Mott neurons and spintronic memories for event-driven spiking neural networks"
+  },
   "10.1038/s41565-026-02314-x": {
     "journal": "Nature Nanotechnology",
     "sent_at": "2026-11-06T04:29:36.038211+00:00",
@@ -3044,6 +3069,11 @@
     "sent_at": "2026-10-22T02:41:45.349932+00:00",
     "title": "Spatial decoupling of recognition and signaling in aptamer switches via tri-strand intermolecular competition"
   },
+  "10.1126/sciadv.aeh8971": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-26T06:12:20.131354+00:00",
+    "title": "A flexible fiber–based artificial chemical postsynapse"
+  },
   "10.1126/sciadv.aeh9258": {
     "journal": "Science Advances",
     "sent_at": "2026-11-21T05:00:16.326408+00:00",
@@ -3068,6 +3098,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-10-29T03:44:04.270250+00:00",
     "title": "Presynaptic filopodia form kinapses and promote convective membrane flow to sustain synchronous neurotransmitter release"
+  },
+  "10.1126/sciadv.aei3430": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-26T06:12:20.131354+00:00",
+    "title": "Spaceflight reshapes Alzheimer’s disease–associated molecular programs in human brain organoids"
   },
   "10.1126/sciadv.aei3615": {
     "journal": "Science Advances",

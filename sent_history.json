@@ -959,6 +959,11 @@
     "sent_at": "2026-11-14T04:20:46.015746+00:00",
     "title": "Decoupling Polarization From Loss: A Synergistic Strategy for High‐Efficiency Electrocaloric Cooling"
   },
+  "10.1002/adfm.79692": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-27T06:02:10.950984+00:00",
+    "title": "Cation‐Exchange‐Engineered CdHgSe Electron Transport Layer Enabling High‐Performance HgTe CQD SWIR Photodiode for Imaging"
+  },
   "10.1002/adfm.79702": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-11-25T06:20:44.433847+00:00",
@@ -1003,6 +1008,16 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-11-25T06:20:44.433847+00:00",
     "title": "Defect‐Engineered 2D Conductive Metal–Organic Frameworks with Interlayer Dislocations for Rapid and Selective Room‐Temperature Ammonia Sensing"
+  },
+  "10.1002/adfm.79887": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-27T06:02:10.950984+00:00",
+    "title": "Illusory Polarization Reversal Reveals Tunable Actuation Polarity in Freestanding Ferroelectric Heterostructures"
+  },
+  "10.1002/adfm.79900": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-27T06:02:10.950984+00:00",
+    "title": "Polymer‐Contacted Ambipolar WSe 2 Transistors for Complementary Electronics"
   },
   "10.1002/adma.73801": {
     "journal": "Advanced Materials",
@@ -1879,6 +1894,11 @@
     "sent_at": "2026-11-12T05:07:54.614268+00:00",
     "title": "An Iontronic Bimodal Afferent Nerve for Cross‐Modal Neuromorphic Fusion and Robotic Sorting"
   },
+  "10.1002/advs.78658": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-11-27T06:02:10.950984+00:00",
+    "title": "Stress‐Induced Astrocytic ABCA1 Deficiency Caused Cholesterol Accumulation to Promote Synaptic Dysregulation and Behavioral Abnormalities"
+  },
   "10.1002/advs.78666": {
     "journal": "Advanced Science",
     "sent_at": "2026-11-06T04:29:36.038211+00:00",
@@ -1893,6 +1913,11 @@
     "journal": "Advanced Science",
     "sent_at": "2026-11-11T03:58:59.261539+00:00",
     "title": "Interface‐Mediated Self‐Rectifying CsCuCl 3 Memristors With Tunable Thresholds for Reconfigurable Neuromorphic Computing"
+  },
+  "10.1002/advs.78704": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-11-27T06:02:10.950984+00:00",
+    "title": "Biocompatible Materials for Electrolyte‐Gated Transistors and Neuromorphic Computation"
   },
   "10.1002/advs.78724": {
     "journal": "Advanced Science",
@@ -2718,6 +2743,11 @@
     "journal": "Nature Materials",
     "sent_at": "2026-10-01T03:23:37.966140+00:00",
     "title": "Amplitude-controllable event-driven organic photosensors based on ionic-mediated inhibition"
+  },
+  "10.1038/s41563-026-02815-z": {
+    "journal": "Nature Materials",
+    "sent_at": "2026-11-27T06:02:10.950984+00:00",
+    "title": "Tunable diffusive memristor arrays for neuromorphic temporal computing"
   },
   "10.1038/s41565-026-02280-4": {
     "journal": "Nature Nanotechnology",

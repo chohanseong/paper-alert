@@ -774,6 +774,11 @@
     "sent_at": "2026-10-27T03:07:13.605045+00:00",
     "title": "A Monolithic Quantum‐Dot/AlGaN Phototransistor Breaking the UV–NIR Sensitivity Trade‐off for Ultrasensitive Dual‐Band Detection"
   },
+  "10.1002/adfm.79287": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-28T05:43:39.531609+00:00",
+    "title": "PEDOT:PSS and P3HT at Aqueous Interfaces: Linking Bioelectronic Coupling and Neuromorphic Function"
+  },
   "10.1002/adfm.79300": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-10-28T03:20:22.460076+00:00",
@@ -974,6 +979,11 @@
     "sent_at": "2026-11-24T07:48:53.401041+00:00",
     "title": "The Role of Energy Disorder on the Effective Capacitance of Electrolyte‐Gated Organic Transistors"
   },
+  "10.1002/adfm.79726": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-28T05:43:39.531609+00:00",
+    "title": "Sliding vs. Displacement Ferroelectrics: Insights From Multimodal Scanning Probe Microscopy"
+  },
   "10.1002/adfm.79734": {
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-11-26T06:12:20.131354+00:00",
@@ -1003,6 +1013,11 @@
     "journal": "Advanced Functional Materials",
     "sent_at": "2026-11-25T06:20:44.433847+00:00",
     "title": "Contact‐Decoupled Short‐Channel Metal‐Oxide Thin‐Film Transistors via Seamless Device Architectures"
+  },
+  "10.1002/adfm.79862": {
+    "journal": "Advanced Functional Materials",
+    "sent_at": "2026-11-28T05:43:39.531609+00:00",
+    "title": "Multi‐Node Reservoir Computing With a 2D Ferroelectric‐Integrated Photonic Chip"
   },
   "10.1002/adfm.79871": {
     "journal": "Advanced Functional Materials",
@@ -1944,6 +1959,11 @@
     "sent_at": "2026-11-19T05:18:14.683653+00:00",
     "title": "Microfabrication Route Shapes Morphology and Performance in PEDOT:PSS Organic Electrochemical Transistors"
   },
+  "10.1002/advs.78839": {
+    "journal": "Advanced Science",
+    "sent_at": "2026-11-28T05:43:39.531609+00:00",
+    "title": "Ultrafast Anisotropic Exciton Dynamics in Low‐Symmetry NbOI 2 Enabling Reservoir Computing"
+  },
   "10.1002/advs.78845": {
     "journal": "Advanced Science",
     "sent_at": "2026-11-19T05:18:14.683653+00:00",
@@ -2779,6 +2799,11 @@
     "sent_at": "2026-11-10T05:29:24.921614+00:00",
     "title": "Dynamic electrical control of on-chip second-harmonic generation with ferroelectric NbOBr2"
   },
+  "10.1038/s41565-026-02340-9": {
+    "journal": "Nature Nanotechnology",
+    "sent_at": "2026-11-28T05:43:39.531609+00:00",
+    "title": "Supramolecular protein block copolymers encode presynaptic active-zone nanolattices"
+  },
   "10.1038/s41928-026-01680-7": {
     "journal": "Nature Electronics",
     "sent_at": "2026-08-13T01:16:09.411054+00:00",
@@ -3024,6 +3049,11 @@
     "sent_at": "2026-09-12T02:25:08.288550+00:00",
     "title": "CaMKIIα holoenzymes self-organize into chain-like mesoscale clusters"
   },
+  "10.1126/sciadv.aeg1405": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-28T05:43:39.531609+00:00",
+    "title": "PRR12 variants cause intellectual disability by disrupting neuronal differentiation and maturation"
+  },
   "10.1126/sciadv.aeg1429": {
     "journal": "Science Advances",
     "sent_at": "2026-11-21T05:00:16.326408+00:00",
@@ -3129,6 +3159,11 @@
     "sent_at": "2026-10-29T03:44:04.270250+00:00",
     "title": "Presynaptic filopodia form kinapses and promote convective membrane flow to sustain synchronous neurotransmitter release"
   },
+  "10.1126/sciadv.aei3204": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-28T05:43:39.531609+00:00",
+    "title": "Spectral dynamics reservoir computing: High-performance neuromorphic computation from coarse spectra"
+  },
   "10.1126/sciadv.aei3430": {
     "journal": "Science Advances",
     "sent_at": "2026-11-26T06:12:20.131354+00:00",
@@ -3168,6 +3203,11 @@
     "journal": "Science Advances",
     "sent_at": "2026-11-12T05:07:54.614268+00:00",
     "title": "Incomplete synaptic vesicle priming functionally disconnects CA1 pyramidal cells"
+  },
+  "10.1126/sciadv.aej9472": {
+    "journal": "Science Advances",
+    "sent_at": "2026-11-28T05:43:39.531609+00:00",
+    "title": "Dual- q chirality from chirality-polarity coupling in polar nematic fluids"
   },
   "10.1126/sciadv.ael7308": {
     "journal": "Science Advances",
